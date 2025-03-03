@@ -51,7 +51,7 @@ class VINDecodeAPI:
             engine_type = vin_data.get('FuelTypePrimary')
 
             if not all([make, model, year, engine_type]):
-                return Response("{'message': 'Incomplete data from NHTSA API'}", status=500, mimetype='application/json')
+                return Response("{'message': 'Unable to get data from VIN'}", status=500, mimetype='application/json')
 
             # Check if the vehicle already exists in the database
             existing_vehicle = Vehicle.query.filter_by(vin=vin).first()
