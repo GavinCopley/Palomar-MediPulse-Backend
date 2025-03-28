@@ -29,7 +29,6 @@ from api.carChat import carChat_api
 from api.carPost import carPost_api
 from api.chatBot import chatbot_api
 from api.carComments import carComments_api
-from api.favorites import itemStore_api
 
 from api.vote import vote_api
 # database Initialization functions
@@ -60,7 +59,6 @@ app.register_blueprint(vote_api)
 app.register_blueprint(carPost_api)
 app.register_blueprint(chatbot_api)
 app.register_blueprint(carComments_api)
-app.register_blueprint(itemStore_api)
 
 @app.route('/carPosts')
 @login_required  # Ensure that only logged-in users can access this page
@@ -322,7 +320,7 @@ def save_data_to_json(data, directory='backup'):
 # Load data from JSON files
 def load_data_from_json(directory='backup'):
     data = {}
-    for table in ['users', 'sections', 'groups', 'channels', 'posts', 'carPosts', 'user_items', 'vehicles', 'carComments']:
+    for table in ['users', 'sections', 'groups', 'channels', 'posts', 'carPosts', 'carComments']:
         with open(os.path.join(directory, f'{table}.json'), 'r') as f:
             data[table] = json.load(f)
     return data
