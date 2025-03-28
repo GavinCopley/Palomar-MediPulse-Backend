@@ -25,22 +25,15 @@ from api.channel import channel_api
 from api.group import group_api
 from api.section import section_api
 from api.nestPost import nestPost_api # Justin added this, custom format for his website
-from api.messages_api import messages_api # Adi added this, messages for his website
 from api.carChat import carChat_api
 from api.carPost import carPost_api
-from api.student import student_api
-from api.vin import vin_api
 from api.chatBot import chatbot_api
 from api.carComments import carComments_api
-from api.userCars import userCars_api
-from api.mechanicsTips import mechanicsTips_api
-from api.vinStore import vinStore_api
 from api.favorites import itemStore_api
 
 from api.vote import vote_api
 # database Initialization functions
 from model.carChat import carChat
-from model.mechanicsTips import MechanicsTip
 from model.user import User, initUsers
 from model.section import Section, initSections
 from model.group import Group, initGroups
@@ -49,13 +42,10 @@ from model.post import Post, initPosts
 from model.nestPost import NestPost, initNestPosts # Justin added this, custom format for his website
 from model.vote import Vote, initVotes
 from model.carPost import CarPost
-from model.vehicle import Vehicle, initVehicles
-from model.listings import UserItem, initDefaultUser
 from model.carComments import CarComments
 # server only Views
 
 # register URIs for api endpoints
-app.register_blueprint(messages_api) # Adi added this, messages for his website
 app.register_blueprint(user_api)
 app.register_blueprint(pfp_api) 
 app.register_blueprint(post_api)
@@ -68,13 +58,8 @@ app.register_blueprint(nestPost_api)
 app.register_blueprint(nestImg_api)
 app.register_blueprint(vote_api)
 app.register_blueprint(carPost_api)
-app.register_blueprint(student_api)
-app.register_blueprint(vin_api)
 app.register_blueprint(chatbot_api)
 app.register_blueprint(carComments_api)
-app.register_blueprint(userCars_api)
-app.register_blueprint(mechanicsTips_api)
-app.register_blueprint(vinStore_api)
 app.register_blueprint(itemStore_api)
 
 @app.route('/carPosts')
@@ -97,28 +82,6 @@ def carCommentsPage():
     carComments_data = CarComments.query.all()  # Fetch all car comments from the database
     print("Car Comments Data:", carComments_data)  # Debugging line to check if data is fetched
     return render_template("carComments.html", carComments_data=carComments_data)
-
-@app.route('/mechanicsTips')
-@login_required  # Ensure that only logged-in users can access this page
-def mechanicsTipsPage():
-    mechanicsTips_data = MechanicsTip.query.all()  # Fetch all mechanics tips from the database
-    print("Mechanics Tips Data:", mechanicsTips_data)  # Debugging line to check if data is fetched
-    return render_template("mechanicsTips.html", mechanicsTips_data=mechanicsTips_data)
-
-@app.route('/listings')
-@login_required  # Ensure that only logged-in users can access this page
-def listingsPage():
-    listings_data = UserItem.query.all()  # Fetch all listings from the database
-    print("Listings Data:", listings_data)  # Debugging line to check if data is fetched
-    return render_template("listings.html", listings_data=listings_data)
-
-@app.route('/vehicles')
-@login_required  # Ensure that only logged-in users can access this page
-def vehiclesPage():
-    vehicles_data = Vehicle.query.all()  # Fetch all vehicles from the database
-    print("Vehicles Data:", vehicles_data)  # Debugging line to check if data is fetched
-    return render_template("vehicles.html", vehicles_data=vehicles_data)
-
 
 @app.route('/carChat/<int:id>', methods=['PUT'])
 def edit_chat_message(id):
@@ -143,12 +106,6 @@ def delete_chat_message(id):
         return jsonify({"message": "Message deleted"}), 200
     else:
         return jsonify({"error": "Message not found"}), 404
-
-from api.listings import fetch_listings
-@app.route('/api/fetchListings', methods=['GET'])
-def fetchListings():
-    cars = fetch_listings(2)
-    return jsonify([car for car in cars])
 
 @app.route('/api/carPost/allPosts/<string:car_type>', methods=['GET'])
 def allPosts(car_type):
@@ -320,10 +277,8 @@ custom_cli = AppGroup('custom', help='Custom commands')
 # Define a command to run the data generation functions
 @custom_cli.command('generate_data')
 def generate_data():
-    initDefaultUser()
     initUsers()
     initSections()
-    initVehicles()
     
 # Backup the old database
 def backup_database(db_uri, backup_uri):
@@ -346,8 +301,6 @@ def extract_data():
         data['channels'] = [channel.read() for channel in Channel.query.all()]
         data['posts'] = [post.read() for post in Post.query.all()]
         data['carPosts'] = [post.read() for post in CarPost.query.all()]
-        data['user_items'] = [post.read() for post in UserItem.query.all()]
-        data['vehicles'] = [vehicle.read() for vehicle in Vehicle.query.all()]
         data['carComments'] = [comment.read() for comment in CarComments.query.all()]
     return data
 
@@ -382,9 +335,7 @@ def restore_data(data):
         _ = Group.restore(data['groups'], users)
         _ = Channel.restore(data['channels'])
         _ = Post.restore(data['posts'])
-        _ = UserItem.restore(data['user_items'])
         _ = CarPost.restore(data['carPosts'])
-        _ = Vehicle.restore(data['vehicles'])
         _ = CarComments.restore(data['carComments'])
     print("Data restored to the new database.")
 
