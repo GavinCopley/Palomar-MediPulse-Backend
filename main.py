@@ -29,6 +29,7 @@ from api.carChat import carChat_api
 from api.carPost import carPost_api
 from api.chatBot import chatbot_api
 from api.carComments import carComments_api
+from api.vinStore import vinStore_api
 
 from api.vote import vote_api
 # database Initialization functions
@@ -42,6 +43,7 @@ from model.nestPost import NestPost, initNestPosts # Justin added this, custom f
 from model.vote import Vote, initVotes
 from model.carPost import CarPost
 from model.carComments import CarComments
+from model.vehicle import Vehicle, initVehicles
 # server only Views
 
 # register URIs for api endpoints
@@ -59,6 +61,7 @@ app.register_blueprint(vote_api)
 app.register_blueprint(carPost_api)
 app.register_blueprint(chatbot_api)
 app.register_blueprint(carComments_api)
+app.register_blueprint(vinStore_api)
 
 @app.route('/carPosts')
 @login_required  # Ensure that only logged-in users can access this page
@@ -121,6 +124,13 @@ def postsByUser(user_id):
     return jsonify([post.read() for post in posts])
 
 from model.carPostImage import carPostImage_base64_decode, carPostImage_base64_upload
+
+@app.route('/vehicles')
+@login_required  # Ensure that only logged-in users can access this page
+def vehiclesPage():
+    vehicles_data = Vehicle.query.all()  # Fetch all vehicles from the database
+    print("Vehicles Data:", vehicles_data)  # Debugging line to check if data is fetched
+    return render_template("vehicles.html", vehicles_data=vehicles_data)
 
 @app.route('/api/carPost/<int:post_id>/images', methods=['GET'])
 def getPostImages(post_id):
@@ -277,6 +287,7 @@ custom_cli = AppGroup('custom', help='Custom commands')
 def generate_data():
     initUsers()
     initSections()
+    initVehicles()
     
 # Backup the old database
 def backup_database(db_uri, backup_uri):
@@ -299,6 +310,7 @@ def extract_data():
         data['channels'] = [channel.read() for channel in Channel.query.all()]
         data['posts'] = [post.read() for post in Post.query.all()]
         data['carPosts'] = [post.read() for post in CarPost.query.all()]
+        data['vehicles'] = [vehicle.read() for vehicle in Vehicle.query.all()]
         data['carComments'] = [comment.read() for comment in CarComments.query.all()]
     return data
 
@@ -335,6 +347,7 @@ def restore_data(data):
         _ = Post.restore(data['posts'])
         _ = CarPost.restore(data['carPosts'])
         _ = CarComments.restore(data['carComments'])
+        _ = Vehicle.restore(data['vehicles'])
     print("Data restored to the new database.")
 
 # Define a command to backup data
