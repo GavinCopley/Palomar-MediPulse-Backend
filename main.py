@@ -406,8 +406,14 @@ app.cli.add_command(custom_cli)
         
 # this runs the flask application on the development server
 if __name__ == "__main__":
+    if os.environ.get('FLASK_ENV') == 'production':
+        app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///instance/production.db'
+        app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+    else:
+        app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///instance/development.db'
+        app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
     # change name for testing
-    app.run(debug=True, host="0.0.0.0", port="8887")
+    app.run(debug=True, host="0.0.0.0", port="8115")
 
 
 # @app.route('/api/mechanicsTips', methods=['GET'])
