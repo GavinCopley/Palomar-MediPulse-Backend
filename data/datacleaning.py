@@ -5,7 +5,7 @@ import pandas as pd
 df = pd.read_csv('./data/hospitaldatamodified.csv')
 
 # Keep only rows where county is 'San Diego'
-df = df[df["County"] == "San Diego"]
+df = df.drop(columns=["_id"])
 
 # Save the filtered data back to a CSV file (optional)
 df.to_csv("./data/hospitaldatamodified.csv", index=False)
