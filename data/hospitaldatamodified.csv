@@ -1,0 +1,1313 @@
+_id,Year,County,Hospital,OSHPDID,system,Type of Report,Performance Measure,# of Adverse Events,# of Cases,Risk-adjusted Rate,Hospital Ratings,Latitude,Longitude
+2826,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,CABG,Isolated CABG Operative Mor,0.0,20.0,0.0,As Expected,32.78,-117.06
+2827,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Hip Fracture,2.0,22.0,4.2,As Expected,32.77664,-117.057
+2828,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pneumonia,0.0,57.0,0.0,As Expected,32.77664,-117.057
+2829,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.77664,-117.057
+2830,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,PCI,9.0,127.0,4.7,As Expected,32.77664,-117.057
+2831,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Heart Failure,3.0,206.0,1.8,As Expected,32.77664,-117.057
+2832,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,GI Hemorrhage,5.0,99.0,3.1,As Expected,32.77664,-117.057
+2833,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Carotid Endarterectomy,0.0,10.0,0.0,As Expected,32.77664,-117.057
+2834,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,,,,,32.77664,-117.057
+2835,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Ischemic,1.0,69.0,2.5,As Expected,32.77664,-117.057
+2836,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,3.0,15.0,13.4,As Expected,32.77664,-117.057
+2837,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke,4.0,85.0,5.3,As Expected,32.77664,-117.057
+2838,2017,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AMI,11.0,134.0,6.0,As Expected,32.77664,-117.057
+2839,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Hip Fracture,0.0,39.0,0.0,As Expected,32.69427,-117.168
+2840,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,,,,,32.69427,-117.168
+2841,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pneumonia,0.0,58.0,0.0,As Expected,32.69427,-117.168
+2842,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pancreatic Resection,,,,,32.69427,-117.168
+2843,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,PCI,,,,,32.69427,-117.168
+2844,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Heart Failure,4.0,55.0,5.7,As Expected,32.69427,-117.168
+2845,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,GI Hemorrhage,2.0,70.0,3.1,As Expected,32.69427,-117.168
+2846,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Carotid Endarterectomy,,,,,32.69427,-117.168
+2847,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Ischemic,2.0,17.0,11.0,As Expected,32.69427,-117.168
+2848,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,,,,,32.69427,-117.168
+2849,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke,4.0,19.0,21.8,As Expected,32.69427,-117.168
+2850,2017,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AMI,0.0,8.0,0.0,As Expected,32.69427,-117.168
+2851,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,2.0,16.0,14.6,As Expected,32.80016,-117.155
+2852,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,CABG,Isolated CABG Operative Mor,1.0,71.0,2.42,As Expected,32.8,-117.16
+2853,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Hip Fracture,5.0,259.0,1.2,As Expected,32.80016,-117.155
+2854,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pneumonia,11.0,476.0,1.8,As Expected,32.80016,-117.155
+2855,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pancreatic Resection,2.0,19.0,7.9,As Expected,32.80016,-117.155
+2856,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,PCI,9.0,291.0,3.5,As Expected,32.80016,-117.155
+2857,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Heart Failure,23.0,813.0,2.3,As Expected,32.80016,-117.155
+2858,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,GI Hemorrhage,9.0,373.0,2.5,As Expected,32.80016,-117.155
+2859,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Carotid Endarterectomy,1.0,32.0,1.7,As Expected,32.80016,-117.155
+2860,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Ischemic,10.0,394.0,2.8,Better,32.80016,-117.155
+2861,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,16.0,75.0,22.7,As Expected,32.80016,-117.155
+2862,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke,28.0,485.0,7.0,As Expected,32.80016,-117.155
+2863,2017,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AMI,14.0,320.0,4.4,As Expected,32.80016,-117.155
+2864,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,CABG,Isolated CABG Operative Mor,3.0,77.0,2.41,As Expected,32.78,-117.01
+2865,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,6.0,19.0,34.2,As Expected,32.77963,-117.009
+2866,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Hip Fracture,8.0,197.0,4.7,Worse,32.77963,-117.009
+2867,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pneumonia,8.0,425.0,1.6,As Expected,32.77963,-117.009
+2868,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pancreatic Resection,0.0,16.0,0.0,As Expected,32.77963,-117.009
+2869,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,PCI,22.0,447.0,4.1,As Expected,32.77963,-117.009
+2870,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Heart Failure,11.0,897.0,1.5,Better,32.77963,-117.009
+2871,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,GI Hemorrhage,14.0,530.0,2.0,As Expected,32.77963,-117.009
+2872,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,59.0,0.0,As Expected,32.77963,-117.009
+2873,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Ischemic,28.0,537.0,3.6,As Expected,32.77963,-117.009
+2874,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,23.0,82.0,23.4,As Expected,32.77963,-117.009
+2875,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke,57.0,638.0,8.1,As Expected,32.77963,-117.009
+2876,2017,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AMI,24.0,384.0,5.7,As Expected,32.77963,-117.009
+2877,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Subarachnoid,3.0,24.0,10.1,As Expected,32.79287,-117.094
+2878,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Hip Fracture,5.0,400.0,1.8,As Expected,32.79287,-117.094
+2879,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pneumonia,9.0,227.0,3.6,As Expected,32.79287,-117.094
+2880,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pancreatic Resection,1.0,23.0,5.4,As Expected,32.79287,-117.094
+2881,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,PCI,,,,,32.79287,-117.094
+2882,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Heart Failure,29.0,860.0,2.7,As Expected,32.79287,-117.094
+2883,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,GI Hemorrhage,12.0,357.0,2.7,As Expected,32.79287,-117.094
+2884,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Carotid Endarterectomy,0.0,53.0,0.0,As Expected,32.79287,-117.094
+2885,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Ischemic,20.0,345.0,5.2,As Expected,32.79287,-117.094
+2886,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Hemorrhagic,17.0,122.0,20.1,As Expected,32.79287,-117.094
+2887,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke,40.0,491.0,8.2,As Expected,32.79287,-117.094
+2888,2017,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AMI,7.0,126.0,3.3,As Expected,32.79287,-117.094
+2889,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,CABG,Isolated CABG Operative Mor,3.0,102.0,3.41,As Expected,32.75,-117.16
+2890,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Hip Fracture,8.0,270.0,2.7,As Expected,32.75128,-117.16
+2891,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pneumonia,10.0,648.0,1.2,Better,32.75128,-117.16
+2892,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pancreatic Resection,0.0,7.0,0.0,As Expected,32.75128,-117.16
+2893,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,PCI,13.0,291.0,5.7,As Expected,32.75128,-117.16
+2894,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Heart Failure,19.0,1029.0,1.6,Better,32.75128,-117.16
+2895,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,GI Hemorrhage,16.0,563.0,3.2,As Expected,32.75128,-117.16
+2896,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Carotid Endarterectomy,0.0,35.0,0.0,As Expected,32.75128,-117.16
+2897,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Subarachnoid,5.0,8.0,36.5,As Expected,32.75128,-117.16
+2898,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Ischemic,12.0,407.0,3.3,As Expected,32.75128,-117.16
+2899,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Hemorrhagic,28.0,105.0,23.3,As Expected,32.75128,-117.16
+2900,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke,45.0,520.0,8.7,As Expected,32.75128,-117.16
+2901,2017,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AMI,32.0,443.0,7.6,As Expected,32.75128,-117.16
+2902,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,CABG,Isolated CABG Operative Mor,4.0,121.0,1.8,As Expected,33.13,-117.08
+2903,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Subarachnoid,5.0,28.0,13.7,As Expected,33.12586,-117.076
+2904,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Hip Fracture,7.0,248.0,2.6,As Expected,33.12586,-117.076
+2905,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Pneumonia,6.0,403.0,1.3,Better,33.12586,-117.076
+2906,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Pancreatic Resection,,,,,33.12586,-117.076
+2907,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,PCI,14.0,340.0,4.0,As Expected,33.12586,-117.076
+2908,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Heart Failure,32.0,811.0,2.6,As Expected,33.12586,-117.076
+2909,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,GI Hemorrhage,7.0,398.0,1.7,As Expected,33.12586,-117.076
+2910,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Carotid Endarterectomy,0.0,51.0,0.0,As Expected,33.12586,-117.076
+2911,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Ischemic,23.0,438.0,2.5,Better,33.12586,-117.076
+2912,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Hemorrhagic,25.0,107.0,20.6,As Expected,33.12586,-117.076
+2913,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke,53.0,573.0,6.0,Better,33.12586,-117.076
+2914,2017,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,AMI,40.0,503.0,6.2,As Expected,33.12586,-117.076
+2915,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,,,,,32.68632,-117.083
+2916,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Hip Fracture,0.0,24.0,0.0,As Expected,32.68632,-117.083
+2917,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pneumonia,0.0,55.0,0.0,As Expected,32.68632,-117.083
+2918,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.68632,-117.083
+2919,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,PCI,1.0,49.0,1.9,As Expected,32.68632,-117.083
+2920,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Heart Failure,6.0,326.0,2.0,As Expected,32.68632,-117.083
+2921,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,GI Hemorrhage,2.0,110.0,1.6,As Expected,32.68632,-117.083
+2922,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Carotid Endarterectomy,,,,,32.68632,-117.083
+2923,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Ischemic,2.0,83.0,4.2,As Expected,32.68632,-117.083
+2924,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,2.0,19.0,10.9,As Expected,32.68632,-117.083
+2925,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke,5.0,103.0,7.0,As Expected,32.68632,-117.083
+2926,2017,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AMI,1.0,80.0,1.0,Better,32.68632,-117.083
+2927,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,CABG,Isolated CABG Operative Mor,6.0,328.0,2.78,As Expected,32.89,-117.22
+2928,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Hip Fracture,4.0,186.0,1.4,As Expected,32.88506,-117.222
+2929,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pneumonia,15.0,316.0,2.3,As Expected,32.88506,-117.222
+2930,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pancreatic Resection,0.0,6.0,0.0,As Expected,32.88506,-117.222
+2931,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,PCI,36.0,739.0,4.8,As Expected,32.88506,-117.222
+2932,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Heart Failure,8.0,755.0,0.6,Better,32.88506,-117.222
+2933,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,GI Hemorrhage,5.0,250.0,1.5,As Expected,32.88506,-117.222
+2934,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Carotid Endarterectomy,0.0,30.0,0.0,As Expected,32.88506,-117.222
+2935,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Subarachnoid,10.0,57.0,20.9,As Expected,32.88506,-117.222
+2936,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Ischemic,40.0,369.0,6.3,As Expected,32.88506,-117.222
+2937,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Hemorrhagic,30.0,102.0,24.1,As Expected,32.88506,-117.222
+2938,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke,80.0,528.0,10.5,As Expected,32.88506,-117.222
+2939,2017,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AMI,47.0,652.0,7.7,Worse,32.88506,-117.222
+2940,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Hip Fracture,3.0,147.0,2.3,As Expected,33.18394,-117.29
+2941,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Subarachnoid,4.0,15.0,38.9,As Expected,33.18394,-117.29
+2942,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pneumonia,5.0,193.0,2.6,As Expected,33.18394,-117.29
+2943,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pancreatic Resection,,,,,33.18394,-117.29
+2944,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,PCI,1.0,139.0,2.6,As Expected,33.18394,-117.29
+2945,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Heart Failure,10.0,411.0,2.1,As Expected,33.18394,-117.29
+2946,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,GI Hemorrhage,4.0,186.0,1.8,As Expected,33.18394,-117.29
+2947,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Carotid Endarterectomy,0.0,50.0,0.0,As Expected,33.18394,-117.29
+2948,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Ischemic,15.0,284.0,5.3,As Expected,33.18394,-117.29
+2949,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Hemorrhagic,16.0,65.0,25.0,As Expected,33.18394,-117.29
+2950,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke,35.0,364.0,10.6,As Expected,33.18394,-117.29
+2951,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AMI,12.0,274.0,5.1,As Expected,33.18394,-117.29
+2952,2017,San Diego,Tri-City Medical Center,106370780,Independent/Other,CABG,Isolated CABG Operative Mor,1.0,53.0,2.06,As Expected,33.18,-117.29
+2953,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Hip Fracture,1.0,141.0,0.5,As Expected,32.75387,-117.164
+2954,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pneumonia,6.0,286.0,2.4,As Expected,32.75387,-117.164
+2955,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pancreatic Resection,0.0,82.0,0.0,As Expected,32.75387,-117.164
+2956,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,PCI,13.0,360.0,3.4,As Expected,32.75387,-117.164
+2957,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Heart Failure,35.0,900.0,4.2,Worse,32.75387,-117.164
+2958,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,GI Hemorrhage,10.0,474.0,1.8,As Expected,32.75387,-117.164
+2959,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Carotid Endarterectomy,0.0,16.0,0.0,As Expected,32.75387,-117.164
+2960,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Subarachnoid,6.0,47.0,11.5,Better,32.75387,-117.164
+2961,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Ischemic,11.0,319.0,2.0,Better,32.75387,-117.164
+2962,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Hemorrhagic,18.0,108.0,15.6,As Expected,32.75387,-117.164
+2963,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke,35.0,474.0,5.0,Better,32.75387,-117.164
+2964,2017,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AMI,26.0,408.0,6.1,As Expected,32.75387,-117.164
+2965,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,CABG,Isolated CABG Operative Mor,5.0,86.0,6.23,As Expected,32.62,-117.02
+2966,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Hip Fracture,4.0,103.0,4.6,As Expected,32.61909,-117.024
+2967,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,3.0,15.0,26.6,As Expected,32.61909,-117.024
+2968,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pneumonia,5.0,312.0,1.3,As Expected,32.61909,-117.024
+2969,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pancreatic Resection,,,,,32.61909,-117.024
+2970,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,PCI,8.0,324.0,2.3,As Expected,32.61909,-117.024
+2971,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Heart Failure,23.0,817.0,2.7,As Expected,32.61909,-117.024
+2972,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,GI Hemorrhage,9.0,294.0,3.1,As Expected,32.61909,-117.024
+2973,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,15.0,0.0,As Expected,32.61909,-117.024
+2974,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Ischemic,15.0,251.0,5.0,As Expected,32.61909,-117.024
+2975,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,15.0,69.0,19.0,As Expected,32.61909,-117.024
+2976,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke,33.0,335.0,8.7,As Expected,32.61909,-117.024
+2977,2017,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AMI,13.0,243.0,5.2,As Expected,32.61909,-117.024
+2978,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Hip Fracture,0.0,93.0,0.0,As Expected,32.99563,-117.057
+2979,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,,32.99563,-117.057
+2980,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pneumonia,5.0,112.0,2.5,As Expected,32.99563,-117.057
+2981,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pancreatic Resection,,,,,32.99563,-117.057
+2982,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,PCI,,,,,32.99563,-117.057
+2983,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Heart Failure,9.0,223.0,2.0,As Expected,32.99563,-117.057
+2984,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,GI Hemorrhage,9.0,132.0,4.1,As Expected,32.99563,-117.057
+2985,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Carotid Endarterectomy,,,,,32.99563,-117.057
+2986,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Ischemic,1.0,68.0,0.8,Better,32.99563,-117.057
+2987,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Hemorrhagic,3.0,6.0,19.1,As Expected,32.99563,-117.057
+2988,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke,4.0,74.0,3.7,Better,32.99563,-117.057
+2989,2017,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AMI,4.0,28.0,5.4,As Expected,32.99563,-117.057
+2990,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,CABG,Isolated CABG Operative Mor,,,,,32.9,-117.24
+2991,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Hip Fracture,0.0,87.0,0.0,Better,32.89654,-117.241
+2992,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pneumonia,7.0,195.0,2.0,As Expected,32.89654,-117.241
+2993,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pancreatic Resection,0.0,22.0,0.0,As Expected,32.89654,-117.241
+2994,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,PCI,,,,,32.89654,-117.241
+2995,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Heart Failure,0.0,64.0,0.0,As Expected,32.89654,-117.241
+2996,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,GI Hemorrhage,4.0,181.0,2.5,As Expected,32.89654,-117.241
+2997,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Carotid Endarterectomy,0.0,19.0,0.0,As Expected,32.89654,-117.241
+2998,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Subarachnoid,0.0,10.0,0.0,As Expected,32.89654,-117.241
+2999,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Ischemic,1.0,68.0,1.2,As Expected,32.89654,-117.241
+3000,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Hemorrhagic,0.0,35.0,0.0,Better,32.89654,-117.241
+3001,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke,1.0,113.0,1.0,Better,32.89654,-117.241
+3002,2017,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AMI,0.0,6.0,0.0,As Expected,32.89654,-117.241
+3003,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Hip Fracture,2.0,191.0,0.6,Better,33.0363,-117.284
+3004,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Subarachnoid,0.0,3.0,0.0,As Expected,33.0363,-117.284
+3005,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pneumonia,7.0,314.0,1.4,Better,33.0363,-117.284
+3006,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pancreatic Resection,,,,,33.0363,-117.284
+3007,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,PCI,4.0,171.0,3.2,As Expected,33.0363,-117.284
+3008,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Heart Failure,13.0,431.0,1.8,As Expected,33.0363,-117.284
+3009,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,GI Hemorrhage,6.0,254.0,2.3,As Expected,33.0363,-117.284
+3010,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Carotid Endarterectomy,0.0,22.0,0.0,As Expected,33.0363,-117.284
+3011,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Ischemic,6.0,187.0,3.1,As Expected,33.0363,-117.284
+3012,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Hemorrhagic,9.0,39.0,18.4,As Expected,33.0363,-117.284
+3013,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke,15.0,229.0,6.4,As Expected,33.0363,-117.284
+3014,2017,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AMI,15.0,223.0,5.9,As Expected,33.0363,-117.284
+3015,2017,San Diego,UC San Diego Health La Jolla – Jacobs Medical Center & Sulpizio Cardiovascular Center,106374141,University of California,CABG,Isolated CABG Operative Mor,2.0,137.0,1.25,As Expected,32.88,-117.23
+6827,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,CABG,Isolated CABG Operative Mor,3.0,24.0,10.13,As Expected,32.78,-117.06
+6828,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Hip Fracture,0.0,22.0,0.0,As Expected,32.77664,-117.057
+6829,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pneumonia,2.0,82.0,1.6,As Expected,32.77664,-117.057
+6830,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.77664,-117.057
+6831,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,PCI,3.0,124.0,2.0,As Expected,32.77664,-117.057
+6832,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Heart Failure,1.0,196.0,0.7,As Expected,32.77664,-117.057
+6833,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,GI Hemorrhage,2.0,104.0,0.9,As Expected,32.77664,-117.057
+6834,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Carotid Endarterectomy,0.0,6.0,0.0,As Expected,32.77664,-117.057
+6835,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,,,,,32.77664,-117.057
+6836,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Ischemic,0.0,64.0,0.0,As Expected,32.77664,-117.057
+6837,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,1.0,13.0,6.0,As Expected,32.77664,-117.057
+6838,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke,1.0,78.0,1.6,Better,32.77664,-117.057
+6839,2018,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AMI,9.0,180.0,3.5,As Expected,32.77664,-117.057
+6840,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Hip Fracture,1.0,17.0,6.3,As Expected,32.69427,-117.168
+6841,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,,,,,32.69427,-117.168
+6842,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pneumonia,3.0,38.0,5.3,As Expected,32.69427,-117.168
+6843,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pancreatic Resection,,,,,32.69427,-117.168
+6844,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,PCI,,,,,32.69427,-117.168
+6845,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Heart Failure,3.0,42.0,7.5,As Expected,32.69427,-117.168
+6846,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,GI Hemorrhage,3.0,47.0,4.2,As Expected,32.69427,-117.168
+6847,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Carotid Endarterectomy,,,,,32.69427,-117.168
+6848,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Ischemic,0.0,25.0,0.0,As Expected,32.69427,-117.168
+6849,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,,,,,32.69427,-117.168
+6850,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke,0.0,25.0,0.0,As Expected,32.69427,-117.168
+6851,2018,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AMI,0.0,5.0,0.0,As Expected,32.69427,-117.168
+6852,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Hip Fracture,5.0,311.0,1.3,As Expected,32.80016,-117.155
+6853,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,2.0,14.0,13.3,As Expected,32.80016,-117.155
+6854,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pneumonia,8.0,466.0,1.4,Better,32.80016,-117.155
+6855,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pancreatic Resection,1.0,21.0,4.0,As Expected,32.80016,-117.155
+6856,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,PCI,15.0,332.0,5.1,As Expected,32.80016,-117.155
+6857,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Heart Failure,23.0,924.0,2.2,As Expected,32.80016,-117.155
+6858,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,GI Hemorrhage,7.0,408.0,1.5,As Expected,32.80016,-117.155
+6859,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,22.0,0.0,As Expected,32.80016,-117.155
+6860,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Ischemic,18.0,418.0,4.0,As Expected,32.80016,-117.155
+6861,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,18.0,75.0,21.5,As Expected,32.80016,-117.155
+6862,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke,38.0,507.0,7.9,As Expected,32.80016,-117.155
+6863,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AMI,26.0,380.0,6.8,As Expected,32.80016,-117.155
+6864,2018,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,CABG,Isolated CABG Operative Mor,2.0,83.0,3.5,As Expected,32.8,-117.16
+6865,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,CABG,Isolated CABG Operative Mor,1.0,71.0,1.09,As Expected,32.78,-117.01
+6866,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,8.0,25.0,25.7,As Expected,32.77963,-117.009
+6867,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Hip Fracture,6.0,202.0,1.8,As Expected,32.77963,-117.009
+6868,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pneumonia,18.0,536.0,2.9,As Expected,32.77963,-117.009
+6869,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pancreatic Resection,0.0,14.0,0.0,As Expected,32.77963,-117.009
+6870,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,PCI,15.0,449.0,3.6,As Expected,32.77963,-117.009
+6871,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Heart Failure,11.0,1025.0,1.3,Better,32.77963,-117.009
+6872,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,GI Hemorrhage,22.0,494.0,3.0,As Expected,32.77963,-117.009
+6873,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Carotid Endarterectomy,1.0,59.0,2.3,As Expected,32.77963,-117.009
+6874,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Ischemic,27.0,595.0,3.5,Better,32.77963,-117.009
+6875,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,34.0,120.0,22.4,As Expected,32.77963,-117.009
+6876,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke,69.0,740.0,8.0,As Expected,32.77963,-117.009
+6877,2018,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AMI,22.0,375.0,6.9,As Expected,32.77963,-117.009
+6878,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Subarachnoid,4.0,32.0,29.2,As Expected,32.79287,-117.094
+6879,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Hip Fracture,6.0,417.0,1.3,As Expected,32.79287,-117.094
+6880,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pneumonia,19.0,268.0,4.7,As Expected,32.79287,-117.094
+6881,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pancreatic Resection,0.0,24.0,0.0,As Expected,32.79287,-117.094
+6882,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,PCI,,,,,32.79287,-117.094
+6883,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Heart Failure,41.0,939.0,3.3,As Expected,32.79287,-117.094
+6884,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,GI Hemorrhage,5.0,363.0,1.3,As Expected,32.79287,-117.094
+6885,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Carotid Endarterectomy,0.0,42.0,0.0,As Expected,32.79287,-117.094
+6886,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Ischemic,20.0,372.0,4.1,As Expected,32.79287,-117.094
+6887,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Hemorrhagic,21.0,96.0,22.9,As Expected,32.79287,-117.094
+6888,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke,45.0,500.0,8.7,As Expected,32.79287,-117.094
+6889,2018,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AMI,11.0,132.0,4.3,As Expected,32.79287,-117.094
+6890,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,CABG,Isolated CABG Operative Mor,6.0,84.0,10.32,Worse,32.75,-117.16
+6891,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Hip Fracture,6.0,296.0,1.6,As Expected,32.75128,-117.16
+6892,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pneumonia,7.0,490.0,1.3,Better,32.75128,-117.16
+6893,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pancreatic Resection,1.0,8.0,3.2,As Expected,32.75128,-117.16
+6894,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,PCI,10.0,285.0,4.1,As Expected,32.75128,-117.16
+6895,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Heart Failure,22.0,1163.0,1.6,Better,32.75128,-117.16
+6896,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,GI Hemorrhage,17.0,610.0,2.2,As Expected,32.75128,-117.16
+6897,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Carotid Endarterectomy,0.0,35.0,0.0,As Expected,32.75128,-117.16
+6898,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Subarachnoid,5.0,15.0,22.5,As Expected,32.75128,-117.16
+6899,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Ischemic,19.0,396.0,5.4,As Expected,32.75128,-117.16
+6900,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Hemorrhagic,31.0,143.0,23.8,As Expected,32.75128,-117.16
+6901,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke,55.0,554.0,10.0,As Expected,32.75128,-117.16
+6902,2018,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AMI,23.0,426.0,5.9,As Expected,32.75128,-117.16
+6903,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,CABG,Isolated CABG Operative Mor,6.0,79.0,7.65,Worse,33.13,-117.08
+6904,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Hip Fracture,4.0,241.0,1.7,As Expected,33.12586,-117.076
+6905,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Subarachnoid,6.0,30.0,16.5,As Expected,33.12586,-117.076
+6906,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Pneumonia,15.0,435.0,2.8,As Expected,33.12586,-117.076
+6907,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Pancreatic Resection,,,,,33.12586,-117.076
+6908,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,PCI,14.0,368.0,3.8,As Expected,33.12586,-117.076
+6909,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Heart Failure,31.0,791.0,2.6,As Expected,33.12586,-117.076
+6910,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,GI Hemorrhage,7.0,418.0,1.4,As Expected,33.12586,-117.076
+6911,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Carotid Endarterectomy,0.0,65.0,0.0,As Expected,33.12586,-117.076
+6912,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Ischemic,33.0,509.0,3.3,Better,33.12586,-117.076
+6913,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Hemorrhagic,32.0,130.0,16.5,As Expected,33.12586,-117.076
+6914,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke,71.0,669.0,6.5,Better,33.12586,-117.076
+6915,2018,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,AMI,33.0,461.0,6.6,As Expected,33.12586,-117.076
+6916,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,,,,,32.68632,-117.083
+6917,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Hip Fracture,0.0,14.0,0.0,As Expected,32.68632,-117.083
+6918,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pneumonia,0.0,81.0,0.0,As Expected,32.68632,-117.083
+6919,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.68632,-117.083
+6920,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,PCI,0.0,37.0,0.0,As Expected,32.68632,-117.083
+6921,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Heart Failure,4.0,290.0,1.6,As Expected,32.68632,-117.083
+6922,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,GI Hemorrhage,0.0,85.0,0.0,As Expected,32.68632,-117.083
+6923,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Carotid Endarterectomy,,,,,32.68632,-117.083
+6924,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Ischemic,1.0,68.0,2.6,As Expected,32.68632,-117.083
+6925,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,1.0,4.0,27.6,As Expected,32.68632,-117.083
+6926,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke,2.0,72.0,6.7,As Expected,32.68632,-117.083
+6927,2018,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AMI,1.0,69.0,0.9,Better,32.68632,-117.083
+6928,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,CABG,Isolated CABG Operative Mor,4.0,327.0,1.59,As Expected,32.89,-117.22
+6929,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Hip Fracture,3.0,214.0,1.0,As Expected,32.88506,-117.222
+6930,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pneumonia,12.0,251.0,2.2,As Expected,32.88506,-117.222
+6931,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pancreatic Resection,0.0,5.0,0.0,As Expected,32.88506,-117.222
+6932,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,PCI,38.0,833.0,5.4,Worse,32.88506,-117.222
+6933,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Heart Failure,38.0,801.0,3.0,As Expected,32.88506,-117.222
+6934,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,GI Hemorrhage,5.0,238.0,1.6,As Expected,32.88506,-117.222
+6935,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Carotid Endarterectomy,0.0,23.0,0.0,As Expected,32.88506,-117.222
+6936,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Subarachnoid,23.0,75.0,25.8,As Expected,32.88506,-117.222
+6937,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Ischemic,48.0,382.0,6.2,As Expected,32.88506,-117.222
+6938,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Hemorrhagic,26.0,104.0,18.1,As Expected,32.88506,-117.222
+6939,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke,97.0,561.0,9.8,As Expected,32.88506,-117.222
+6940,2018,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AMI,37.0,722.0,6.0,As Expected,32.88506,-117.222
+6941,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Subarachnoid,3.0,12.0,21.7,As Expected,33.18394,-117.29
+6942,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Hip Fracture,3.0,161.0,2.2,As Expected,33.18394,-117.29
+6943,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pneumonia,10.0,230.0,3.3,As Expected,33.18394,-117.29
+6944,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pancreatic Resection,,,,,33.18394,-117.29
+6945,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,PCI,7.0,172.0,5.4,As Expected,33.18394,-117.29
+6946,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Heart Failure,17.0,411.0,2.6,As Expected,33.18394,-117.29
+6947,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,GI Hemorrhage,9.0,268.0,2.5,As Expected,33.18394,-117.29
+6948,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Carotid Endarterectomy,1.0,44.0,2.4,As Expected,33.18394,-117.29
+6949,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Ischemic,11.0,292.0,3.1,As Expected,33.18394,-117.29
+6950,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Hemorrhagic,19.0,59.0,31.7,Worse,33.18394,-117.29
+6951,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke,33.0,363.0,8.9,As Expected,33.18394,-117.29
+6952,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AMI,23.0,265.0,8.7,Worse,33.18394,-117.29
+6953,2018,San Diego,Tri-City Medical Center,106370780,Independent/Other,CABG,Isolated CABG Operative Mor,0.0,48.0,0.0,As Expected,33.18,-117.29
+6954,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Hip Fracture,2.0,162.0,0.8,As Expected,32.75387,-117.164
+6955,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pneumonia,8.0,303.0,2.4,As Expected,32.75387,-117.164
+6956,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pancreatic Resection,1.0,77.0,0.9,As Expected,32.75387,-117.164
+6957,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,PCI,13.0,371.0,3.6,As Expected,32.75387,-117.164
+6958,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Heart Failure,23.0,950.0,2.5,As Expected,32.75387,-117.164
+6959,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,GI Hemorrhage,10.0,528.0,1.3,Better,32.75387,-117.164
+6960,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Carotid Endarterectomy,0.0,21.0,0.0,As Expected,32.75387,-117.164
+6961,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Subarachnoid,10.0,52.0,17.7,As Expected,32.75387,-117.164
+6962,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Ischemic,16.0,349.0,2.6,Better,32.75387,-117.164
+6963,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Hemorrhagic,19.0,115.0,13.8,Better,32.75387,-117.164
+6964,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke,45.0,516.0,5.6,Better,32.75387,-117.164
+6965,2018,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AMI,34.0,457.0,8.1,Worse,32.75387,-117.164
+6966,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,CABG,Isolated CABG Operative Mor,0.0,68.0,0.0,As Expected,32.62,-117.02
+6967,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Hip Fracture,3.0,108.0,2.2,As Expected,32.61909,-117.024
+6968,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,4.0,13.0,24.6,As Expected,32.61909,-117.024
+6969,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pneumonia,4.0,306.0,1.2,Better,32.61909,-117.024
+6970,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pancreatic Resection,1.0,5.0,4.2,As Expected,32.61909,-117.024
+6971,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,PCI,14.0,305.0,4.4,As Expected,32.61909,-117.024
+6972,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Heart Failure,15.0,813.0,1.9,As Expected,32.61909,-117.024
+6973,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,GI Hemorrhage,11.0,312.0,3.0,As Expected,32.61909,-117.024
+6974,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,16.0,0.0,As Expected,32.61909,-117.024
+6975,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Ischemic,16.0,281.0,5.0,As Expected,32.61909,-117.024
+6976,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,16.0,73.0,20.5,As Expected,32.61909,-117.024
+6977,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke,36.0,367.0,9.0,As Expected,32.61909,-117.024
+6978,2018,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AMI,14.0,233.0,6.0,As Expected,32.61909,-117.024
+6979,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,,32.99563,-117.057
+6980,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Hip Fracture,1.0,102.0,1.1,As Expected,32.99563,-117.057
+6981,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pneumonia,4.0,164.0,1.8,As Expected,32.99563,-117.057
+6982,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pancreatic Resection,,,,,32.99563,-117.057
+6983,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,PCI,,,,,32.99563,-117.057
+6984,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Heart Failure,8.0,208.0,2.1,As Expected,32.99563,-117.057
+6985,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,GI Hemorrhage,8.0,125.0,4.2,As Expected,32.99563,-117.057
+6986,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Carotid Endarterectomy,,,,,32.99563,-117.057
+6987,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Ischemic,6.0,92.0,5.9,As Expected,32.99563,-117.057
+6988,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Hemorrhagic,4.0,7.0,24.7,As Expected,32.99563,-117.057
+6989,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke,10.0,99.0,10.7,As Expected,32.99563,-117.057
+6990,2018,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AMI,5.0,23.0,6.8,As Expected,32.99563,-117.057
+6991,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Hip Fracture,0.0,93.0,0.0,As Expected,32.89654,-117.241
+6992,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pneumonia,1.0,159.0,0.4,Better,32.89654,-117.241
+6993,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pancreatic Resection,0.0,13.0,0.0,As Expected,32.89654,-117.241
+6994,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,PCI,,,,,32.89654,-117.241
+6995,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Heart Failure,2.0,99.0,1.0,As Expected,32.89654,-117.241
+6996,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,GI Hemorrhage,3.0,147.0,1.9,As Expected,32.89654,-117.241
+6997,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Carotid Endarterectomy,0.0,20.0,0.0,As Expected,32.89654,-117.241
+6998,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Subarachnoid,,,,,32.89654,-117.241
+6999,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Ischemic,2.0,55.0,3.8,As Expected,32.89654,-117.241
+7000,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Hemorrhagic,1.0,16.0,10.2,As Expected,32.89654,-117.241
+7001,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke,3.0,71.0,5.8,As Expected,32.89654,-117.241
+7002,2018,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AMI,0.0,5.0,0.0,As Expected,32.89654,-117.241
+7003,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Hip Fracture,3.0,208.0,0.8,As Expected,33.0363,-117.284
+7004,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Subarachnoid,0.0,9.0,0.0,As Expected,33.0363,-117.284
+7005,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pneumonia,3.0,266.0,0.7,Better,33.0363,-117.284
+7006,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pancreatic Resection,,,,,33.0363,-117.284
+7007,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,PCI,6.0,225.0,3.9,As Expected,33.0363,-117.284
+7008,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Heart Failure,8.0,437.0,1.0,Better,33.0363,-117.284
+7009,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,GI Hemorrhage,3.0,296.0,1.1,As Expected,33.0363,-117.284
+7010,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Carotid Endarterectomy,0.0,20.0,0.0,As Expected,33.0363,-117.284
+7011,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Ischemic,2.0,207.0,1.1,Better,33.0363,-117.284
+7012,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Hemorrhagic,5.0,44.0,10.4,Better,33.0363,-117.284
+7013,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke,7.0,260.0,3.0,Better,33.0363,-117.284
+7014,2018,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AMI,10.0,290.0,3.4,As Expected,33.0363,-117.284
+7015,2018,San Diego,UC San Diego Health La Jolla – Jacobs Medical Center & Sulpizio Cardiovascular Center,106374141,University of California,CABG,Isolated CABG Operative Mor,1.0,159.0,0.71,As Expected,32.88,-117.23
+11501,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pneumonia,1.0,63.0,2.1,As Expected,32.77664,-117.057
+11502,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,PCI,4.0,119.0,2.0,As Expected,32.77664,-117.057
+11503,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.77664,-117.057
+11504,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Hip Fracture,1.0,20.0,1.3,As Expected,32.77664,-117.057
+11505,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Heart Failure,3.0,165.0,2.5,As Expected,32.77664,-117.057
+11506,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,GI Hemorrhage,4.0,105.0,2.8,As Expected,32.77664,-117.057
+11507,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Carotid Endarterectomy,0.0,7.0,0.0,As Expected,32.77664,-117.057
+11508,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AMI,4.0,202.0,1.3,Better,32.77664,-117.057
+11509,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,,,,,32.77664,-117.057
+11510,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Ischemic,0.0,54.0,0.0,As Expected,32.77664,-117.057
+11511,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,2.0,6.0,100.0,As Expected,32.77664,-117.057
+11512,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke,2.0,61.0,7.1,As Expected,32.77664,-117.057
+11513,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AAA Repair Open Unrupture,,,,,32.77664,-117.057
+11514,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AAA Repair Endo Unrupture,,,,,32.77664,-117.057
+11515,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,PSI,Postoperative Sepsis,1.0,512.0,0.16,As Expected,32.77664,-117.057
+11516,2019,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,CABG,Isolated CABG Operative Mor,0.0,17.0,0.0,As Expected,32.78,-117.06
+11517,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pneumonia,1.0,32.0,5.1,As Expected,32.69427,-117.168
+11518,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,PCI,,,,,32.69427,-117.168
+11519,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pancreatic Resection,,,,,32.69427,-117.168
+11520,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Hip Fracture,2.0,26.0,8.7,As Expected,32.69427,-117.168
+11521,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Heart Failure,2.0,42.0,8.9,As Expected,32.69427,-117.168
+11522,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,GI Hemorrhage,3.0,44.0,3.0,As Expected,32.69427,-117.168
+11523,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Carotid Endarterectomy,,,,,32.69427,-117.168
+11524,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AMI,0.0,7.0,0.0,As Expected,32.69427,-117.168
+11525,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,,,,,32.69427,-117.168
+11526,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Ischemic,1.0,19.0,4.9,As Expected,32.69427,-117.168
+11527,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,,,,,32.69427,-117.168
+11528,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke,1.0,20.0,7.8,As Expected,32.69427,-117.168
+11529,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.69427,-117.168
+11530,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,,,,,32.69427,-117.168
+11531,2019,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,PSI,Postoperative Sepsis,0.0,762.0,0.0,As Expected,32.69427,-117.168
+11532,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pneumonia,8.0,418.0,2.1,As Expected,32.80016,-117.155
+11533,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,PCI,15.0,346.0,5.5,As Expected,32.80016,-117.155
+11534,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pancreatic Resection,0.0,20.0,0.0,As Expected,32.80016,-117.155
+11535,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Hip Fracture,7.0,311.0,1.8,As Expected,32.80016,-117.155
+11536,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Heart Failure,21.0,896.0,3.0,As Expected,32.80016,-117.155
+11537,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,GI Hemorrhage,12.0,460.0,2.6,As Expected,32.80016,-117.155
+11538,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,24.0,0.0,As Expected,32.80016,-117.155
+11539,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AMI,24.0,356.0,7.9,As Expected,32.80016,-117.155
+11540,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,3.0,19.0,19.3,As Expected,32.80016,-117.155
+11541,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Ischemic,25.0,413.0,6.9,As Expected,32.80016,-117.155
+11542,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,15.0,78.0,19.9,As Expected,32.80016,-117.155
+11543,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke,43.0,510.0,10.3,As Expected,32.80016,-117.155
+11544,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.80016,-117.155
+11545,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,0.0,25.0,0.0,As Expected,32.80016,-117.155
+11546,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,PSI,Postoperative Sepsis,15.0,3409.0,0.34,As Expected,32.80016,-117.155
+11547,2019,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,CABG,Isolated CABG Operative Mor,1.0,83.0,1.416458,As Expected,32.8,-117.16
+11548,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pneumonia,17.0,506.0,4.2,As Expected,32.77963,-117.009
+11549,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,PCI,19.0,459.0,3.7,As Expected,32.77963,-117.009
+11550,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pancreatic Resection,1.0,9.0,5.2,As Expected,32.77963,-117.009
+11551,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Hip Fracture,2.0,191.0,1.1,As Expected,32.77963,-117.009
+11552,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Heart Failure,21.0,1123.0,2.7,As Expected,32.77963,-117.009
+11553,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,GI Hemorrhage,14.0,449.0,2.5,As Expected,32.77963,-117.009
+11554,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,45.0,0.0,As Expected,32.77963,-117.009
+11555,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AMI,34.0,363.0,8.9,Worse,32.77963,-117.009
+11556,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,13.0,49.0,28.6,As Expected,32.77963,-117.009
+11557,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Ischemic,41.0,568.0,6.6,Worse,32.77963,-117.009
+11558,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,34.0,117.0,23.4,As Expected,32.77963,-117.009
+11559,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke,88.0,734.0,11.0,Worse,32.77963,-117.009
+11560,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.77963,-117.009
+11561,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,0.0,15.0,0.0,As Expected,32.77963,-117.009
+11562,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,PSI,Postoperative Sepsis,6.0,1692.0,0.48,As Expected,32.77963,-117.009
+11563,2019,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,CABG,Isolated CABG Operative Mor,6.0,76.0,6.330886,Worse,32.78,-117.01
+11564,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pneumonia,8.0,227.0,3.0,As Expected,32.79287,-117.094
+11565,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,PCI,,,,,32.79287,-117.094
+11566,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pancreatic Resection,0.0,22.0,0.0,As Expected,32.79287,-117.094
+11567,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Hip Fracture,9.0,462.0,2.3,As Expected,32.79287,-117.094
+11568,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Heart Failure,36.0,1024.0,3.8,As Expected,32.79287,-117.094
+11569,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,GI Hemorrhage,11.0,355.0,3.2,As Expected,32.79287,-117.094
+11570,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Carotid Endarterectomy,0.0,30.0,0.0,As Expected,32.79287,-117.094
+11571,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AMI,12.0,142.0,4.8,As Expected,32.79287,-117.094
+11572,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Subarachnoid,5.0,22.0,35.3,As Expected,32.79287,-117.094
+11573,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Ischemic,23.0,340.0,5.6,As Expected,32.79287,-117.094
+11574,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Hemorrhagic,12.0,126.0,14.0,As Expected,32.79287,-117.094
+11575,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke,40.0,488.0,8.6,As Expected,32.79287,-117.094
+11576,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AAA Repair Open Unrupture,0.0,4.0,0.0,As Expected,32.79287,-117.094
+11577,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AAA Repair Endo Unrupture,0.0,36.0,0.0,As Expected,32.79287,-117.094
+11578,2019,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,PSI,Postoperative Sepsis,23.0,2502.0,0.67,As Expected,32.79287,-117.094
+11579,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pneumonia,7.0,533.0,1.2,Better,32.75128,-117.16
+11580,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,PCI,9.0,293.0,4.1,As Expected,32.75128,-117.16
+11581,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pancreatic Resection,0.0,5.0,0.0,As Expected,32.75128,-117.16
+11582,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Hip Fracture,6.0,300.0,2.1,As Expected,32.75128,-117.16
+11583,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Heart Failure,23.0,1227.0,1.9,As Expected,32.75128,-117.16
+11584,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,GI Hemorrhage,16.0,574.0,3.2,As Expected,32.75128,-117.16
+11585,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Carotid Endarterectomy,1.0,30.0,1.4,As Expected,32.75128,-117.16
+11586,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AMI,24.0,479.0,5.9,As Expected,32.75128,-117.16
+11587,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Subarachnoid,9.0,19.0,30.3,As Expected,32.75128,-117.16
+11588,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Ischemic,22.0,474.0,5.7,As Expected,32.75128,-117.16
+11589,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Hemorrhagic,29.0,134.0,19.5,As Expected,32.75128,-117.16
+11590,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke,60.0,627.0,9.4,As Expected,32.75128,-117.16
+11591,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,32.75128,-117.16
+11592,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,14.0,0.0,As Expected,32.75128,-117.16
+11593,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,PSI,Postoperative Sepsis,13.0,3077.0,0.65,As Expected,32.75128,-117.16
+11594,2019,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,CABG,Isolated CABG Operative Mor,2.0,85.0,3.375196,As Expected,32.75,-117.16
+11595,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Pneumonia,8.0,439.0,2.0,As Expected,33.12586,-117.076
+11596,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,PCI,20.0,371.0,5.3,As Expected,33.12586,-117.076
+11597,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Pancreatic Resection,0.0,3.0,0.0,As Expected,33.12586,-117.076
+11598,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Hip Fracture,6.0,275.0,1.7,As Expected,33.12586,-117.076
+11599,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Heart Failure,23.0,803.0,2.5,As Expected,33.12586,-117.076
+11600,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,GI Hemorrhage,11.0,433.0,2.9,As Expected,33.12586,-117.076
+11601,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Carotid Endarterectomy,0.0,57.0,0.0,As Expected,33.12586,-117.076
+11602,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,AMI,28.0,480.0,7.1,As Expected,33.12586,-117.076
+11603,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Subarachnoid,7.0,21.0,26.0,As Expected,33.12586,-117.076
+11604,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Ischemic,43.0,484.0,5.2,As Expected,33.12586,-117.076
+11605,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Hemorrhagic,29.0,113.0,21.6,As Expected,33.12586,-117.076
+11606,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke,79.0,618.0,9.4,As Expected,33.12586,-117.076
+11607,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,33.12586,-117.076
+11608,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,AAA Repair Endo Unrupture,0.0,21.0,0.0,As Expected,33.12586,-117.076
+11609,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,PSI,Postoperative Sepsis,3.0,2305.0,0.2,As Expected,33.12586,-117.076
+11610,2019,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,CABG,Isolated CABG Operative Mor,6.0,85.0,4.876596,As Expected,33.13,-117.08
+11611,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pneumonia,2.0,77.0,4.5,As Expected,32.68632,-117.083
+11612,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,PCI,1.0,45.0,4.6,As Expected,32.68632,-117.083
+11613,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.68632,-117.083
+11614,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Hip Fracture,1.0,18.0,3.6,As Expected,32.68632,-117.083
+11615,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Heart Failure,4.0,275.0,2.7,As Expected,32.68632,-117.083
+11616,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,GI Hemorrhage,0.0,89.0,0.0,As Expected,32.68632,-117.083
+11617,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Carotid Endarterectomy,0.0,3.0,0.0,As Expected,32.68632,-117.083
+11618,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AMI,4.0,80.0,5.8,As Expected,32.68632,-117.083
+11619,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,,,,,32.68632,-117.083
+11620,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Ischemic,0.0,73.0,0.0,As Expected,32.68632,-117.083
+11621,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,3.0,16.0,30.9,As Expected,32.68632,-117.083
+11622,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke,4.0,90.0,8.0,As Expected,32.68632,-117.083
+11623,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AAA Repair Open Unrupture,,,,,32.68632,-117.083
+11624,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AAA Repair Endo Unrupture,,,,,32.68632,-117.083
+11625,2019,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,PSI,Postoperative Sepsis,0.0,168.0,0.0,As Expected,32.68632,-117.083
+11626,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pneumonia,3.0,255.0,0.8,Better,32.88506,-117.222
+11627,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,PCI,31.0,923.0,4.1,As Expected,32.88506,-117.222
+11628,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pancreatic Resection,,,,,32.88506,-117.222
+11629,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Hip Fracture,3.0,212.0,1.5,As Expected,32.88506,-117.222
+11630,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Heart Failure,30.0,796.0,2.7,As Expected,32.88506,-117.222
+11631,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,GI Hemorrhage,8.0,325.0,2.5,As Expected,32.88506,-117.222
+11632,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Carotid Endarterectomy,0.0,19.0,0.0,As Expected,32.88506,-117.222
+11633,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AMI,46.0,834.0,6.8,As Expected,32.88506,-117.222
+11634,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Subarachnoid,10.0,67.0,17.8,As Expected,32.88506,-117.222
+11635,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Ischemic,26.0,338.0,6.2,As Expected,32.88506,-117.222
+11636,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Hemorrhagic,22.0,93.0,23.4,As Expected,32.88506,-117.222
+11637,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke,58.0,498.0,9.6,As Expected,32.88506,-117.222
+11638,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AAA Repair Open Unrupture,0.0,5.0,0.0,As Expected,32.88506,-117.222
+11639,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,4.0,0.0,As Expected,32.88506,-117.222
+11640,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,PSI,Postoperative Sepsis,15.0,3358.0,0.44,As Expected,32.88506,-117.222
+11641,2019,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,CABG,Isolated CABG Operative Mor,2.0,387.0,0.6906768,As Expected,32.89,-117.22
+11642,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pneumonia,6.0,237.0,2.6,As Expected,33.18394,-117.29
+11643,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,PCI,4.0,202.0,2.6,As Expected,33.18394,-117.29
+11644,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pancreatic Resection,,,,,33.18394,-117.29
+11645,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Hip Fracture,2.0,144.0,3.0,As Expected,33.18394,-117.29
+11646,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Heart Failure,9.0,370.0,2.2,As Expected,33.18394,-117.29
+11647,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,GI Hemorrhage,4.0,196.0,1.8,As Expected,33.18394,-117.29
+11648,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Carotid Endarterectomy,0.0,55.0,0.0,As Expected,33.18394,-117.29
+11649,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AMI,15.0,281.0,6.2,As Expected,33.18394,-117.29
+11650,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Subarachnoid,5.0,16.0,27.1,As Expected,33.18394,-117.29
+11651,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Ischemic,23.0,291.0,7.8,Worse,33.18394,-117.29
+11652,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Hemorrhagic,23.0,63.0,33.5,Worse,33.18394,-117.29
+11653,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke,51.0,370.0,13.7,Worse,33.18394,-117.29
+11654,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,33.18394,-117.29
+11655,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AAA Repair Endo Unrupture,0.0,10.0,0.0,As Expected,33.18394,-117.29
+11656,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,PSI,Postoperative Sepsis,4.0,881.0,0.56,As Expected,33.18394,-117.29
+11657,2019,San Diego,Tri-City Medical Center,106370780,Independent/Other,CABG,Isolated CABG Operative Mor,1.0,52.0,2.724138,As Expected,33.18,-117.29
+11658,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pneumonia,4.0,268.0,1.7,As Expected,32.75387,-117.164
+11659,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,PCI,13.0,384.0,3.5,As Expected,32.75387,-117.164
+11660,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pancreatic Resection,0.0,90.0,0.0,As Expected,32.75387,-117.164
+11661,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Hip Fracture,5.0,155.0,1.9,As Expected,32.75387,-117.164
+11662,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Heart Failure,26.0,1073.0,2.6,As Expected,32.75387,-117.164
+11663,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,GI Hemorrhage,10.0,485.0,1.4,As Expected,32.75387,-117.164
+11664,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Carotid Endarterectomy,0.0,14.0,0.0,As Expected,32.75387,-117.164
+11665,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AMI,31.0,472.0,6.0,As Expected,32.75387,-117.164
+11666,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Subarachnoid,8.0,52.0,16.6,As Expected,32.75387,-117.164
+11667,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Ischemic,16.0,348.0,3.2,As Expected,32.75387,-117.164
+11668,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Hemorrhagic,18.0,136.0,11.9,Better,32.75387,-117.164
+11669,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke,42.0,536.0,5.6,Better,32.75387,-117.164
+11670,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AAA Repair Open Unrupture,1.0,6.0,10.2,As Expected,32.75387,-117.164
+11671,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AAA Repair Endo Unrupture,0.0,49.0,0.0,As Expected,32.75387,-117.164
+11672,2019,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,PSI,Postoperative Sepsis,35.0,5605.0,0.43,As Expected,32.75387,-117.164
+11673,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pneumonia,8.0,316.0,3.3,As Expected,32.61909,-117.024
+11674,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,PCI,4.0,266.0,1.3,Better,32.61909,-117.024
+11675,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pancreatic Resection,0.0,5.0,0.0,As Expected,32.61909,-117.024
+11676,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Hip Fracture,2.0,98.0,2.3,As Expected,32.61909,-117.024
+11677,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Heart Failure,15.0,841.0,2.6,As Expected,32.61909,-117.024
+11678,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,GI Hemorrhage,11.0,300.0,2.9,As Expected,32.61909,-117.024
+11679,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,24.0,0.0,As Expected,32.61909,-117.024
+11680,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AMI,13.0,219.0,5.9,As Expected,32.61909,-117.024
+11681,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,2.0,8.0,12.9,As Expected,32.61909,-117.024
+11682,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Ischemic,13.0,299.0,4.8,As Expected,32.61909,-117.024
+11683,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,17.0,61.0,23.3,As Expected,32.61909,-117.024
+11684,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke,32.0,368.0,8.8,As Expected,32.61909,-117.024
+11685,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.61909,-117.024
+11686,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,1.0,4.0,30.3,As Expected,32.61909,-117.024
+11687,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,PSI,Postoperative Sepsis,5.0,588.0,0.76,As Expected,32.61909,-117.024
+11688,2019,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,CABG,Isolated CABG Operative Mor,2.0,79.0,3.126609,As Expected,32.62,-117.02
+11689,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pneumonia,2.0,112.0,2.2,As Expected,32.99563,-117.057
+11690,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,PCI,,,,,32.99563,-117.057
+11691,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pancreatic Resection,,,,,32.99563,-117.057
+11692,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Hip Fracture,2.0,64.0,6.4,As Expected,32.99563,-117.057
+11693,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Heart Failure,8.0,175.0,3.2,As Expected,32.99563,-117.057
+11694,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,GI Hemorrhage,1.0,131.0,0.9,As Expected,32.99563,-117.057
+11695,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Carotid Endarterectomy,,,,,32.99563,-117.057
+11696,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AMI,4.0,13.0,8.7,As Expected,32.99563,-117.057
+11697,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,,32.99563,-117.057
+11698,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Ischemic,4.0,81.0,3.0,As Expected,32.99563,-117.057
+11699,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Hemorrhagic,10.0,12.0,33.3,Worse,32.99563,-117.057
+11700,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke,15.0,94.0,9.7,As Expected,32.99563,-117.057
+11701,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,32.99563,-117.057
+11702,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AAA Repair Endo Unrupture,,,,,32.99563,-117.057
+11703,2019,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,PSI,Postoperative Sepsis,1.0,424.0,0.32,As Expected,32.99563,-117.057
+11704,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pneumonia,7.0,189.0,3.1,As Expected,32.89654,-117.241
+11705,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,PCI,,,,,32.89654,-117.241
+11706,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pancreatic Resection,0.0,16.0,0.0,As Expected,32.89654,-117.241
+11707,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Hip Fracture,0.0,51.0,0.0,As Expected,32.89654,-117.241
+11708,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Heart Failure,4.0,109.0,2.3,As Expected,32.89654,-117.241
+11709,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,GI Hemorrhage,6.0,173.0,2.4,As Expected,32.89654,-117.241
+11710,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Carotid Endarterectomy,0.0,27.0,0.0,As Expected,32.89654,-117.241
+11711,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AMI,,,,,32.89654,-117.241
+11712,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Subarachnoid,0.0,3.0,0.0,As Expected,32.89654,-117.241
+11713,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Ischemic,3.0,62.0,8.0,As Expected,32.89654,-117.241
+11714,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Hemorrhagic,1.0,18.0,13.3,As Expected,32.89654,-117.241
+11715,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke,4.0,83.0,8.2,As Expected,32.89654,-117.241
+11716,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,32.89654,-117.241
+11717,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AAA Repair Endo Unrupture,1.0,11.0,2.1,As Expected,32.89654,-117.241
+11718,2019,San Diego,Scripps Green Hospital,106371256,Scripps Health,PSI,Postoperative Sepsis,4.0,3546.0,0.17,Better,32.89654,-117.241
+11719,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pneumonia,4.0,301.0,1.0,Better,33.0363,-117.284
+11720,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,PCI,5.0,197.0,3.7,As Expected,33.0363,-117.284
+11721,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pancreatic Resection,,,,,33.0363,-117.284
+11722,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Hip Fracture,3.0,167.0,1.1,As Expected,33.0363,-117.284
+11723,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Heart Failure,7.0,489.0,1.2,Better,33.0363,-117.284
+11724,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,GI Hemorrhage,2.0,290.0,1.0,As Expected,33.0363,-117.284
+11725,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Carotid Endarterectomy,0.0,15.0,0.0,As Expected,33.0363,-117.284
+11726,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AMI,10.0,255.0,4.7,As Expected,33.0363,-117.284
+11727,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Subarachnoid,0.0,6.0,0.0,As Expected,33.0363,-117.284
+11728,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Ischemic,2.0,165.0,1.6,As Expected,33.0363,-117.284
+11729,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Hemorrhagic,4.0,40.0,11.9,As Expected,33.0363,-117.284
+11730,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke,6.0,211.0,4.0,Better,33.0363,-117.284
+11731,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,33.0363,-117.284
+11732,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,10.0,0.0,As Expected,33.0363,-117.284
+11733,2019,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,PSI,Postoperative Sepsis,0.0,969.0,0.0,As Expected,33.0363,-117.284
+11734,2019,San Diego,UC San Diego Health La Jolla – Jacobs Medical Center & Sulpizio Cardiovascular Center,106374141,University of California,CABG,Isolated CABG Operative Mor,2.0,156.0,1.741353,As Expected,32.88,-117.23
+16220,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Hip Fracture,1.0,23.0,3.1,As Expected,32.77664,-117.057
+16221,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pneumonia,11.0,283.0,3.5,Better,32.77664,-117.057
+16222,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.77664,-117.057
+16223,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,PCI,2.0,82.0,1.8,As Expected,32.77664,-117.057
+16224,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Heart Failure,6.0,189.0,2.5,As Expected,32.77664,-117.057
+16225,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,GI Hemorrhage,1.0,100.0,0.7,As Expected,32.77664,-117.057
+16226,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Carotid Endarterectomy,0.0,3.0,0.0,As Expected,32.77664,-117.057
+16227,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,,,,,32.77664,-117.057
+16228,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Ischemic,2.0,50.0,5.4,As Expected,32.77664,-117.057
+16229,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,1.0,7.0,20.2,As Expected,32.77664,-117.057
+16230,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke,3.0,58.0,7.7,As Expected,32.77664,-117.057
+16231,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AMI,5.0,124.0,5.0,As Expected,32.77664,-117.057
+16232,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AAA Repair Open Unrupture,,,,,32.77664,-117.057
+16233,2020,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AAA Repair Endo Unrupture,,,,,32.77664,-117.057
+16234,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,GI Hemorrhage,3.0,54.0,7.5,As Expected,32.69427,-117.168
+16235,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pancreatic Resection,,,,,32.69427,-117.168
+16236,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,,,,,32.69427,-117.168
+16237,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pneumonia,7.0,91.0,7.4,As Expected,32.69427,-117.168
+16238,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,PCI,,,,,32.69427,-117.168
+16239,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Hip Fracture,1.0,24.0,5.7,As Expected,32.69427,-117.168
+16240,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Heart Failure,0.0,38.0,0.0,As Expected,32.69427,-117.168
+16241,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Carotid Endarterectomy,,,,,32.69427,-117.168
+16242,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,,,,,32.69427,-117.168
+16243,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Ischemic,1.0,23.0,5.1,As Expected,32.69427,-117.168
+16244,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke,2.0,24.0,15.0,As Expected,32.69427,-117.168
+16245,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AMI,0.0,3.0,0.0,As Expected,32.69427,-117.168
+16246,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.69427,-117.168
+16247,2020,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,,,,,32.69427,-117.168
+16248,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Hip Fracture,6.0,280.0,1.6,As Expected,32.80016,-117.155
+16249,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,3.0,6.0,36.6,As Expected,32.80016,-117.155
+16250,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pneumonia,33.0,676.0,5.4,As Expected,32.80016,-117.155
+16251,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pancreatic Resection,0.0,20.0,0.0,As Expected,32.80016,-117.155
+16252,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,PCI,16.0,360.0,4.5,As Expected,32.80016,-117.155
+16253,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Heart Failure,14.0,661.0,2.2,As Expected,32.80016,-117.155
+16254,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,GI Hemorrhage,9.0,400.0,2.4,As Expected,32.80016,-117.155
+16255,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,17.0,0.0,As Expected,32.80016,-117.155
+16256,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Ischemic,26.0,435.0,6.8,As Expected,32.80016,-117.155
+16257,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,17.0,84.0,23.2,As Expected,32.80016,-117.155
+16258,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke,46.0,525.0,11.3,Worse,32.80016,-117.155
+16259,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AMI,17.0,357.0,6.1,As Expected,32.80016,-117.155
+16260,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.80016,-117.155
+16261,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,0.0,14.0,0.0,As Expected,32.80016,-117.155
+16262,2020,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,CABG,Isolated CABG Operative Mor,2.0,56.0,4.476694,As Expected,32.8,-117.16
+16263,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,35.0,110.0,24.9,As Expected,32.77963,-117.009
+16264,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pancreatic Resection,0.0,17.0,0.0,As Expected,32.77963,-117.009
+16265,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,GI Hemorrhage,10.0,385.0,2.1,As Expected,32.77963,-117.009
+16266,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pneumonia,47.0,820.0,7.3,As Expected,32.77963,-117.009
+16267,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,PCI,15.0,364.0,5.1,As Expected,32.77963,-117.009
+16268,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Hip Fracture,3.0,164.0,1.9,As Expected,32.77963,-117.009
+16269,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Heart Failure,13.0,692.0,2.8,As Expected,32.77963,-117.009
+16270,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,33.0,0.0,As Expected,32.77963,-117.009
+16271,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,14.0,38.0,32.0,As Expected,32.77963,-117.009
+16272,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Ischemic,36.0,539.0,6.8,Worse,32.77963,-117.009
+16273,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke,85.0,687.0,11.5,Worse,32.77963,-117.009
+16274,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AMI,19.0,324.0,6.9,As Expected,32.77963,-117.009
+16275,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.77963,-117.009
+16276,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,0.0,13.0,0.0,As Expected,32.77963,-117.009
+16277,2020,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,CABG,Isolated CABG Operative Mor,2.0,59.0,3.332307,As Expected,32.78,-117.01
+16278,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Hip Fracture,11.0,448.0,2.8,As Expected,32.79287,-117.094
+16279,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Subarachnoid,5.0,24.0,46.5,As Expected,32.79287,-117.094
+16280,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pneumonia,28.0,609.0,5.1,As Expected,32.79287,-117.094
+16281,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pancreatic Resection,1.0,16.0,8.5,As Expected,32.79287,-117.094
+16282,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,PCI,,,,,32.79287,-117.094
+16283,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Heart Failure,24.0,778.0,3.4,As Expected,32.79287,-117.094
+16284,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,GI Hemorrhage,2.0,268.0,1.0,As Expected,32.79287,-117.094
+16285,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Carotid Endarterectomy,0.0,43.0,0.0,As Expected,32.79287,-117.094
+16286,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Ischemic,24.0,326.0,7.9,Worse,32.79287,-117.094
+16287,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Hemorrhagic,14.0,105.0,17.6,As Expected,32.79287,-117.094
+16288,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke,43.0,455.0,11.2,As Expected,32.79287,-117.094
+16289,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AMI,9.0,104.0,8.6,As Expected,32.79287,-117.094
+16290,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AAA Repair Open Unrupture,0.0,4.0,0.0,As Expected,32.79287,-117.094
+16291,2020,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AAA Repair Endo Unrupture,0.0,37.0,0.0,As Expected,32.79287,-117.094
+16292,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pancreatic Resection,1.0,16.0,,As Expected,32.75128,-117.16
+16293,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,GI Hemorrhage,15.0,516.0,2.2,As Expected,32.75128,-117.16
+16294,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pneumonia,51.0,843.0,6.1,As Expected,32.75128,-117.16
+16295,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,PCI,1.0,218.0,0.5,Better,32.75128,-117.16
+16296,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Hip Fracture,2.0,250.0,0.8,As Expected,32.75128,-117.16
+16297,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Heart Failure,23.0,958.0,2.1,As Expected,32.75128,-117.16
+16298,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Carotid Endarterectomy,0.0,24.0,0.0,As Expected,32.75128,-117.16
+16299,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Subarachnoid,5.0,9.0,27.6,As Expected,32.75128,-117.16
+16300,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Ischemic,10.0,413.0,2.5,Better,32.75128,-117.16
+16301,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Hemorrhagic,32.0,135.0,21.9,As Expected,32.75128,-117.16
+16302,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke,47.0,557.0,7.7,As Expected,32.75128,-117.16
+16303,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AMI,17.0,336.0,4.3,As Expected,32.75128,-117.16
+16304,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,32.75128,-117.16
+16305,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,8.0,0.0,As Expected,32.75128,-117.16
+16306,2020,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,CABG,Isolated CABG Operative Mor,2.0,51.0,5.306616,As Expected,32.75,-117.16
+16307,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Subarachnoid,6.0,15.0,34.4,As Expected,33.12586,-117.076
+16308,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Hip Fracture,5.0,244.0,2.1,As Expected,33.12586,-117.076
+16309,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Pneumonia,43.0,656.0,8.5,Worse,33.12586,-117.076
+16310,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Pancreatic Resection,,,,,33.12586,-117.076
+16311,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,PCI,19.0,320.0,6.4,Worse,33.12586,-117.076
+16312,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Heart Failure,28.0,613.0,4.6,Worse,33.12586,-117.076
+16313,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,GI Hemorrhage,12.0,442.0,3.1,As Expected,33.12586,-117.076
+16314,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Carotid Endarterectomy,0.0,70.0,0.0,As Expected,33.12586,-117.076
+16315,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Ischemic,43.0,404.0,10.4,Worse,33.12586,-117.076
+16316,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Hemorrhagic,32.0,124.0,27.4,Worse,33.12586,-117.076
+16317,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke,81.0,543.0,14.8,Worse,33.12586,-117.076
+16318,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,AMI,28.0,408.0,6.7,As Expected,33.12586,-117.076
+16319,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,33.12586,-117.076
+16320,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,AAA Repair Endo Unrupture,0.0,13.0,0.0,As Expected,33.12586,-117.076
+16321,2020,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,CABG,Isolated CABG Operative Mor,4.0,66.0,7.182851,As Expected,33.13,-117.08
+16322,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,GI Hemorrhage,0.0,79.0,0.0,As Expected,32.68632,-117.083
+16323,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.68632,-117.083
+16324,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pneumonia,12.0,266.0,4.1,As Expected,32.68632,-117.083
+16325,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,PCI,0.0,31.0,0.0,As Expected,32.68632,-117.083
+16326,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Hip Fracture,0.0,17.0,0.0,As Expected,32.68632,-117.083
+16327,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Heart Failure,2.0,201.0,1.2,As Expected,32.68632,-117.083
+16328,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Carotid Endarterectomy,,,,,32.68632,-117.083
+16329,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,,,,,32.68632,-117.083
+16330,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Ischemic,1.0,45.0,4.0,As Expected,32.68632,-117.083
+16331,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,3.0,14.0,25.6,As Expected,32.68632,-117.083
+16332,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke,4.0,59.0,9.7,As Expected,32.68632,-117.083
+16333,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AMI,1.0,41.0,3.0,As Expected,32.68632,-117.083
+16334,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AAA Repair Open Unrupture,,,,,32.68632,-117.083
+16335,2020,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AAA Repair Endo Unrupture,,,,,32.68632,-117.083
+16336,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Subarachnoid,19.0,57.0,34.1,Worse,32.88506,-117.222
+16337,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Hip Fracture,5.0,215.0,2.5,As Expected,32.88506,-117.222
+16338,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pneumonia,25.0,360.0,7.6,As Expected,32.88506,-117.222
+16339,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pancreatic Resection,,,,,32.88506,-117.222
+16340,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,PCI,23.0,847.0,2.7,Better,32.88506,-117.222
+16341,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Heart Failure,27.0,709.0,2.8,As Expected,32.88506,-117.222
+16342,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,GI Hemorrhage,4.0,306.0,1.3,As Expected,32.88506,-117.222
+16343,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Carotid Endarterectomy,0.0,21.0,0.0,As Expected,32.88506,-117.222
+16344,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Ischemic,30.0,357.0,6.1,As Expected,32.88506,-117.222
+16345,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Hemorrhagic,25.0,112.0,21.0,As Expected,32.88506,-117.222
+16346,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke,74.0,526.0,10.6,Worse,32.88506,-117.222
+16347,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AMI,33.0,749.0,4.5,As Expected,32.88506,-117.222
+16348,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,32.88506,-117.222
+16349,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,7.0,0.0,As Expected,32.88506,-117.222
+16350,2020,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,CABG,Isolated CABG Operative Mor,1.0,298.0,0.3590226,Better,32.89,-117.22
+16351,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,GI Hemorrhage,8.0,185.0,3.6,As Expected,33.18394,-117.29
+16352,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pancreatic Resection,,,,,33.18394,-117.29
+16353,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pneumonia,29.0,455.0,6.0,As Expected,33.18394,-117.29
+16354,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,PCI,4.0,165.0,2.1,As Expected,33.18394,-117.29
+16355,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Hip Fracture,1.0,123.0,0.6,As Expected,33.18394,-117.29
+16356,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Heart Failure,8.0,287.0,2.2,As Expected,33.18394,-117.29
+16357,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Carotid Endarterectomy,0.0,46.0,0.0,As Expected,33.18394,-117.29
+16358,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Subarachnoid,6.0,6.0,51.1,As Expected,33.18394,-117.29
+16359,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Ischemic,13.0,222.0,5.9,As Expected,33.18394,-117.29
+16360,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Hemorrhagic,22.0,55.0,33.7,Worse,33.18394,-117.29
+16361,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke,41.0,283.0,13.4,Worse,33.18394,-117.29
+16362,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AMI,17.0,208.0,7.9,As Expected,33.18394,-117.29
+16363,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,33.18394,-117.29
+16364,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AAA Repair Endo Unrupture,0.0,7.0,0.0,As Expected,33.18394,-117.29
+16365,2020,San Diego,Tri-City Medical Center,106370780,Independent/Other,CABG,Isolated CABG Operative Mor,3.0,34.0,9.074919,As Expected,33.18,-117.29
+16366,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Subarachnoid,5.0,50.0,11.5,Better,32.75387,-117.164
+16367,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Hip Fracture,2.0,174.0,1.2,As Expected,32.75387,-117.164
+16368,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pneumonia,30.0,858.0,3.5,Better,32.75387,-117.164
+16369,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pancreatic Resection,2.0,81.0,2.9,As Expected,32.75387,-117.164
+16370,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,PCI,9.0,319.0,3.0,As Expected,32.75387,-117.164
+16371,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Heart Failure,18.0,991.0,1.9,As Expected,32.75387,-117.164
+16372,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,GI Hemorrhage,10.0,503.0,1.5,Better,32.75387,-117.164
+16373,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Carotid Endarterectomy,0.0,34.0,0.0,As Expected,32.75387,-117.164
+16374,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Ischemic,10.0,355.0,2.1,Better,32.75387,-117.164
+16375,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Hemorrhagic,16.0,113.0,14.3,As Expected,32.75387,-117.164
+16376,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke,31.0,518.0,4.8,Better,32.75387,-117.164
+16377,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AMI,13.0,320.0,3.9,As Expected,32.75387,-117.164
+16378,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AAA Repair Open Unrupture,0.0,3.0,0.0,As Expected,32.75387,-117.164
+16379,2020,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AAA Repair Endo Unrupture,1.0,36.0,1.6,As Expected,32.75387,-117.164
+16380,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,14.0,52.0,25.3,As Expected,32.61909,-117.024
+16381,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pancreatic Resection,1.0,3.0,3.7,As Expected,32.61909,-117.024
+16382,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,GI Hemorrhage,8.0,294.0,2.7,As Expected,32.61909,-117.024
+16383,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pneumonia,29.0,540.0,7.0,As Expected,32.61909,-117.024
+16384,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,PCI,10.0,271.0,4.0,As Expected,32.61909,-117.024
+16385,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Hip Fracture,1.0,87.0,1.1,As Expected,32.61909,-117.024
+16386,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Heart Failure,7.0,601.0,1.6,As Expected,32.61909,-117.024
+16387,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,16.0,0.0,As Expected,32.61909,-117.024
+16388,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,3.0,8.0,25.7,As Expected,32.61909,-117.024
+16389,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Ischemic,8.0,244.0,5.4,As Expected,32.61909,-117.024
+16390,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke,25.0,304.0,10.3,As Expected,32.61909,-117.024
+16391,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AMI,22.0,265.0,8.1,As Expected,32.61909,-117.024
+16392,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.61909,-117.024
+16393,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,0.0,4.0,0.0,As Expected,32.61909,-117.024
+16394,2020,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,CABG,Isolated CABG Operative Mor,2.0,56.0,3.305199,As Expected,32.62,-117.02
+16395,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,,32.99563,-117.057
+16396,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Hip Fracture,3.0,65.0,4.7,As Expected,32.99563,-117.057
+16397,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pneumonia,11.0,216.0,5.8,As Expected,32.99563,-117.057
+16398,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pancreatic Resection,,,,,32.99563,-117.057
+16399,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,PCI,,,,,32.99563,-117.057
+16400,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Heart Failure,3.0,127.0,2.7,As Expected,32.99563,-117.057
+16401,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,GI Hemorrhage,8.0,97.0,8.0,Worse,32.99563,-117.057
+16402,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Carotid Endarterectomy,,,,,32.99563,-117.057
+16403,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Ischemic,7.0,51.0,20.1,Worse,32.99563,-117.057
+16404,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Hemorrhagic,1.0,4.0,74.1,As Expected,32.99563,-117.057
+16405,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke,9.0,56.0,36.8,Worse,32.99563,-117.057
+16406,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AMI,2.0,8.0,7.6,As Expected,32.99563,-117.057
+16407,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,32.99563,-117.057
+16408,2020,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AAA Repair Endo Unrupture,,,,,32.99563,-117.057
+16409,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pancreatic Resection,0.0,28.0,0.0,As Expected,32.89654,-117.241
+16410,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Hemorrhagic,1.0,16.0,10.7,As Expected,32.89654,-117.241
+16411,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,GI Hemorrhage,2.0,155.0,1.3,As Expected,32.89654,-117.241
+16412,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pneumonia,9.0,150.0,6.4,As Expected,32.89654,-117.241
+16413,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,PCI,,,,,32.89654,-117.241
+16414,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Hip Fracture,0.0,74.0,0.0,As Expected,32.89654,-117.241
+16415,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Heart Failure,0.0,77.0,0.0,As Expected,32.89654,-117.241
+16416,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Carotid Endarterectomy,0.0,20.0,0.0,As Expected,32.89654,-117.241
+16417,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Subarachnoid,,,,,32.89654,-117.241
+16418,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Ischemic,2.0,68.0,3.5,As Expected,32.89654,-117.241
+16419,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke,4.0,86.0,7.1,As Expected,32.89654,-117.241
+16420,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AMI,2.0,6.0,12.0,As Expected,32.89654,-117.241
+16421,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,32.89654,-117.241
+16422,2020,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,17.0,0.0,As Expected,32.89654,-117.241
+16423,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Hip Fracture,1.0,195.0,0.5,As Expected,33.0363,-117.284
+16424,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Subarachnoid,2.0,3.0,42.1,As Expected,33.0363,-117.284
+16425,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pneumonia,14.0,381.0,3.8,Better,33.0363,-117.284
+16426,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pancreatic Resection,,,,,33.0363,-117.284
+16427,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,PCI,3.0,187.0,1.4,Better,33.0363,-117.284
+16428,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Heart Failure,6.0,431.0,1.2,Better,33.0363,-117.284
+16429,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,GI Hemorrhage,2.0,279.0,1.0,As Expected,33.0363,-117.284
+16430,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Carotid Endarterectomy,0.0,25.0,0.0,As Expected,33.0363,-117.284
+16431,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Ischemic,2.0,206.0,1.0,Better,33.0363,-117.284
+16432,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Hemorrhagic,2.0,34.0,8.8,As Expected,33.0363,-117.284
+16433,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke,6.0,243.0,3.5,Better,33.0363,-117.284
+16434,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AMI,4.0,190.0,2.5,As Expected,33.0363,-117.284
+16435,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,33.0363,-117.284
+16436,2020,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,6.0,0.0,As Expected,33.0363,-117.284
+16437,2020,San Diego,UC San Diego Health La Jolla – Jacobs Medical Center & Sulpizio Cardiovascular Center,106374141,University of California,CABG,Isolated CABG Operative Mor,2.0,125.0,2.03493,As Expected,32.88,-117.23
+21054,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pneumonia,17.0,248.0,5.2,Better,32.77664,-117.057
+21055,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.77664,-117.057
+21056,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,PCI,3.0,65.0,3.9,As Expected,32.77664,-117.057
+21057,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Hip Fracture,0.0,28.0,0.0,As Expected,32.77664,-117.057
+21058,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Heart Failure,2.0,231.0,1.0,As Expected,32.77664,-117.057
+21059,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,GI Hemorrhage,0.0,113.0,0.0,Better,32.77664,-117.057
+21060,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Carotid Endarterectomy,,,,,32.77664,-117.057
+21061,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,,,,,32.77664,-117.057
+21062,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Ischemic,1.0,46.0,2.7,As Expected,32.77664,-117.057
+21063,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,3.0,12.0,39.0,As Expected,32.77664,-117.057
+21064,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke,4.0,59.0,10.1,As Expected,32.77664,-117.057
+21065,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AMI,4.0,123.0,3.3,As Expected,32.77664,-117.057
+21066,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AAA Repair Open Unrupture,,,,,32.77664,-117.057
+21067,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AAA Repair Endo Unrupture,,,,,32.77664,-117.057
+21068,2021,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,PSI,Postoperative Sepsis,0.0,317.0,0.0,As Expected,32.77664,-117.057
+21069,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pneumonia,3.0,70.0,6.8,As Expected,32.69427,-117.168
+21070,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pancreatic Resection,,,,,32.69427,-117.168
+21071,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,PCI,,,,,32.69427,-117.168
+21072,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Hip Fracture,0.0,41.0,0.0,As Expected,32.69427,-117.168
+21073,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Heart Failure,1.0,83.0,1.7,As Expected,32.69427,-117.168
+21074,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,GI Hemorrhage,2.0,90.0,2.2,As Expected,32.69427,-117.168
+21075,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Carotid Endarterectomy,,,,,32.69427,-117.168
+21076,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,,,,,32.69427,-117.168
+21077,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Ischemic,0.0,38.0,0.0,As Expected,32.69427,-117.168
+21078,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,,,,,32.69427,-117.168
+21079,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke,1.0,40.0,6.0,As Expected,32.69427,-117.168
+21080,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AMI,0.0,7.0,0.0,As Expected,32.69427,-117.168
+21081,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.69427,-117.168
+21082,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,,,,,32.69427,-117.168
+21083,2021,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,PSI,Postoperative Sepsis,0.0,214.0,0.0,As Expected,32.69427,-117.168
+21084,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,PSI,Postoperative Sepsis,11.0,2615.0,0.38,As Expected,32.80016,-117.155
+21085,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pneumonia,39.0,505.0,8.1,As Expected,32.80016,-117.155
+21086,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pancreatic Resection,0.0,18.0,0.0,As Expected,32.80016,-117.155
+21087,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,PCI,17.0,381.0,5.4,As Expected,32.80016,-117.155
+21088,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Hip Fracture,7.0,306.0,1.6,As Expected,32.80016,-117.155
+21089,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Heart Failure,12.0,714.0,1.8,As Expected,32.80016,-117.155
+21090,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,GI Hemorrhage,10.0,418.0,2.4,As Expected,32.80016,-117.155
+21091,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Carotid Endarterectomy,1.0,23.0,7.7,As Expected,32.80016,-117.155
+21092,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,5.0,7.0,36.1,As Expected,32.80016,-117.155
+21093,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Ischemic,13.0,407.0,4.1,As Expected,32.80016,-117.155
+21094,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,22.0,85.0,23.2,As Expected,32.80016,-117.155
+21095,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke,40.0,499.0,9.2,As Expected,32.80016,-117.155
+21096,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AMI,28.0,398.0,8.6,Worse,32.80016,-117.155
+21097,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.80016,-117.155
+21098,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,0.0,12.0,0.0,As Expected,32.80016,-117.155
+21099,2021,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,CABG,Isolated CABG Operative Mor,,74.0,,As Expected,32.8,-117.16
+21100,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pneumonia,55.0,618.0,10.4,Worse,32.77963,-117.009
+21101,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pancreatic Resection,0.0,7.0,0.0,As Expected,32.77963,-117.009
+21102,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,PCI,30.0,425.0,6.1,Worse,32.77963,-117.009
+21103,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Hip Fracture,1.0,152.0,0.8,As Expected,32.77963,-117.009
+21104,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Heart Failure,21.0,880.0,4.0,As Expected,32.77963,-117.009
+21105,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,GI Hemorrhage,11.0,415.0,2.7,As Expected,32.77963,-117.009
+21106,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,36.0,0.0,As Expected,32.77963,-117.009
+21107,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,13.0,47.0,36.5,As Expected,32.77963,-117.009
+21108,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Ischemic,32.0,569.0,7.1,Worse,32.77963,-117.009
+21109,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,31.0,115.0,24.6,As Expected,32.77963,-117.009
+21110,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke,76.0,731.0,11.8,Worse,32.77963,-117.009
+21111,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AMI,28.0,397.0,7.8,As Expected,32.77963,-117.009
+21112,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.77963,-117.009
+21113,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,0.0,11.0,0.0,As Expected,32.77963,-117.009
+21114,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,PSI,Postoperative Sepsis,4.0,1125.0,0.51,As Expected,32.77963,-117.009
+21115,2021,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,CABG,Isolated CABG Operative Mor,,97.0,,As Expected,32.78,-117.01
+21116,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pneumonia,26.0,445.0,6.8,As Expected,32.79287,-117.094
+21117,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pancreatic Resection,0.0,26.0,0.0,As Expected,32.79287,-117.094
+21118,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,PCI,,,,,32.79287,-117.094
+21119,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Hip Fracture,7.0,376.0,1.8,As Expected,32.79287,-117.094
+21120,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Heart Failure,23.0,937.0,2.4,As Expected,32.79287,-117.094
+21121,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,GI Hemorrhage,8.0,290.0,3.4,As Expected,32.79287,-117.094
+21122,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Carotid Endarterectomy,0.0,46.0,0.0,As Expected,32.79287,-117.094
+21123,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Subarachnoid,2.0,18.0,18.5,As Expected,32.79287,-117.094
+21124,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Ischemic,10.0,309.0,3.4,As Expected,32.79287,-117.094
+21125,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Hemorrhagic,11.0,109.0,15.0,As Expected,32.79287,-117.094
+21126,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke,23.0,436.0,6.3,As Expected,32.79287,-117.094
+21127,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AMI,4.0,118.0,2.4,Better,32.79287,-117.094
+21128,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AAA Repair Open Unrupture,0.0,6.0,0.0,As Expected,32.79287,-117.094
+21129,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AAA Repair Endo Unrupture,0.0,30.0,0.0,As Expected,32.79287,-117.094
+21130,2021,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,PSI,Postoperative Sepsis,10.0,1961.0,0.44,As Expected,32.79287,-117.094
+21131,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pneumonia,35.0,630.0,5.4,Better,32.75128,-117.16
+21132,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pancreatic Resection,0.0,11.0,0.0,As Expected,32.75128,-117.16
+21133,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,PCI,10.0,259.0,4.2,As Expected,32.75128,-117.16
+21134,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Hip Fracture,3.0,269.0,0.9,As Expected,32.75128,-117.16
+21135,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Heart Failure,22.0,1123.0,1.9,Better,32.75128,-117.16
+21136,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,GI Hemorrhage,15.0,549.0,2.1,As Expected,32.75128,-117.16
+21137,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Carotid Endarterectomy,2.0,43.0,2.5,As Expected,32.75128,-117.16
+21138,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Subarachnoid,5.0,20.0,20.9,As Expected,32.75128,-117.16
+21139,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Ischemic,17.0,459.0,3.4,As Expected,32.75128,-117.16
+21140,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Hemorrhagic,16.0,103.0,16.4,As Expected,32.75128,-117.16
+21141,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke,38.0,582.0,6.6,As Expected,32.75128,-117.16
+21142,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AMI,25.0,358.0,6.7,As Expected,32.75128,-117.16
+21143,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,32.75128,-117.16
+21144,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,15.0,0.0,As Expected,32.75128,-117.16
+21145,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,CABG,Isolated CABG Operative Mor,,75.0,,As Expected,32.75,-117.16
+21146,2021,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,PSI,Postoperative Sepsis,9.0,2306.0,0.66,As Expected,32.75128,-117.16
+21147,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Pneumonia,25.0,241.0,11.5,Worse,33.12586,-117.076
+21148,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Pancreatic Resection,,,,,33.12586,-117.076
+21149,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,PCI,9.0,145.0,9.4,Worse,33.12586,-117.076
+21150,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Hip Fracture,2.0,119.0,1.9,As Expected,33.12586,-117.076
+21151,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Heart Failure,3.0,344.0,1.2,As Expected,33.12586,-117.076
+21152,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,GI Hemorrhage,1.0,203.0,0.7,As Expected,33.12586,-117.076
+21153,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Carotid Endarterectomy,0.0,30.0,0.0,As Expected,33.12586,-117.076
+21154,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Subarachnoid,2.0,12.0,27.3,As Expected,33.12586,-117.076
+21155,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Ischemic,18.0,206.0,8.2,Worse,33.12586,-117.076
+21156,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke Hemorrhagic,14.0,59.0,26.6,As Expected,33.12586,-117.076
+21157,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,Acute Stroke,34.0,277.0,12.8,Worse,33.12586,-117.076
+21158,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,AMI,10.0,174.0,8.7,As Expected,33.12586,-117.076
+21159,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,33.12586,-117.076
+21160,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,IMI,AAA Repair Endo Unrupture,1.0,9.0,16.4,As Expected,33.12586,-117.076
+21161,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,PSI,Postoperative Sepsis,3.0,421.0,0.96,As Expected,33.12586,-117.076
+21162,2021,San Diego,Palomar Health Downtown Campus,106370755,Independent/Other,CABG,Isolated CABG Operative Mor,,61.0,,As Expected,33.13,-117.08
+21163,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pneumonia,17.0,156.0,8.1,As Expected,32.68632,-117.083
+21164,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.68632,-117.083
+21165,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,PCI,0.0,56.0,0.0,As Expected,32.68632,-117.083
+21166,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Hip Fracture,0.0,14.0,0.0,As Expected,32.68632,-117.083
+21167,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Heart Failure,3.0,193.0,2.8,As Expected,32.68632,-117.083
+21168,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,GI Hemorrhage,2.0,79.0,4.4,As Expected,32.68632,-117.083
+21169,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Carotid Endarterectomy,,,,,32.68632,-117.083
+21170,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,1.0,3.0,27.5,As Expected,32.68632,-117.083
+21171,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Ischemic,3.0,54.0,6.6,As Expected,32.68632,-117.083
+21172,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,7.0,25.0,26.8,As Expected,32.68632,-117.083
+21173,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke,11.0,82.0,11.5,As Expected,32.68632,-117.083
+21174,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AMI,1.0,65.0,2.8,As Expected,32.68632,-117.083
+21175,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AAA Repair Open Unrupture,,,,,32.68632,-117.083
+21176,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AAA Repair Endo Unrupture,,,,,32.68632,-117.083
+21177,2021,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,PSI,Postoperative Sepsis,0.0,92.0,0.0,As Expected,32.68632,-117.083
+21178,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pneumonia,27.0,349.0,6.1,As Expected,32.88506,-117.222
+21179,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pancreatic Resection,0.0,4.0,0.0,As Expected,32.88506,-117.222
+21180,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,PCI,18.0,880.0,2.6,Better,32.88506,-117.222
+21181,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Hip Fracture,7.0,249.0,2.1,As Expected,32.88506,-117.222
+21182,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Heart Failure,36.0,906.0,2.9,As Expected,32.88506,-117.222
+21183,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,GI Hemorrhage,5.0,327.0,1.3,As Expected,32.88506,-117.222
+21184,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Carotid Endarterectomy,0.0,31.0,0.0,As Expected,32.88506,-117.222
+21185,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Subarachnoid,8.0,47.0,18.3,As Expected,32.88506,-117.222
+21186,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Ischemic,22.0,412.0,4.2,As Expected,32.88506,-117.222
+21187,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Hemorrhagic,18.0,97.0,18.6,As Expected,32.88506,-117.222
+21188,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke,48.0,556.0,7.5,As Expected,32.88506,-117.222
+21189,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AMI,24.0,772.0,3.7,Better,32.88506,-117.222
+21190,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,32.88506,-117.222
+21191,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,13.0,0.0,As Expected,32.88506,-117.222
+21192,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,PSI,Postoperative Sepsis,9.0,2582.0,0.39,As Expected,32.88506,-117.222
+21193,2021,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,CABG,Isolated CABG Operative Mor,,297.0,,As Expected,32.89,-117.22
+21194,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pneumonia,32.0,333.0,9.3,As Expected,33.18394,-117.29
+21195,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pancreatic Resection,,,,,33.18394,-117.29
+21196,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,PCI,5.0,185.0,2.7,As Expected,33.18394,-117.29
+21197,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Hip Fracture,5.0,132.0,3.5,As Expected,33.18394,-117.29
+21198,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Heart Failure,8.0,292.0,2.1,As Expected,33.18394,-117.29
+21199,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,GI Hemorrhage,6.0,170.0,2.5,As Expected,33.18394,-117.29
+21200,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Carotid Endarterectomy,0.0,23.0,0.0,As Expected,33.18394,-117.29
+21201,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Subarachnoid,0.0,3.0,0.0,As Expected,33.18394,-117.29
+21202,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Ischemic,16.0,248.0,6.2,As Expected,33.18394,-117.29
+21203,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Hemorrhagic,17.0,45.0,26.2,As Expected,33.18394,-117.29
+21204,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke,33.0,296.0,11.1,As Expected,33.18394,-117.29
+21205,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AMI,13.0,238.0,5.7,As Expected,33.18394,-117.29
+21206,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,33.18394,-117.29
+21207,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AAA Repair Endo Unrupture,0.0,12.0,0.0,As Expected,33.18394,-117.29
+21208,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,PSI,Postoperative Sepsis,2.0,564.0,0.36,As Expected,33.18394,-117.29
+21209,2021,San Diego,Tri-City Medical Center,106370780,Independent/Other,CABG,Isolated CABG Operative Mor,,39.0,,As Expected,33.18,-117.29
+21210,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pneumonia,27.0,700.0,3.9,Better,32.75387,-117.164
+21211,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pancreatic Resection,1.0,93.0,0.9,As Expected,32.75387,-117.164
+21212,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,PCI,11.0,356.0,1.9,Better,32.75387,-117.164
+21213,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Hip Fracture,6.0,178.0,3.1,As Expected,32.75387,-117.164
+21214,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Heart Failure,25.0,1065.0,1.9,Better,32.75387,-117.164
+21215,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,GI Hemorrhage,14.0,552.0,2.0,As Expected,32.75387,-117.164
+21216,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Carotid Endarterectomy,0.0,40.0,0.0,As Expected,32.75387,-117.164
+21217,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Subarachnoid,6.0,48.0,11.5,Better,32.75387,-117.164
+21218,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Ischemic,11.0,397.0,2.5,Better,32.75387,-117.164
+21219,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Hemorrhagic,7.0,143.0,5.2,Better,32.75387,-117.164
+21220,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke,24.0,588.0,3.4,Better,32.75387,-117.164
+21221,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AMI,28.0,407.0,4.9,As Expected,32.75387,-117.164
+21222,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AAA Repair Open Unrupture,1.0,7.0,17.1,As Expected,32.75387,-117.164
+21223,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AAA Repair Endo Unrupture,0.0,26.0,0.0,As Expected,32.75387,-117.164
+21224,2021,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,PSI,Postoperative Sepsis,32.0,4945.0,0.5,As Expected,32.75387,-117.164
+21225,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pneumonia,31.0,474.0,6.7,As Expected,32.61909,-117.024
+21226,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pancreatic Resection,,,,,32.61909,-117.024
+21227,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,PCI,12.0,322.0,3.3,As Expected,32.61909,-117.024
+21228,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Hip Fracture,1.0,108.0,1.0,As Expected,32.61909,-117.024
+21229,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Heart Failure,23.0,685.0,4.5,Worse,32.61909,-117.024
+21230,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,GI Hemorrhage,7.0,345.0,2.2,As Expected,32.61909,-117.024
+21231,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,21.0,0.0,As Expected,32.61909,-117.024
+21232,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,5.0,8.0,33.8,As Expected,32.61909,-117.024
+21233,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Ischemic,23.0,326.0,8.7,Worse,32.61909,-117.024
+21234,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,20.0,72.0,22.6,As Expected,32.61909,-117.024
+21235,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke,48.0,406.0,12.2,Worse,32.61909,-117.024
+21236,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AMI,23.0,350.0,7.4,As Expected,32.61909,-117.024
+21237,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.61909,-117.024
+21238,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,0.0,11.0,0.0,As Expected,32.61909,-117.024
+21239,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,PSI,Postoperative Sepsis,3.0,460.0,0.62,As Expected,32.61909,-117.024
+21240,2021,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,CABG,Isolated CABG Operative Mor,,82.0,,As Expected,32.62,-117.02
+21241,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pneumonia,18.0,173.0,8.9,As Expected,32.99563,-117.057
+21242,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pancreatic Resection,,,,,32.99563,-117.057
+21243,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,PCI,,,,,32.99563,-117.057
+21244,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Hip Fracture,1.0,72.0,1.8,As Expected,32.99563,-117.057
+21245,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Heart Failure,11.0,151.0,5.7,Worse,32.99563,-117.057
+21246,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,GI Hemorrhage,3.0,123.0,1.9,As Expected,32.99563,-117.057
+21247,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Carotid Endarterectomy,,,,,32.99563,-117.057
+21248,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,,32.99563,-117.057
+21249,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Ischemic,2.0,59.0,4.2,As Expected,32.99563,-117.057
+21250,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Hemorrhagic,3.0,4.0,20.2,As Expected,32.99563,-117.057
+21251,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke,5.0,64.0,7.6,As Expected,32.99563,-117.057
+21252,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AMI,3.0,6.0,25.2,Worse,32.99563,-117.057
+21253,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,32.99563,-117.057
+21254,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AAA Repair Endo Unrupture,,,,,32.99563,-117.057
+21255,2021,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,PSI,Postoperative Sepsis,1.0,184.0,0.86,As Expected,32.99563,-117.057
+21256,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pneumonia,8.0,135.0,5.8,As Expected,32.89654,-117.241
+21257,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pancreatic Resection,0.0,16.0,0.0,As Expected,32.89654,-117.241
+21258,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,PCI,,,,,32.89654,-117.241
+21259,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Hip Fracture,1.0,57.0,2.1,As Expected,32.89654,-117.241
+21260,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Heart Failure,2.0,73.0,1.8,As Expected,32.89654,-117.241
+21261,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,GI Hemorrhage,3.0,154.0,1.9,As Expected,32.89654,-117.241
+21262,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Carotid Endarterectomy,0.0,17.0,0.0,As Expected,32.89654,-117.241
+21263,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Subarachnoid,0.0,3.0,0.0,As Expected,32.89654,-117.241
+21264,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Ischemic,3.0,54.0,4.5,As Expected,32.89654,-117.241
+21265,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Hemorrhagic,4.0,16.0,36.9,As Expected,32.89654,-117.241
+21266,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke,7.0,73.0,10.6,As Expected,32.89654,-117.241
+21267,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AMI,,,,,32.89654,-117.241
+21268,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,32.89654,-117.241
+21269,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,19.0,0.0,As Expected,32.89654,-117.241
+21270,2021,San Diego,Scripps Green Hospital,106371256,Scripps Health,PSI,Postoperative Sepsis,9.0,2276.0,0.62,As Expected,32.89654,-117.241
+21271,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pneumonia,18.0,365.0,4.3,Better,33.0363,-117.284
+21272,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pancreatic Resection,,,,,33.0363,-117.284
+21273,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,PCI,3.0,183.0,2.4,As Expected,33.0363,-117.284
+21274,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Hip Fracture,2.0,216.0,0.8,As Expected,33.0363,-117.284
+21275,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Heart Failure,11.0,525.0,1.6,Better,33.0363,-117.284
+21276,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,GI Hemorrhage,3.0,319.0,0.9,Better,33.0363,-117.284
+21277,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Carotid Endarterectomy,0.0,18.0,0.0,As Expected,33.0363,-117.284
+21278,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Subarachnoid,1.0,4.0,18.8,As Expected,33.0363,-117.284
+21279,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Ischemic,5.0,213.0,2.0,Better,33.0363,-117.284
+21280,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Hemorrhagic,10.0,42.0,26.6,As Expected,33.0363,-117.284
+21281,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke,16.0,259.0,6.6,As Expected,33.0363,-117.284
+21282,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AMI,6.0,208.0,3.0,Better,33.0363,-117.284
+21283,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,33.0363,-117.284
+21284,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,12.0,0.0,As Expected,33.0363,-117.284
+21285,2021,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,PSI,Postoperative Sepsis,2.0,729.0,0.46,As Expected,33.0363,-117.284
+21286,2021,San Diego,UC San Diego Health La Jolla – Jacobs Medical Center & Sulpizio Cardiovascular Center,106374141,University of California,CABG,Isolated CABG Operative Mor,,130.0,,As Expected,32.88,-117.22
+21287,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Pneumonia,28.0,270.0,10.4,As Expected,33.12158,-117.119
+21288,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Pancreatic Resection,,,,,33.12158,-117.119
+21289,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,PCI,7.0,143.0,4.6,As Expected,33.12158,-117.119
+21290,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Hip Fracture,3.0,122.0,2.2,As Expected,33.12158,-117.119
+21291,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Heart Failure,11.0,312.0,4.2,As Expected,33.12158,-117.119
+21292,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,GI Hemorrhage,7.0,205.0,3.6,As Expected,33.12158,-117.119
+21293,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Carotid Endarterectomy,0.0,26.0,0.0,As Expected,33.12158,-117.119
+21294,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Acute Stroke Subarachnoid,2.0,5.0,31.4,As Expected,33.12158,-117.119
+21295,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Acute Stroke Ischemic,12.0,190.0,6.5,As Expected,33.12158,-117.119
+21296,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Acute Stroke Hemorrhagic,16.0,55.0,33.4,Worse,33.12158,-117.119
+21297,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Acute Stroke,30.0,250.0,12.9,Worse,33.12158,-117.119
+21298,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,AMI,15.0,178.0,9.6,As Expected,33.12158,-117.119
+21299,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,33.12158,-117.119
+21300,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,AAA Repair Endo Unrupture,0.0,8.0,0.0,As Expected,33.12158,-117.119
+21301,2021,San Diego,Palomar Medical Center,106374382,Independent/Other,PSI,Postoperative Sepsis,2.0,294.0,0.67,As Expected,33.12158,-117.119
+25966,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pneumonia,35.0,366.0,9.5,As Expected,32.77664,-117.057
+25967,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.77664,-117.057
+25968,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,PCI,0.0,65.0,0.0,As Expected,32.77664,-117.057
+25969,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Hip Fracture,0.0,42.0,0.0,As Expected,32.77664,-117.057
+25970,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Heart Failure,6.0,259.0,2.7,As Expected,32.77664,-117.057
+25971,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,GI Hemorrhage,1.0,131.0,0.9,As Expected,32.77664,-117.057
+25972,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Carotid Endarterectomy,,,,,32.77664,-117.057
+25973,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,,,,,32.77664,-117.057
+25974,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Ischemic,4.0,85.0,9.0,As Expected,32.77664,-117.057
+25975,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,4.0,18.0,24.2,As Expected,32.77664,-117.057
+25976,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,Acute Stroke,8.0,103.0,12.5,As Expected,32.77664,-117.057
+25977,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AMI,0.0,121.0,0.0,Better,32.77664,-117.057
+25978,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AAA Repair Open Unrupture,,,,,32.77664,-117.057
+25979,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,IMI,AAA Repair Endo Unrupture,,,,,32.77664,-117.057
+25980,2022,San Diego,Alvarado Hospital Medical Center,106370652,Prime Healthcare Services,PSI,Postoperative Sepsis,0.0,268.0,0.0,As Expected,32.776641,-117.0573
+25981,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pneumonia,5.0,140.0,7.0,As Expected,32.69427,-117.168
+25982,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Pancreatic Resection,,,,,32.69427,-117.168
+25983,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,PCI,,,,,32.69427,-117.168
+25984,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Hip Fracture,0.0,31.0,0.0,As Expected,32.69427,-117.168
+25985,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Heart Failure,3.0,111.0,4.1,As Expected,32.69427,-117.168
+25986,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,GI Hemorrhage,1.0,54.0,1.9,As Expected,32.69427,-117.168
+25987,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Carotid Endarterectomy,,,,,32.69427,-117.168
+25988,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,,,,,32.69427,-117.168
+25989,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Ischemic,1.0,48.0,3.1,As Expected,32.69427,-117.168
+25990,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,,,,,32.69427,-117.168
+25991,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,Acute Stroke,1.0,50.0,4.3,As Expected,32.69427,-117.168
+25992,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AMI,,,,,32.69427,-117.168
+25993,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.69427,-117.168
+25994,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,,,,,32.69427,-117.168
+25995,2022,San Diego,Sharp Coronado Hospital and Healthcare Center,106370689,Sharp Healthcare,PSI,Postoperative Sepsis,0.0,228.0,0.0,As Expected,32.69427,-117.168
+25996,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pneumonia,48.0,759.0,8.0,As Expected,32.80016,-117.155
+25997,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Pancreatic Resection,0.0,26.0,0.0,As Expected,32.80016,-117.155
+25998,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,PCI,21.0,327.0,6.3,As Expected,32.80016,-117.155
+25999,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Hip Fracture,1.0,305.0,0.3,Better,32.80016,-117.155
+26000,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Heart Failure,34.0,781.0,4.4,Worse,32.80016,-117.155
+26001,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,GI Hemorrhage,12.0,445.0,2.6,As Expected,32.80016,-117.155
+26002,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,19.0,0.0,As Expected,32.80016,-117.155
+26003,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,1.0,5.0,16.6,As Expected,32.80016,-117.155
+26004,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Ischemic,22.0,436.0,5.8,As Expected,32.80016,-117.155
+26005,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,14.0,90.0,19.0,As Expected,32.80016,-117.155
+26006,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,Acute Stroke,37.0,531.0,9.0,As Expected,32.80016,-117.155
+26007,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AMI,32.0,378.0,8.8,Worse,32.80016,-117.155
+26008,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.80016,-117.155
+26009,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,1.0,14.0,1.9,As Expected,32.80016,-117.155
+26010,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,PSI,Postoperative Sepsis,14.0,2518.0,0.54,As Expected,32.80016,-117.1553
+26011,2022,San Diego,Sharp Memorial Hospital,106370694,Sharp Healthcare,CABG,Isolated CABG Operative Mor,2.0,94.0,2.405052,As Expected,32.80016,-117.15531
+26012,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pneumonia,63.0,830.0,9.4,As Expected,32.77963,-117.009
+26013,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Pancreatic Resection,1.0,5.0,14.6,As Expected,32.77963,-117.009
+26014,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,PCI,16.0,357.0,5.3,As Expected,32.77963,-117.009
+26015,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Hip Fracture,2.0,140.0,1.6,As Expected,32.77963,-117.009
+26016,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Heart Failure,12.0,966.0,2.4,As Expected,32.77963,-117.009
+26017,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,GI Hemorrhage,12.0,450.0,2.6,As Expected,32.77963,-117.009
+26018,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Carotid Endarterectomy,1.0,45.0,2.0,As Expected,32.77963,-117.009
+26019,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,12.0,55.0,20.8,As Expected,32.77963,-117.009
+26020,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Ischemic,37.0,648.0,6.8,As Expected,32.77963,-117.009
+26021,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,34.0,125.0,23.5,As Expected,32.77963,-117.009
+26022,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,Acute Stroke,83.0,828.0,10.4,Worse,32.77963,-117.009
+26023,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AMI,25.0,372.0,8.0,As Expected,32.77963,-117.009
+26024,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.77963,-117.009
+26025,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,0.0,13.0,0.0,As Expected,32.77963,-117.009
+26026,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,PSI,Postoperative Sepsis,9.0,1134.0,0.84,As Expected,32.77963,-117.0092
+26027,2022,San Diego,Grossmont Hospital,106370714,Sharp Healthcare,CABG,Isolated CABG Operative Mor,9.0,83.0,8.968905,Worse,32.77963,-117.00924
+26028,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pneumonia,42.0,611.0,7.0,As Expected,32.79287,-117.094
+26029,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Pancreatic Resection,0.0,20.0,0.0,As Expected,32.79287,-117.094
+26030,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,PCI,,,,,32.79287,-117.094
+26031,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Hip Fracture,5.0,435.0,1.1,As Expected,32.79287,-117.094
+26032,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Heart Failure,34.0,1018.0,3.8,As Expected,32.79287,-117.094
+26033,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,GI Hemorrhage,5.0,374.0,1.8,As Expected,32.79287,-117.094
+26034,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Carotid Endarterectomy,0.0,47.0,0.0,As Expected,32.79287,-117.094
+26035,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Subarachnoid,4.0,24.0,27.2,As Expected,32.79287,-117.094
+26036,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Ischemic,20.0,320.0,5.8,As Expected,32.79287,-117.094
+26037,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke Hemorrhagic,6.0,95.0,10.8,As Expected,32.79287,-117.094
+26038,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,Acute Stroke,30.0,439.0,8.1,As Expected,32.79287,-117.094
+26039,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AMI,7.0,123.0,3.9,As Expected,32.79287,-117.094
+26040,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AAA Repair Open Unrupture,,,,,32.79287,-117.094
+26041,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,IMI,AAA Repair Endo Unrupture,0.0,36.0,0.0,As Expected,32.79287,-117.094
+26042,2022,San Diego,Kaiser Foundation Hospital – San Diego – Zion,106370730,Kaiser Foundation Hospitals,PSI,Postoperative Sepsis,13.0,2143.0,0.55,As Expected,32.79287,-117.0944
+26043,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pneumonia,78.0,922.0,7.1,As Expected,32.75128,-117.16
+26044,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Pancreatic Resection,0.0,11.0,0.0,As Expected,32.75128,-117.16
+26045,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,PCI,9.0,235.0,2.8,As Expected,32.75128,-117.16
+26046,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Hip Fracture,10.0,266.0,2.7,As Expected,32.75128,-117.16
+26047,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Heart Failure,27.0,1134.0,2.0,Better,32.75128,-117.16
+26048,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,GI Hemorrhage,11.0,600.0,1.6,Better,32.75128,-117.16
+26049,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Carotid Endarterectomy,0.0,36.0,0.0,As Expected,32.75128,-117.16
+26050,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Subarachnoid,10.0,35.0,22.2,As Expected,32.75128,-117.16
+26051,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Ischemic,28.0,501.0,4.3,As Expected,32.75128,-117.16
+26052,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke Hemorrhagic,26.0,114.0,21.0,As Expected,32.75128,-117.16
+26053,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,Acute Stroke,64.0,650.0,8.2,As Expected,32.75128,-117.16
+26054,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AMI,13.0,360.0,3.2,Better,32.75128,-117.16
+26055,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,32.75128,-117.16
+26056,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,10.0,0.0,As Expected,32.75128,-117.16
+26057,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,PSI,Postoperative Sepsis,18.0,2505.0,1.22,Worse,32.75128,-117.1609
+26058,2022,San Diego,Scripps Mercy Hospital,106370744,Scripps Health,CABG,Isolated CABG Operative Mor,1.0,79.0,1.794347,As Expected,32.75128,-117.1609
+26059,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pneumonia,19.0,186.0,8.6,As Expected,32.68632,-117.083
+26060,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Pancreatic Resection,,,,,32.68632,-117.083
+26061,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,PCI,3.0,99.0,3.5,As Expected,32.68632,-117.083
+26062,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Hip Fracture,0.0,14.0,0.0,As Expected,32.68632,-117.083
+26063,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Heart Failure,1.0,247.0,0.9,As Expected,32.68632,-117.083
+26064,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,GI Hemorrhage,1.0,92.0,0.9,As Expected,32.68632,-117.083
+26065,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Carotid Endarterectomy,,,,,32.68632,-117.083
+26066,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Subarachnoid,,,,,32.68632,-117.083
+26067,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Ischemic,2.0,71.0,4.0,As Expected,32.68632,-117.083
+26068,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke Hemorrhagic,5.0,24.0,26.6,As Expected,32.68632,-117.083
+26069,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,Acute Stroke,7.0,95.0,9.7,As Expected,32.68632,-117.083
+26070,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AMI,4.0,85.0,5.8,As Expected,32.68632,-117.083
+26071,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AAA Repair Open Unrupture,,,,,32.68632,-117.083
+26072,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,IMI,AAA Repair Endo Unrupture,,,,,32.68632,-117.083
+26073,2022,San Diego,Paradise Valley Hospital,106370759,Prime Healthcare Services,PSI,Postoperative Sepsis,0.0,85.0,0.0,As Expected,32.686329,-117.083
+26074,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pneumonia,54.0,553.0,8.3,As Expected,32.88506,-117.222
+26075,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Pancreatic Resection,1.0,3.0,3.0,As Expected,32.88506,-117.222
+26076,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,PCI,32.0,871.0,4.3,As Expected,32.88506,-117.222
+26077,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Hip Fracture,5.0,242.0,2.0,As Expected,32.88506,-117.222
+26078,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Heart Failure,42.0,930.0,3.3,As Expected,32.88506,-117.222
+26079,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,GI Hemorrhage,6.0,429.0,1.3,Better,32.88506,-117.222
+26080,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Carotid Endarterectomy,0.0,22.0,0.0,As Expected,32.88506,-117.222
+26081,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Subarachnoid,5.0,50.0,16.6,As Expected,32.88506,-117.222
+26082,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Ischemic,42.0,435.0,5.8,As Expected,32.88506,-117.222
+26083,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke Hemorrhagic,23.0,102.0,20.0,As Expected,32.88506,-117.222
+26084,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,Acute Stroke,70.0,587.0,9.1,As Expected,32.88506,-117.222
+26085,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AMI,33.0,771.0,4.4,Better,32.88506,-117.222
+26086,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,32.88506,-117.222
+26087,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,12.0,0.0,As Expected,32.88506,-117.222
+26088,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,PSI,Postoperative Sepsis,7.0,2400.0,0.36,As Expected,32.88506,-117.2227
+26089,2022,San Diego,Scripps Memorial Hospital – La Jolla,106370771,Scripps Health,CABG,Isolated CABG Operative Mor,3.0,349.0,0.9721947,As Expected,32.88506,-117.22279
+26090,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pneumonia,46.0,508.0,10.4,As Expected,33.18394,-117.29
+26091,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Pancreatic Resection,,,,,33.18394,-117.29
+26092,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,PCI,5.0,179.0,3.1,As Expected,33.18394,-117.29
+26093,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Hip Fracture,2.0,105.0,1.9,As Expected,33.18394,-117.29
+26094,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Heart Failure,13.0,369.0,3.0,As Expected,33.18394,-117.29
+26095,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,GI Hemorrhage,6.0,222.0,2.4,As Expected,33.18394,-117.29
+26096,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Carotid Endarterectomy,1.0,34.0,2.9,As Expected,33.18394,-117.29
+26097,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Subarachnoid,3.0,9.0,35.4,As Expected,33.18394,-117.29
+26098,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Ischemic,20.0,287.0,8.1,Worse,33.18394,-117.29
+26099,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke Hemorrhagic,12.0,45.0,25.4,As Expected,33.18394,-117.29
+26100,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,Acute Stroke,35.0,341.0,12.6,Worse,33.18394,-117.29
+26101,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AMI,15.0,273.0,6.1,As Expected,33.18394,-117.29
+26102,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,33.18394,-117.29
+26103,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,IMI,AAA Repair Endo Unrupture,0.0,4.0,0.0,As Expected,33.18394,-117.29
+26104,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,PSI,Postoperative Sepsis,5.0,603.0,0.95,As Expected,33.18394,-117.2902
+26105,2022,San Diego,Tri-City Medical Center,106370780,Independent/Other,CABG,Isolated CABG Operative Mor,2.0,33.0,4.957829,As Expected,33.18394,-117.29027
+26106,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pneumonia,38.0,882.0,4.3,Better,32.75387,-117.164
+26107,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Pancreatic Resection,2.0,92.0,2.4,As Expected,32.75387,-117.164
+26108,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,PCI,4.0,354.0,1.3,Better,32.75387,-117.164
+26109,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Hip Fracture,6.0,205.0,2.4,As Expected,32.75387,-117.164
+26110,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Heart Failure,19.0,1056.0,1.7,Better,32.75387,-117.164
+26111,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,GI Hemorrhage,7.0,578.0,1.1,Better,32.75387,-117.164
+26112,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Carotid Endarterectomy,0.0,25.0,0.0,As Expected,32.75387,-117.164
+26113,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Subarachnoid,4.0,43.0,8.9,Better,32.75387,-117.164
+26114,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Ischemic,9.0,403.0,1.9,Better,32.75387,-117.164
+26115,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke Hemorrhagic,10.0,118.0,7.3,Better,32.75387,-117.164
+26116,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,Acute Stroke,23.0,564.0,3.3,Better,32.75387,-117.164
+26117,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AMI,16.0,401.0,4.3,As Expected,32.75387,-117.164
+26118,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AAA Repair Open Unrupture,0.0,6.0,0.0,As Expected,32.75387,-117.164
+26119,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,IMI,AAA Repair Endo Unrupture,0.0,44.0,0.0,As Expected,32.75387,-117.164
+26120,2022,San Diego,UC San Diego Health Hillcrest – Hillcrest Medical Center,106370782,University of California,PSI,Postoperative Sepsis,27.0,5108.0,0.39,As Expected,32.75387,-117.1649
+26121,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pneumonia,43.0,587.0,8.9,As Expected,32.61909,-117.024
+26122,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Pancreatic Resection,0.0,4.0,0.0,As Expected,32.61909,-117.024
+26123,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,PCI,8.0,281.0,3.1,As Expected,32.61909,-117.024
+26124,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Hip Fracture,1.0,93.0,1.1,As Expected,32.61909,-117.024
+26125,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Heart Failure,15.0,747.0,2.8,As Expected,32.61909,-117.024
+26126,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,GI Hemorrhage,8.0,363.0,2.2,As Expected,32.61909,-117.024
+26127,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Carotid Endarterectomy,0.0,18.0,0.0,As Expected,32.61909,-117.024
+26128,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Subarachnoid,,,,,32.61909,-117.024
+26129,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Ischemic,20.0,343.0,6.5,As Expected,32.61909,-117.024
+26130,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke Hemorrhagic,20.0,87.0,21.4,As Expected,32.61909,-117.024
+26131,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,Acute Stroke,40.0,431.0,10.1,As Expected,32.61909,-117.024
+26132,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AMI,12.0,319.0,5.5,As Expected,32.61909,-117.024
+26133,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AAA Repair Open Unrupture,,,,,32.61909,-117.024
+26134,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,IMI,AAA Repair Endo Unrupture,,,,,32.61909,-117.024
+26135,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,PSI,Postoperative Sepsis,5.0,515.0,0.98,As Expected,32.61909,-117.0248
+26136,2022,San Diego,Sharp Chula Vista Medical Center,106370875,Sharp Healthcare,CABG,Isolated CABG Operative Mor,4.0,149.0,2.477743,As Expected,32.61909,-117.02488
+26137,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pneumonia,32.0,304.0,10.2,As Expected,32.99563,-117.057
+26138,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Pancreatic Resection,,,,,32.99563,-117.057
+26139,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,PCI,,,,,32.99563,-117.057
+26140,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Hip Fracture,2.0,55.0,5.4,As Expected,32.99563,-117.057
+26141,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Heart Failure,5.0,160.0,2.5,As Expected,32.99563,-117.057
+26142,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,GI Hemorrhage,7.0,153.0,4.9,As Expected,32.99563,-117.057
+26143,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Carotid Endarterectomy,,,,,32.99563,-117.057
+26144,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,,32.99563,-117.057
+26145,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Ischemic,10.0,81.0,11.1,Worse,32.99563,-117.057
+26146,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke Hemorrhagic,5.0,5.0,68.6,Worse,32.99563,-117.057
+26147,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,Acute Stroke,16.0,87.0,21.0,Worse,32.99563,-117.057
+26148,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AMI,2.0,12.0,8.9,As Expected,32.99563,-117.057
+26149,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,32.99563,-117.057
+26150,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,IMI,AAA Repair Endo Unrupture,,,,,32.99563,-117.057
+26151,2022,San Diego,Palomar Medical Center Poway,106370977,Independent/Other,PSI,Postoperative Sepsis,0.0,188.0,0.0,As Expected,32.99563,-117.0578
+26152,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pneumonia,4.0,192.0,2.0,Better,32.89654,-117.241
+26153,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Pancreatic Resection,0.0,27.0,0.0,As Expected,32.89654,-117.241
+26154,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,PCI,,,,,32.89654,-117.241
+26155,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Hip Fracture,0.0,56.0,0.0,As Expected,32.89654,-117.241
+26156,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Heart Failure,2.0,86.0,1.6,As Expected,32.89654,-117.241
+26157,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,GI Hemorrhage,5.0,156.0,3.3,As Expected,32.89654,-117.241
+26158,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Carotid Endarterectomy,0.0,19.0,0.0,As Expected,32.89654,-117.241
+26159,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Subarachnoid,,,,,32.89654,-117.241
+26160,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Ischemic,0.0,74.0,0.0,As Expected,32.89654,-117.241
+26161,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke Hemorrhagic,1.0,14.0,8.1,As Expected,32.89654,-117.241
+26162,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,Acute Stroke,1.0,88.0,1.6,Better,32.89654,-117.241
+26163,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AMI,,,,,32.89654,-117.241
+26164,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,32.89654,-117.241
+26165,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,19.0,0.0,As Expected,32.89654,-117.241
+26166,2022,San Diego,Scripps Green Hospital,106371256,Scripps Health,PSI,Postoperative Sepsis,9.0,2253.0,0.53,As Expected,32.89654,-117.2419
+26167,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pneumonia,25.0,566.0,3.9,Better,33.0363,-117.284
+26168,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Pancreatic Resection,,,,,33.0363,-117.284
+26169,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,PCI,5.0,224.0,3.6,As Expected,33.0363,-117.284
+26170,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Hip Fracture,1.0,223.0,0.3,As Expected,33.0363,-117.284
+26171,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Heart Failure,13.0,554.0,1.8,As Expected,33.0363,-117.284
+26172,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,GI Hemorrhage,2.0,333.0,0.6,Better,33.0363,-117.284
+26173,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Carotid Endarterectomy,0.0,12.0,0.0,As Expected,33.0363,-117.284
+26174,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Subarachnoid,0.0,5.0,0.0,As Expected,33.0363,-117.284
+26175,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Ischemic,4.0,206.0,2.0,Better,33.0363,-117.284
+26176,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke Hemorrhagic,8.0,51.0,15.6,As Expected,33.0363,-117.284
+26177,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,Acute Stroke,12.0,262.0,4.9,Better,33.0363,-117.284
+26178,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AMI,8.0,187.0,5.6,As Expected,33.0363,-117.284
+26179,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AAA Repair Open Unrupture,,,,,33.0363,-117.284
+26180,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,IMI,AAA Repair Endo Unrupture,0.0,9.0,0.0,As Expected,33.0363,-117.284
+26181,2022,San Diego,Scripps Memorial Hospital – Encinitas,106371394,Scripps Health,PSI,Postoperative Sepsis,7.0,720.0,1.59,Worse,33.0363,-117.2849
+26182,2022,San Diego,UC San Diego Health La Jolla – Jacobs Medical Center & Sulpizio Cardiovascular Center,106374141,University of California,CABG,Isolated CABG Operative Mor,2.0,153.0,1.307225,As Expected,32.87799,-117.22331
+26183,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Pneumonia,68.0,778.0,10.2,As Expected,33.12158,-117.119
+26184,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Pancreatic Resection,,,,,33.12158,-117.119
+26185,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,PCI,14.0,362.0,5.6,As Expected,33.12158,-117.119
+26186,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Hip Fracture,1.0,264.0,0.4,As Expected,33.12158,-117.119
+26187,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Heart Failure,32.0,739.0,4.3,Worse,33.12158,-117.119
+26188,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,GI Hemorrhage,10.0,327.0,3.7,As Expected,33.12158,-117.119
+26189,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Carotid Endarterectomy,0.0,43.0,0.0,As Expected,33.12158,-117.119
+26190,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Acute Stroke Subarachnoid,6.0,18.0,43.2,As Expected,33.12158,-117.119
+26191,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Acute Stroke Ischemic,28.0,394.0,7.5,Worse,33.12158,-117.119
+26192,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Acute Stroke Hemorrhagic,34.0,116.0,27.2,Worse,33.12158,-117.119
+26193,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,Acute Stroke,68.0,528.0,12.5,Worse,33.12158,-117.119
+26194,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,AMI,26.0,439.0,8.3,As Expected,33.12158,-117.119
+26195,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,AAA Repair Open Unrupture,,,,,33.12158,-117.119
+26196,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,IMI,AAA Repair Endo Unrupture,0.0,10.0,0.0,As Expected,33.12158,-117.119
+26197,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,CABG,Isolated CABG Operative Mor,2.0,56.0,2.785073,As Expected,33.12158,-117.11961
+26198,2022,San Diego,Palomar Medical Center,106374382,Independent/Other,PSI,Postoperative Sepsis,2.0,673.0,0.34,As Expected,33.12158,-117.1196
