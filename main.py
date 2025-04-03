@@ -30,6 +30,7 @@ from api.carPost import carPost_api
 from api.chatBot import chatbot_api
 from api.carComments import carComments_api
 from api.vinStore import vinStore_api
+from api.dataPost import dataPost_api
 
 from api.vote import vote_api
 # database Initialization functions
@@ -43,11 +44,14 @@ from model.nestPost import NestPost, initNestPosts # Justin added this, custom f
 from model.vote import Vote, initVotes
 from model.carPost import CarPost
 from model.carComments import CarComments
+from model.dataPost import DataPost, initDataPosts
+from model.carComments import CarComments
 from model.vehicle import Vehicle, initVehicles
 # server only Views
 
 # register URIs for api endpoints
 app.register_blueprint(user_api)
+app.register_blueprint(dataPost_api)
 app.register_blueprint(pfp_api) 
 app.register_blueprint(post_api)
 app.register_blueprint(channel_api)
@@ -107,6 +111,8 @@ def delete_chat_message(id):
         return jsonify({"message": "Message deleted"}), 200
     else:
         return jsonify({"error": "Message not found"}), 404
+
+
 
 @app.route('/api/carPost/allPosts/<string:car_type>', methods=['GET'])
 def allPosts(car_type):
