@@ -402,3 +402,20 @@ if __name__ == "__main__":
 
 
 
+<<<<<<< Updated upstream
+=======
+# Example: Titanic Imports and Routes
+from model.titanic import initTitanic, testTitanic
+from api.titanic import titanic_api
+
+# Register Titanic API blueprint
+app.register_blueprint(titanic_api)
+
+# Initialize Titanic model before first request
+@app.before_first_request
+def before_first_request_titanic():
+    initTitanic()
+
+# You can test Titanic code right here if needed
+testTitanic()
+>>>>>>> Stashed changes
