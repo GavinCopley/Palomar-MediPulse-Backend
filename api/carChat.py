@@ -5,7 +5,7 @@ from flask import Blueprint
 from __init__ import app
 from flask_restful import Resource, reqparse, Api
 from model.carChat import carChat
-from app import db
+#from app import db
 from api.jwt_authorize import token_required
 import base64
 import json

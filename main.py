@@ -25,7 +25,9 @@ from api.channel import channel_api
 from api.group import group_api
 from api.section import section_api
 from api.nestPost import nestPost_api # Justin added this, custom format for his website
-from api.carChat import carChat_api
+
+
+#from api.carChat import carChat_api
 from api.carPost import carPost_api
 from api.chatBot import chatbot_api
 from api.carComments import carComments_api
@@ -33,7 +35,7 @@ from api.vinStore import vinStore_api
 
 from api.vote import vote_api
 # database Initialization functions
-from model.carChat import carChat
+#from model.carChat import carChat
 from model.user import User, initUsers
 from model.section import Section, initSections
 from model.group import Group, initGroups
@@ -44,6 +46,7 @@ from model.vote import Vote, initVotes
 from model.carPost import CarPost
 from model.carComments import CarComments
 from model.vehicle import Vehicle, initVehicles
+from model.survey import Survey, initSurvey 
 # server only Views
 
 # register URIs for api endpoints
@@ -53,7 +56,7 @@ app.register_blueprint(post_api)
 app.register_blueprint(channel_api)
 app.register_blueprint(group_api)
 app.register_blueprint(section_api)
-app.register_blueprint(carChat_api)
+#app.register_blueprint(carChat_api)
 # Added new files to create nestPosts, uses a different format than Mortensen and didn't want to touch his junk
 app.register_blueprint(nestPost_api)
 app.register_blueprint(nestImg_api)
@@ -348,6 +351,7 @@ def restore_data(data):
         _ = CarPost.restore(data['carPosts'])
         _ = CarComments.restore(data['carComments'])
         _ = Vehicle.restore(data['vehicles'])
+        _ = Survey.restore(data ['surveys'])
     print("Data restored to the new database.")
 
 # Define a command to backup data
