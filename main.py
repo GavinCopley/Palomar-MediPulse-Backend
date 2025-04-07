@@ -26,7 +26,7 @@ from api.group import group_api
 from api.section import section_api
 from api.nestPost import nestPost_api # Justin added this, custom format for his website
 
-from api.dataAnalytics import analytics_api  # Importing the data analytic API
+
 #from api.carChat import carChat_api
 from api.carPost import carPost_api
 from api.chatBot import chatbot_api
@@ -56,7 +56,6 @@ app.register_blueprint(post_api)
 app.register_blueprint(channel_api)
 app.register_blueprint(group_api)
 app.register_blueprint(section_api)
-app.register_blueprint(analytics_api)
 #app.register_blueprint(carChat_api)
 # Added new files to create nestPosts, uses a different format than Mortensen and didn't want to touch his junk
 app.register_blueprint(nestPost_api)
@@ -292,6 +291,7 @@ def generate_data():
     initUsers()
     initSections()
     initVehicles()
+    initSurvey()  # Add survey initialization
     
 # Backup the old database
 def backup_database(db_uri, backup_uri):
