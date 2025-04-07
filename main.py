@@ -26,7 +26,7 @@ from api.group import group_api
 from api.section import section_api
 from api.nestPost import nestPost_api # Justin added this, custom format for his website
 
-
+from api.dataAnalytics import analytics_api  # Importing the data analytic API
 #from api.carChat import carChat_api
 from api.carPost import carPost_api
 from api.chatBot import chatbot_api
@@ -56,6 +56,7 @@ app.register_blueprint(post_api)
 app.register_blueprint(channel_api)
 app.register_blueprint(group_api)
 app.register_blueprint(section_api)
+app.register_blueprint(analytics_api)
 #app.register_blueprint(carChat_api)
 # Added new files to create nestPosts, uses a different format than Mortensen and didn't want to touch his junk
 app.register_blueprint(nestPost_api)
@@ -402,20 +403,17 @@ if __name__ == "__main__":
 
 
 
-<<<<<<< Updated upstream
-=======
 # Example: Titanic Imports and Routes
-from model.titanic import initTitanic, testTitanic
-from api.titanic import titanic_api
+#from model.titanic import initTitanic, testTitanic
+#from api.titanic import titanic_api
 
 # Register Titanic API blueprint
-app.register_blueprint(titanic_api)
+#app.register_blueprint(titanic_api)
 
 # Initialize Titanic model before first request
-@app.before_first_request
-def before_first_request_titanic():
-    initTitanic()
+#@app.before_first_request
+#def before_first_request_titanic():
+ #   initTitanic()
 
 # You can test Titanic code right here if needed
-testTitanic()
->>>>>>> Stashed changes
+#testTitanic()
