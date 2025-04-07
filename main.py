@@ -416,4 +416,4 @@ if __name__ == "__main__":
  #   initTitanic()
 
 # You can test Titanic code right here if needed
-#testTitanic()
+testTitanic()
