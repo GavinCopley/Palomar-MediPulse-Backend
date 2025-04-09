@@ -1,0 +1,50 @@
+{% extends "layouts/base.html" %}
+
+{% block body %}
+<div class="container mt-5">
+    <h1>Survey Management</h1>
+    <table class="table-striped" id="surveyTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Weight</th>
+                <th>Height</th>
+                <th>Ethnicity</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for survey in survey_data %}
+            <tr>
+                <td>{{ survey._name }}</td>
+                <td>{{ survey._username }}</td>
+                <td>{{ survey._email }}</td>
+                <td>{{ survey._age }}</td>
+                <td>{{ survey._weight }}</td>
+                <td>{{ survey._height }}</td>
+                <td>{{ survey._ethnicity }}</td>
+                <td>
+                    <a class="btn btn-sm btn-primary" href="{{ url_for('edit_survey', id=survey.id) }}">Edit</a>
+                    <form action="{{ url_for('delete_survey', id=survey.id) }}" method="POST" style="display:inline;">
+                      <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Are you sure you want to delete this survey?');">Delete</button>
+                    </form>
+                  </td>
+                  
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
+
+{% block background %}
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Optional: add client-side JS for modal handling or table filtering
+    });
+</script>
+{% endblock %}
+

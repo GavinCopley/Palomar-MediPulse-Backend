@@ -256,6 +256,33 @@ def u2table():
     users = User.query.all()
     return render_template("u2table.html", user_data=users)
 
+@app.route('/survey/table')
+@login_required
+def surveytable():
+    surveys = Survey.query.all()
+    return render_template("surveytable.html", survey_data=surveys)
+
+@app.route('/survey/<int:id>/edit', methods=['GET', 'POST'])
+@login_required
+def edit_survey(id):
+    survey = Survey.query.get_or_404(id)
+    if request.method == 'POST':
+        # update logic
+        ...
+    return render_template('edit_survey.html', survey=survey)
+
+
+    return render_template('edit_survey.html', survey=survey)
+
+@app.route('/survey/<int:id>/delete', methods=['POST'])
+@login_required
+def delete_survey(id):
+    survey = Survey.query.get_or_404(id)
+    db.session.delete(survey)
+    db.session.commit()
+    flash('Survey deleted successfully!', 'success')
+    return redirect(url_for('surveytable'))
+
 
 # Helper function to extract uploads for a user (ie PFP image)
 @app.route('/uploads/<path:filename>')
