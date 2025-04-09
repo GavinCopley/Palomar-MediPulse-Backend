@@ -32,6 +32,7 @@ from api.carPost import carPost_api
 from api.chatBot import chatbot_api
 from api.carComments import carComments_api
 from api.vinStore import vinStore_api
+from api.dataAnalytics import analytics_api
 
 from api.vote import vote_api
 # database Initialization functions
@@ -65,6 +66,7 @@ app.register_blueprint(carPost_api)
 app.register_blueprint(chatbot_api)
 app.register_blueprint(carComments_api)
 app.register_blueprint(vinStore_api)
+app.register_blueprint(analytics_api)
 
 @app.route('/carPosts')
 @login_required  # Ensure that only logged-in users can access this page
@@ -128,12 +130,12 @@ def postsByUser(user_id):
 
 from model.carPostImage import carPostImage_base64_decode, carPostImage_base64_upload
 
-@app.route('/vehicles')
-@login_required  # Ensure that only logged-in users can access this page
-def vehiclesPage():
-    vehicles_data = Vehicle.query.all()  # Fetch all vehicles from the database
-    print("Vehicles Data:", vehicles_data)  # Debugging line to check if data is fetched
-    return render_template("vehicles.html", vehicles_data=vehicles_data)
+#@app.route('/vehicles')
+#@login_required  # Ensure that only logged-in users can access this page
+#def vehiclesPage():
+    #vehicles_data = Vehicle.query.all()  # Fetch all vehicles from the database
+    #print("Vehicles Data:", vehicles_data)  # Debugging line to check if data is fetched
+    #return render_template("vehicles.html", vehicles_data=vehicles_data)
 
 @app.route('/api/carPost/<int:post_id>/images', methods=['GET'])
 def getPostImages(post_id):
@@ -252,6 +254,7 @@ def utable():
 def u2table():
     users = User.query.all()
     return render_template("u2table.html", user_data=users)
+
 
 # Helper function to extract uploads for a user (ie PFP image)
 @app.route('/uploads/<path:filename>')
@@ -384,22 +387,22 @@ if __name__ == "__main__":
     app.run(host="0.0.0.0", port="8115")
 
 
-# @app.route('/api/mechanicsTips', methods=['GET'])
-# def get_mechanic_tip():
-#     make = request.args.get('make')
-#     model = request.args.get('model')
-#     year = request.args.get('year')
-#     issue = request.args.get('issue')
+    #@app.route('/api/mechanicsTips', methods=['GET'])
+   # def get_mechanic_tip():
+     #   make = request.args.get('make')
+      #  model = request.args.get('model')
+       # year = request.args.get('year')
+        #issue = request.args.get('issue')
 
-#     if not make or not model or not year or not issue:
-#         return jsonify({'message': 'Missing required parameters'}), 400
+#        if not make or not model or not year or not issue:
+ #           return jsonify({'message': 'Missing required parameters'}), 400
 
-#     tip = MechanicsTip.query.filter_by(_make=make, _model=model, _year=year, _issue=issue).first()
+#        tip = MechanicsTip.query.filter_by(_make=make, _model=model, _year=year, _issue=issue).first()
 
-#     if tip:
-#         return jsonify(tip.read())
-#     else:
-#         return jsonify({'message': 'Tip not found'}), 404
+ #       if tip:
+  #          return jsonify(tip.read())
+   #     else:
+    #        return jsonify({'message': 'Tip not found'}), 404
 
 
 
