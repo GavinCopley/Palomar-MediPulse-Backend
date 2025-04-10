@@ -20,21 +20,7 @@
             align-items: center;
             text-align: center;
             background: linear-gradient(135deg, #1e3c72, #2a5298, #ff6b6b, #f7b733, #34e89e, #0f3443);
-            background-size: 600% 600%;
-            animation: gradientAnimation 20s ease infinite;
             color: #ffffff;
-        }
-
-        @keyframes gradientAnimation {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
         }
 
         .intro h1 {
@@ -190,6 +176,19 @@
             margin-bottom: 1rem;
             font-weight: 600;
         }
+        .intro {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #6a11cb, #2575fc); /* Purple to blue gradient */
+            color: #ffffff;
+}
+
+        
     </style>
 {% endblock %}
 
@@ -230,11 +229,12 @@
                     <a href="https://cockpit.stu.nighthawkcodingsociety.com/system/terminal" class="admin-button">Settings</a>
                 </div>
                 <div class="admin-card">
-                    <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="Survey Table" height="250">
+                    <img class="card-img-top" src="https://www.limesurvey.org/images/2024/blog/SResearch_blog_article_img.png" alt="Survey image" style="height: 250px; width: 100%; object-fit: cover; border-radius: 10px;">
                     <h2 class="card-title">Survey Table</h2>
                     <p class="card-description">View and manage all submitted survey data in a sortable, structured table.</p>
                     <a href="/survey/table" class="admin-button">View Surveys</a>
                 </div>
+                
                 
             </div>
         </div>

@@ -3,7 +3,7 @@ import json
 import os
 import ast
 from urllib.parse import urljoin, urlparse
-from flask import abort, redirect, render_template, request, send_from_directory, url_for, jsonify  # import render_template from "public" flask libraries
+from flask import abort, redirect, render_template, request, send_from_directory, url_for, jsonify, flash  # import render_template from "public" flask libraries
 from flask_login import current_user, login_user, logout_user
 from flask.cli import AppGroup
 from flask_login import current_user, login_required
@@ -269,20 +269,65 @@ def surveytable():
 def edit_survey(id):
     survey = Survey.query.get_or_404(id)
     if request.method == 'POST':
-        # update logic
-        ...
-    return render_template('edit_survey.html', survey=survey)
-
-
+        try:
+            # Get form data with proper type conversion and validation
+            name = request.form.get('name')
+            username = request.form.get('username')
+            email = request.form.get('email')
+            number = request.form.get('number')
+            
+            # Handle age and weight with proper validation
+            try:
+                age = int(request.form.get('age', 0))
+                weight = int(request.form.get('weight', 0))
+            except (ValueError, TypeError):
+                flash('Age and weight must be valid numbers', 'error')
+                return redirect(url_for('edit_survey', id=id))
+            
+            height = request.form.get('height')
+            allergies = request.form.get('allergies')
+            conditions = request.form.get('conditions')
+            ethnicity = request.form.get('ethnicity')
+            
+            # Validate required fields
+            if not all([name, username, email, height, ethnicity]):
+                flash('Please fill in all required fields', 'error')
+                return redirect(url_for('edit_survey', id=id))
+            
+            # Update survey fields
+            survey._name = name
+            survey._username = username
+            survey._email = email
+            survey._number = number
+            survey._age = age
+            survey._weight = weight
+            survey._height = height
+            survey._allergies = allergies
+            survey._conditions = conditions
+            survey._ethnicity = ethnicity
+            
+            db.session.commit()
+            flash('Survey updated successfully!', 'success')
+            return redirect(url_for('surveytable'))
+            
+        except Exception as e:
+            db.session.rollback()
+            flash(f'Error updating survey: {str(e)}', 'error')
+            return redirect(url_for('edit_survey', id=id))
+    
     return render_template('edit_survey.html', survey=survey)
 
 @app.route('/survey/<int:id>/delete', methods=['POST'])
 @login_required
 def delete_survey(id):
     survey = Survey.query.get_or_404(id)
-    db.session.delete(survey)
-    db.session.commit()
-    flash('Survey deleted successfully!', 'success')
+    try:
+        db.session.delete(survey)
+        db.session.commit()
+        flash('Survey deleted successfully!', 'success')
+    except Exception as e:
+        db.session.rollback()
+        flash(f'Error deleting survey: {str(e)}', 'error')
     return redirect(url_for('surveytable'))
 
 
