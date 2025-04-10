@@ -10,12 +10,32 @@ class SurveyResource(Resource):
     def post(self):
         try:
             survey_data = request.get_json()
-            survey = Survey(**survey_data)
+
+            # Validate required fields
+            required_fields = ['name', 'username', 'email', 'age', 'weight', 'height', 'ethnicity']
+            for field in required_fields:
+                if field not in survey_data:
+                    return {"error": f"Missing required field: {field}"}, 400
+
+            # Create a new survey entry
+            survey = Survey(
+                name=survey_data['name'],
+                username=survey_data['username'],
+                email=survey_data['email'],
+                number=survey_data.get('number'),
+                age=survey_data['age'],
+                weight=survey_data['weight'],
+                height=survey_data['height'],
+                allergies=survey_data.get('allergies'),
+                conditions=survey_data.get('conditions'),
+                ethnicity=survey_data['ethnicity'],
+                survey_completed=survey_data.get('survey_completed', False)  # Default to False if not provided
+            )
+
             survey.create()
-            return {"message": "Thank you", "survey": survey.read()}, 201
+            return {"message": "Survey submitted successfully!", "survey": survey.read()}, 201
         except Exception as e:
             return {"error": str(e)}, 400
-        
 
     def get(self):
         surveys = Survey.query.all()
