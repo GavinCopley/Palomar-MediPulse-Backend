@@ -22,6 +22,7 @@ from api.pfp import pfp_api
 from api.nestImg import nestImg_api # Justin added this, custom format for his website
 from api.post import post_api
 from api.channel import channel_api
+from api.hosp import hosp_api_bp
 from api.group import group_api
 from api.section import section_api
 from api.nestPost import nestPost_api # Justin added this, custom format for his website
@@ -57,6 +58,7 @@ app.register_blueprint(post_api)
 app.register_blueprint(channel_api)
 app.register_blueprint(group_api)
 app.register_blueprint(section_api)
+app.register_blueprint(hosp_api_bp)
 #app.register_blueprint(carChat_api)
 # Added new files to create nestPosts, uses a different format than Mortensen and didn't want to touch his junk
 app.register_blueprint(nestPost_api)
@@ -321,6 +323,7 @@ custom_cli = AppGroup('custom', help='Custom commands')
 def generate_data():
     initUsers()
     initSections()
+    initHosps()
     initVehicles()
     initSurvey()  # Add survey initialization
     
@@ -343,6 +346,7 @@ def extract_data():
         data['sections'] = [section.read() for section in Section.query.all()]
         data['groups'] = [group.read() for group in Group.query.all()]
         data['channels'] = [channel.read() for channel in Channel.query.all()]
+        data['hosps'] = [hosp.read() for hosp in Hosp.query.all()]
         data['posts'] = [post.read() for post in Post.query.all()]
         data['carPosts'] = [post.read() for post in CarPost.query.all()]
         data['vehicles'] = [vehicle.read() for vehicle in Vehicle.query.all()]
@@ -367,7 +371,7 @@ def save_data_to_json(data, directory='backup'):
 # Load data from JSON files
 def load_data_from_json(directory='backup'):
     data = {}
-    for table in ['users', 'sections', 'groups', 'channels', 'posts', 'carPosts', 'carComments']:
+    for table in ['users', 'sections', 'groups', 'channels', 'posts', 'hosps', 'carPosts', 'carComments']:
         with open(os.path.join(directory, f'{table}.json'), 'r') as f:
             data[table] = json.load(f)
     return data
@@ -379,6 +383,7 @@ def restore_data(data):
         _ = Section.restore(data['sections'])
         _ = Group.restore(data['groups'], users)
         _ = Channel.restore(data['channels'])
+        _ = Hosp.restore(data['hosps'])
         _ = Post.restore(data['posts'])
         _ = CarPost.restore(data['carPosts'])
         _ = CarComments.restore(data['carComments'])
