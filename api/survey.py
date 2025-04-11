@@ -87,7 +87,6 @@ class SurveyResource(Resource):
             return {"error": str(e)}, 400
         
     @survey_api.route('/api/check-survey', methods=['GET'])
-    @cross_origin(supports_credentials=True)
     @token_required()
     def check_survey():
         user = g.current_user
