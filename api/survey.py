@@ -1,7 +1,8 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify, g
 from flask_restful import Api, Resource
 from model.survey import Survey
 from __init__ import db
+from api.jwt_authorize import token_required
 
 survey_api = Blueprint('survey_api', __name__, url_prefix='/api')
 api = Api(survey_api)
@@ -37,9 +38,27 @@ class SurveyResource(Resource):
         except Exception as e:
             return {"error": str(e)}, 400
 
-    def get(self):
-        surveys = Survey.query.all()
-        return {"surveys": [survey.read() for survey in surveys]}, 200
+    def get(self, username=None):
+        if username:
+            # Fetch survey by username
+            survey = Survey.query.filter_by(username=username).first()
+            if not survey:
+                return {"error": "Survey not found"}, 404
+
+            return {
+                "survey": {
+                    "age": survey.age,
+                    "height": survey.height,
+                    "weight": survey.weight,
+                    "ethnicity": survey.ethnicity,
+                    "allergies": survey.allergies,
+                    "conditions": survey.conditions
+                }
+            }, 200
+        else:
+            # Fetch all surveys if no username is provided
+            surveys = Survey.query.all()
+            return {"surveys": [survey.read() for survey in surveys]}, 200
 
     def put(self, survey_id):
         survey = Survey.query.get(survey_id)
@@ -65,6 +84,19 @@ class SurveyResource(Resource):
             return {"message": "Survey deleted successfully"}, 200
         except Exception as e:
             return {"error": str(e)}, 400
+        
+    @survey_api.route('/api/check-survey', methods=['GET'])
+    @token_required()
+    def check_survey():
+        user = g.current_user
+        survey = Survey.query.filter_by(username=user._uid).first()
+
+        if not survey:
+            return jsonify({ "survey_completed": False }), 200
+        return jsonify({
+        "survey_completed": survey.survey_completed
+    }), 200
+
 
 # Add routes
-api.add_resource(SurveyResource, '/survey', '/survey/<int:survey_id>')
+api.add_resource(SurveyResource, '/survey', '/survey/<int:survey_id>', '/survey/username/<string:username>')
