@@ -3,6 +3,7 @@ from flask_restful import Api, Resource
 from model.survey import Survey
 from __init__ import db
 from api.jwt_authorize import token_required
+from flask_cors import cross_origin
 
 survey_api = Blueprint('survey_api', __name__, url_prefix='/api')
 api = Api(survey_api)
@@ -86,6 +87,7 @@ class SurveyResource(Resource):
             return {"error": str(e)}, 400
         
     @survey_api.route('/api/check-survey', methods=['GET'])
+    @cross_origin(supports_credentials=True)
     @token_required()
     def check_survey():
         user = g.current_user
