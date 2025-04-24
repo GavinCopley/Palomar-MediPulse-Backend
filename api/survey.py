@@ -19,6 +19,11 @@ class SurveyResource(Resource):
                 if field not in survey_data:
                     return {"error": f"Missing required field: {field}"}, 400
 
+            # Check if the user already completed the survey
+            existing_survey = Survey.query.filter_by(username=survey_data['username']).first()
+            if existing_survey and existing_survey.survey_completed:
+                return {"error": "Survey already completed by this user"}, 400
+
             # Create a new survey entry
             survey = Survey(
                 name=survey_data['name'],
@@ -35,7 +40,11 @@ class SurveyResource(Resource):
             )
 
             survey.create()
-            return {"message": "Survey submitted successfully!", "survey": survey.read()}, 201
+
+            if survey:
+                return {"message": "Survey submitted successfully!", "survey": survey.read()}, 201
+            return {"error": "Failed to create survey"}, 400
+
         except Exception as e:
             return {"error": str(e)}, 400
 
@@ -85,19 +94,21 @@ class SurveyResource(Resource):
             return {"message": "Survey deleted successfully"}, 200
         except Exception as e:
             return {"error": str(e)}, 400
-        
-    @survey_api.route('/api/check-survey', methods=['GET'])
-    @token_required()
-    def check_survey():
+
+# Route to check if user has completed survey
+@survey_api.route('/check-survey', methods=['GET'])
+@token_required()  # Ensuring the user is authenticated
+def check_survey():
+    try:
         user = g.current_user
         survey = Survey.query.filter_by(username=user._uid).first()
 
         if not survey:
-            return jsonify({ "survey_completed": False }), 200
-        return jsonify({
-        "survey_completed": survey.survey_completed
-    }), 200
-
+            return jsonify({"survey_completed": False}), 200
+        return jsonify({"survey_completed": survey.survey_completed}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
 
 # Add routes
 api.add_resource(SurveyResource, '/survey', '/survey/<int:survey_id>', '/survey/username/<string:username>')
+

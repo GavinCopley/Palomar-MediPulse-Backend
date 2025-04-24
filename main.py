@@ -374,7 +374,7 @@ custom_cli = AppGroup('custom', help='Custom commands')
 def generate_data():
     initUsers()
     initSections()
-    initHosps()
+   # initHosps()
     initVehicles()
     initSurvey()  # Add survey initialization
     
