@@ -7,7 +7,7 @@ class Survey(db.Model):
     __tablename__ = 'surveys'
 
     id = db.Column(db.Integer, primary_key=True)
-    uid = db.Column(db.String(100), nullable=False, unique=True)  # Add UID to the model
+    uid = db.Column(db.String(100), nullable=False, unique=True)  # Unique UID for the user
     name = db.Column(db.String(100), nullable=False)
     username = db.Column(db.String(100), nullable=False, unique=True)
     email = db.Column(db.String(100), nullable=False, unique=True)
@@ -18,7 +18,7 @@ class Survey(db.Model):
     allergies = db.Column(db.String(255))
     conditions = db.Column(db.String(255))
     ethnicity = db.Column(db.String(100), nullable=False)
-    survey_completed = db.Column(db.Boolean, default=False)  # New field added
+    survey_completed = db.Column(db.Boolean, default=False)  # Default to False unless explicitly set
 
     def __init__(self, uid, name, username, email, number, age, weight, height, allergies, conditions, ethnicity, survey_completed=False):
         self.uid = uid  # Initialize UID
@@ -32,15 +32,18 @@ class Survey(db.Model):
         self.allergies = allergies
         self.conditions = conditions
         self.ethnicity = ethnicity
-        self.survey_completed = survey_completed
+        self.survey_completed = survey_completed  # Default to False if not provided
 
     def create(self):
         try:
-            # Check if the user has already completed the survey
+            # Ensure the user has not already completed the survey
             existing_survey = Survey.query.filter_by(uid=self.uid).first()
             if existing_survey and existing_survey.survey_completed:
-                return None  # If the user has already completed the survey, return None
+                return None  # User has already completed the survey, so we do not create another
             
+            # If the survey is new, set survey_completed to False
+            self.survey_completed = False
+
             db.session.add(self)
             db.session.commit()
             return self
@@ -87,9 +90,9 @@ class Survey(db.Model):
 def initSurvey():
     db.create_all()
     
+    # Optional: You can prepopulate your database with initial survey data here
     surveys = [
-        Survey(uid="user1", name="John Doe", username="john_doe", email="john@example.com", number="1234567890", age=30, weight=180, height=70, allergies="Peanuts", conditions="None", ethnicity="Caucasian"),
-        Survey(uid="user2", name="Jane Smith", username="jane_smith", email="jane@example.com", number="0987654321", age=25, weight=135, height=66, allergies="Dust", conditions="Asthma", ethnicity="Asian")
+        # Example survey objects (Optional for prepopulation)
     ]
 
     for survey in surveys:
