@@ -26,8 +26,9 @@ model = genai.GenerativeModel(
     model_name="gemini-1.5-flash",
     generation_config=generation_config,
     system_instruction=(
-        "You are professionally trained in the medical field. You know the answer to every question about hospitals, diseases, and treatments.."
+        "You are professionally trained in the medical field. You know the answer to every question about hospitals, diseases, and treatments."
         "You respond in concise, minimal sentences (no more than 4 sentences)."
+        "You are being hosted on a website called 'MediPulse' This website is a platform for patients to find the best hospital for them based on their needs."
     ),
 )
 
