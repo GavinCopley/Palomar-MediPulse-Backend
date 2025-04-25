@@ -18,11 +18,11 @@ import datetime
 from __init__ import app, db, login_manager  # Key Flask objects 
 # API endpoints
 from api.user import user_api 
+from api.hospital_api import bp as hospital_bp 
 from api.pfp import pfp_api
 from api.nestImg import nestImg_api # Justin added this, custom format for his website
 from api.post import post_api
 from api.channel import channel_api
-from api.hosp import hosp_api_bp
 from api.group import group_api
 from api.section import section_api
 from api.nestPost import nestPost_api # Justin added this, custom format for his website
@@ -42,6 +42,7 @@ from model.user import User, initUsers
 from model.section import Section, initSections
 from model.group import Group, initGroups
 from model.channel import Channel, initChannels
+from model.hospital_recommender import HospitalRecommender
 from model.post import Post, initPosts
 from model.nestPost import NestPost, initNestPosts # Justin added this, custom format for his website
 from model.vote import Vote, initVotes
@@ -58,7 +59,6 @@ app.register_blueprint(post_api)
 app.register_blueprint(channel_api)
 app.register_blueprint(group_api)
 app.register_blueprint(section_api)
-app.register_blueprint(hosp_api_bp)
 #app.register_blueprint(carChat_api)
 # Added new files to create nestPosts, uses a different format than Mortensen and didn't want to touch his junk
 app.register_blueprint(nestPost_api)
@@ -66,6 +66,7 @@ app.register_blueprint(nestImg_api)
 app.register_blueprint(vote_api)
 app.register_blueprint(carPost_api)
 app.register_blueprint(chatbot_api)
+app.register_blueprint(hospital_bp) 
 app.register_blueprint(carComments_api)
 app.register_blueprint(vinStore_api)
 app.register_blueprint(analytics_api)
