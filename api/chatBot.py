@@ -26,7 +26,7 @@ model = genai.GenerativeModel(
     model_name="gemini-1.5-flash",
     generation_config=generation_config,
     system_instruction=(
-        "You are a car expert and enthusiast. You know the answer to every question about cars."
+        "You are professionally trained in the medical field. You know the answer to every question about hospitals, diseases, and treatments.."
         "You respond in concise, minimal sentences (no more than 4 sentences)."
     ),
 )
