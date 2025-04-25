@@ -19,7 +19,9 @@ try:
 except FileNotFoundError:
     print(f"Warning: hospitals.csv not found at {csv_path}")
     # Create an empty DataFrame with the expected columns
-    df = pd.DataFrame(columns=['name', 'location', 'specialties', 'insurance', 'treatments', 'rating'])
+    df = pd.DataFrame(columns=['name', 'location', 'specialties', 'insurance', 'treatments', 'rating',
+                              'visiting_hours', 'phone', 'website', 'email', 'emergency_services',
+                              'parking_accessibility', 'patient_review', 'departments'])
 
 @hospital_api.route('/hospitals', methods=['GET'])
 def get_hospitals():
@@ -28,6 +30,8 @@ def get_hospitals():
     insurance = request.args.get('insurance', '').lower()
     treatment = request.args.get('treatment', '').lower()
     rating = float(request.args.get('rating', 1))
+    emergency = request.args.get('emergency', '').lower()
+    department = request.args.get('department', '').lower()
     page = int(request.args.get('page', 1))
     per_page = 4
 
@@ -37,12 +41,18 @@ def get_hospitals():
         ins = str(row['insurance']).lower()
         treat = str(row['treatments']).lower()
         rate = float(row['rating'])
+        
+        # Handle new fields carefully with fallback to empty string if they don't exist
+        emerg = str(row.get('emergency_services', '')).lower()
+        dept = str(row.get('departments', '')).lower()
 
         return (
             (location in loc or 'california' in loc or 'ca' in loc) if location else True
             and (specialty in specs) if specialty else True
             and (insurance in ins) if insurance else True
             and (treatment in treat) if treatment else True
+            and (emergency in emerg) if emergency else True
+            and (department in dept) if department else True
             and (rate >= rating)
         )
 
@@ -61,3 +71,25 @@ def get_hospitals():
         'total_results': total_results,
         'hospitals': results.to_dict(orient='records')
     })
+
+@hospital_api.route('/hospitals/<hospital_name>', methods=['GET'])
+def get_hospital_details(hospital_name):
+    """Get detailed information for a specific hospital by name"""
+    # Convert hospital name to lowercase for case-insensitive matching
+    hospital_name_lower = hospital_name.lower()
+    
+    # Find the hospital in the dataframe
+    matching_hospitals = df[df['name'].str.lower() == hospital_name_lower]
+    
+    if not matching_hospitals.empty:
+        # Return the first matching hospital's details
+        hospital_data = matching_hospitals.iloc[0].to_dict()
+        return jsonify({
+            'status': 'success',
+            'hospital': hospital_data
+        })
+    else:
+        return jsonify({
+            'status': 'error',
+            'message': f'Hospital with name "{hospital_name}" not found'
+        }), 404
