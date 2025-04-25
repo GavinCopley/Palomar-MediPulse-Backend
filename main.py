@@ -268,7 +268,9 @@ def u2table():
 @login_required
 def surveytable():
     surveys = Survey.query.all()
+    print(f"Loaded {len(surveys)} surveys")  # Debug line
     return render_template("surveytable.html", survey_data=surveys)
+
 
 @app.route('/survey/<int:id>/edit', methods=['GET', 'POST'])
 @login_required
@@ -286,31 +288,31 @@ def edit_survey(id):
             try:
                 age = int(request.form.get('age', 0))
                 weight = int(request.form.get('weight', 0))
+                height = int(request.form.get('height', 0))
             except (ValueError, TypeError):
-                flash('Age and weight must be valid numbers', 'error')
+                flash('Age, weight, and height must be valid numbers', 'error')
                 return redirect(url_for('edit_survey', id=id))
             
-            height = request.form.get('height')
             allergies = request.form.get('allergies')
             conditions = request.form.get('conditions')
             ethnicity = request.form.get('ethnicity')
             
             # Validate required fields
-            if not all([name, username, email, height, ethnicity]):
+            if not all([name, username, email, ethnicity]):
                 flash('Please fill in all required fields', 'error')
                 return redirect(url_for('edit_survey', id=id))
             
-            # Update survey fields
-            survey._name = name
-            survey._username = username
-            survey._email = email
-            survey._number = number
-            survey._age = age
-            survey._weight = weight
-            survey._height = height
-            survey._allergies = allergies
-            survey._conditions = conditions
-            survey._ethnicity = ethnicity
+            # Update survey fields using the correct attribute names
+            survey.name = name
+            survey.username = username
+            survey.email = email
+            survey.number = number
+            survey.age = age
+            survey.weight = weight
+            survey.height = height
+            survey.allergies = allergies
+            survey.conditions = conditions
+            survey.ethnicity = ethnicity
             
             db.session.commit()
             flash('Survey updated successfully!', 'success')

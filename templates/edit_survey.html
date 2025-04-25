@@ -1,0 +1,115 @@
+{% extends "layouts/base.html" %}
+
+{% block body %}
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0">Edit Survey for: <strong>{{ survey.name }}</strong></h2>
+        </div>
+        <div class="card-body">
+            <p class="text-muted mb-4">Edit the survey information below. All fields are pre-filled with current values.</p>
+
+            <form method="POST" action="{{ url_for('edit_survey', id=survey.id) }}" class="needs-validation" novalidate>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" name="name" value="{{ survey.name }}" required>
+                            <div class="invalid-feedback">Please enter a name.</div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" name="username" value="{{ survey.username }}" required>
+                            <div class="invalid-feedback">Please enter a username.</div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" value="{{ survey.email }}" required>
+                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="number" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="number" name="number" value="{{ survey.number }}" pattern="[0-9]{10}" required>
+                            <div class="invalid-feedback">Please enter a valid 10-digit phone number.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label for="age" class="form-label">Age</label>
+                            <input type="number" class="form-control" id="age" name="age" value="{{ survey.age }}" min="0" max="120" required>
+                            <div class="invalid-feedback">Please enter a valid age (0-120).</div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="weight" class="form-label">Weight (lbs)</label>
+                            <input type="number" class="form-control" id="weight" name="weight" value="{{ survey.weight }}" min="0" max="500" required>
+                            <div class="invalid-feedback">Please enter a valid weight.</div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="height" class="form-label">Height (inches)</label>
+                            <input type="number" class="form-control" id="height" name="height" value="{{ survey.height }}" min="0" max="96" required>
+                            <div class="invalid-feedback">Please enter a valid height.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <div class="form-group mb-3">
+                            <label for="allergies" class="form-label">Allergies</label>
+                            <textarea class="form-control" id="allergies" name="allergies" rows="2">{{ survey.allergies }}</textarea>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="conditions" class="form-label">Conditions</label>
+                            <textarea class="form-control" id="conditions" name="conditions" rows="2">{{ survey.conditions }}</textarea>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="ethnicity" class="form-label">Ethnicity</label>
+                            <input type="text" class="form-control" id="ethnicity" name="ethnicity" value="{{ survey.ethnicity }}" required>
+                            <div class="invalid-feedback">Please enter ethnicity.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save me-2"></i>Save Changes
+                    </button>
+                    <a href="{{ url_for('surveytable') }}" class="btn btn-secondary ms-2">
+                        <i class="fas fa-times me-2"></i>Cancel
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+// Form validation
+(function () {
+    'use strict'
+    var forms = document.querySelectorAll('.needs-validation')
+    Array.prototype.slice.call(forms).forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+            }
+            form.classList.add('was-validated')
+        }, false)
+    })
+})()
+
+// Real-time validation for phone number
+document.getElementById('number').addEventListener('input', function(e) {
+    this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);
+});
+</script>
+{% endblock %}
