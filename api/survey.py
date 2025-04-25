@@ -2,7 +2,7 @@ from flask import Blueprint, request, jsonify, g
 from flask_restful import Api, Resource
 from model.survey import Survey
 from __init__ import db
-from api.jwt_authorize import token_required
+from api.jwt_authorize import token_required  # Ensure the user is authenticated
 from flask_cors import cross_origin
 
 survey_api = Blueprint('survey_api', __name__, url_prefix='/api')
@@ -17,9 +17,11 @@ class SurveyResource(Resource):
             # Debug: Print the incoming survey data for verification
             print("Received Survey Data:", survey_data)
 
-            # Ensure the username is from the authenticated user if it's not in the request data
-            username = survey_data['username'] if 'username' in survey_data else g.current_user['_uid']
-            uid = g.current_user['_uid']  # Using the UID of the authenticated user
+            # Ensure the UID is provided in the request data
+            if 'uid' not in survey_data:
+                return {"error": "Missing required field: uid"}, 400
+
+            uid = survey_data['uid']  # Get UID from the request payload
 
             # Validate required fields
             required_fields = ['name', 'email', 'age', 'weight', 'height', 'ethnicity']
@@ -28,7 +30,7 @@ class SurveyResource(Resource):
                     return {"error": f"Missing required field: {field}"}, 400
 
             # Check if the user has already completed the survey
-            existing_survey = Survey.query.filter_by(username=username).first()
+            existing_survey = Survey.query.filter_by(uid=uid).first()
             if existing_survey and existing_survey.survey_completed:
                 return {"error": "Survey already completed by this user"}, 400
 
@@ -37,9 +39,9 @@ class SurveyResource(Resource):
 
             # Create a new survey entry
             survey = Survey(
-                uid=uid,  # Set UID from the authenticated user
+                uid=uid,  # Set UID from the request data
                 name=survey_data['name'],
-                username=username,  # Set username from the client or authenticated user
+                username=survey_data['username'],  # You may want to use 'username' from the request or other source
                 email=survey_data['email'],
                 number=survey_data.get('number'),
                 age=survey_data['age'],
@@ -48,7 +50,7 @@ class SurveyResource(Resource):
                 allergies=survey_data.get('allergies'),
                 conditions=survey_data.get('conditions'),
                 ethnicity=survey_data['ethnicity'],
-                survey_completed=survey_completed  # Ensure it's set to False if not passed
+                survey_completed=survey_completed  # Set to False if it's a new survey
             )
 
             # Attempt to create the survey entry in the database
@@ -109,23 +111,6 @@ class SurveyResource(Resource):
             return {"message": "Survey deleted successfully"}, 200
         except Exception as e:
             return {"error": str(e)}, 400
-
-# Route to check if the user has completed the survey
-@survey_api.route('/check-survey', methods=['GET'])
-@token_required()  # Ensuring the user is authenticated
-def check_survey():
-    try:
-        user = g.current_user  # Retrieve the current authenticated user
-        print("Authenticated User:", user)  # Log the user info for debugging
-        
-        # Query the survey for the authenticated user
-        survey = Survey.query.filter_by(username=user['_uid']).first()
-
-        if not survey:
-            return jsonify({"survey_completed": False}), 200
-        return jsonify({"survey_completed": survey.survey_completed}), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 400
 
 # Add routes
 api.add_resource(SurveyResource, '/survey', '/survey/<int:survey_id>', '/survey/username/<string:username>')
