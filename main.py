@@ -75,9 +75,6 @@ app.register_blueprint(survey_api)
 # Add this to your imports section
 from api.hospitalsearch import hospital_api
 
-# Add this to your register blueprints section (after the other app.register_blueprint lines)
-app.register_blueprint(hospital_api)
-
 @app.route('/carPosts')
 @login_required  # Ensure that only logged-in users can access this page
 def carPosts():
