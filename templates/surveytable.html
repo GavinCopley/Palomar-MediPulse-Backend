@@ -3,45 +3,60 @@
 {% block body %}
 <div class="container mt-5">
     <h1>Survey Management</h1>
-    <table class="table table-striped table-bordered" id="surveyTable">
-        <thead class="thead-dark">
-            <tr>
-                <th>Name</th>
-                <th>Username</th>
-                <th>Email</th>
-                <th>Phone</th>
-                <th>Age</th>
-                <th>Weight</th>
-                <th>Height</th>
-                <th>Allergies</th>
-                <th>Conditions</th>
-                <th>Ethnicity</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-        {% for survey in survey_data %}
-            <tr>
-                <td>{{ survey._name }}</td>
-                <td>{{ survey._username }}</td>
-                <td>{{ survey._email }}</td>
-                <td>{{ survey._number }}</td>
-                <td>{{ survey._age }}</td>
-                <td>{{ survey._weight }}</td>
-                <td>{{ survey._height }}</td>
-                <td>{{ survey._allergies }}</td>
-                <td>{{ survey._conditions }}</td>
-                <td>{{ survey._ethnicity }}</td>
-                <td>
-                    <a class="btn btn-sm btn-primary" href="{{ url_for('edit_survey', id=survey.id) }}">Edit</a>
-                    <form action="{{ url_for('delete_survey', id=survey.id) }}" method="POST" style="display:inline;">
-                      <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Are you sure you want to delete this survey?');">Delete</button>
-                    </form>
-                </td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
+    
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    
+    {% if survey_data %}
+        <table class="table table-striped table-bordered" id="surveyTable">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Age</th>
+                    <th>Weight</th>
+                    <th>Height</th>
+                    <th>Allergies</th>
+                    <th>Conditions</th>
+                    <th>Ethnicity</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for survey in survey_data %}
+                <tr>
+                    <td>{{ survey.name }}</td>
+                    <td>{{ survey.username }}</td>
+                    <td>{{ survey.email }}</td>
+                    <td>{{ survey.number }}</td>
+                    <td>{{ survey.age }}</td>
+                    <td>{{ survey.weight }}</td>
+                    <td>{{ survey.height }}</td>
+                    <td>{{ survey.allergies }}</td>
+                    <td>{{ survey.conditions }}</td>
+                    <td>{{ survey.ethnicity }}</td>
+                    <td>
+                        <a class="btn btn-sm btn-primary" href="{{ url_for('edit_survey', id=survey.id) }}">Edit</a>
+                        <form action="{{ url_for('delete_survey', id=survey.id) }}" method="POST" style="display:inline;">
+                            <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Are you sure you want to delete this survey?');">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <div class="alert alert-info">
+            No survey data found. Please add some surveys to see them here.
+        </div>
+    {% endif %}
 </div>
 {% endblock %}
 
