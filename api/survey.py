@@ -131,6 +131,23 @@ class SurveyResource(Resource):
             return {"message": "Survey deleted successfully"}, 200
         except Exception as e:
             return {"error": str(e)}, 400
+        
+@token_required()
+def get(self):
+    try:
+        uid = g.current_user._uid  # Authenticated user's UID
+        survey = Survey.query.filter_by(uid=uid).first()
+
+        if not survey:
+            return {"error": "No survey found for current user"}, 404
+
+        return {
+            "survey": survey.read()
+        }, 200
+    except Exception as e:
+        print("Survey self-fetch error:", str(e))
+        return {"error": str(e)}, 500
+
 
 # Add routes
 api.add_resource(SurveyResource, '/survey', '/survey/<int:survey_id>', '/survey/username/<string:username>')
