@@ -8,40 +8,34 @@ from flask_cors import cross_origin
 survey_api = Blueprint('survey_api', __name__, url_prefix='/api')
 api = Api(survey_api)
 
+from api.jwt_authorize import token_required  # Your existing custom JWT auth wrapper
+
 class SurveyResource(Resource):
+    @token_required  # ✅ Use your existing decorator to inject `g.user` or `g.uid`
     def post(self):
         try:
-            # Get JSON data from the request
             survey_data = request.get_json()
-
-            # Debug: Print the incoming survey data for verification
             print("Received Survey Data:", survey_data)
 
-            # Ensure the UID is provided in the request data
-            if 'uid' not in survey_data:
-                return {"error": "Missing required field: uid"}, 400
+            # ✅ Get UID from the verified token (via g.uid if your token_required sets it)
+            uid = g.uid  # Or adjust to g.user.id or however you store UID
 
-            uid = survey_data['uid']  # Get UID from the request payload
-
-            # Validate required fields
-            required_fields = ['name', 'email', 'age', 'weight', 'height', 'ethnicity']
+            # Check required fields
+            required_fields = ['name', 'username', 'email', 'age', 'weight', 'height', 'ethnicity']
             for field in required_fields:
                 if field not in survey_data:
                     return {"error": f"Missing required field: {field}"}, 400
 
-            # Check if the user has already completed the survey
+            # Check for duplicate
             existing_survey = Survey.query.filter_by(uid=uid).first()
             if existing_survey and existing_survey.survey_completed:
                 return {"error": "Survey already completed by this user"}, 400
 
-            # Explicitly set survey_completed to False for new surveys if not provided
-            survey_completed = survey_data.get('survey_completed', False)  # Default to False if not passed
-
-            # Create a new survey entry
+            # Create the survey
             survey = Survey(
-                uid=uid,  # Set UID from the request data
+                uid=uid,
                 name=survey_data['name'],
-                username=survey_data['username'],  # You may want to use 'username' from the request or other source
+                username=survey_data['username'],
                 email=survey_data['email'],
                 number=survey_data.get('number'),
                 age=survey_data['age'],
@@ -50,18 +44,16 @@ class SurveyResource(Resource):
                 allergies=survey_data.get('allergies'),
                 conditions=survey_data.get('conditions'),
                 ethnicity=survey_data['ethnicity'],
-                survey_completed=survey_completed  # Set to False if it's a new survey
+                survey_completed=survey_data.get('survey_completed', False)
             )
 
-            # Attempt to create the survey entry in the database
             survey.create()
-
             if survey:
                 return {"message": "Survey submitted successfully!", "survey": survey.read()}, 201
-            return {"error": "Failed to create survey"}, 400
+            else:
+                return {"error": "Failed to create survey"}, 400
 
         except Exception as e:
-            # Log the error for debugging
             print("Error:", str(e))
             return {"error": str(e)}, 400
 
