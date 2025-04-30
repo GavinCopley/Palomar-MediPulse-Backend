@@ -27,6 +27,7 @@ from api.group import group_api
 from api.section import section_api
 from api.nestPost import nestPost_api # Justin added this, custom format for his website
 from api.survey import survey_api
+from api.hospitalsearch import hospital_search_api
 
 #from api.carChat import carChat_api
 from api.carPost import carPost_api
@@ -71,9 +72,8 @@ app.register_blueprint(carComments_api)
 app.register_blueprint(vinStore_api)
 app.register_blueprint(analytics_api)
 app.register_blueprint(survey_api)
-
+app.register_blueprint(hospital_search_api)
 # Add this to your imports section
-from api.hospitalsearch import hospital_api
 
 @app.route('/carPosts')
 @login_required  # Ensure that only logged-in users can access this page

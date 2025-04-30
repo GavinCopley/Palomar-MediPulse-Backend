@@ -3,8 +3,8 @@ import pandas as pd
 import math
 import os
 
-# Create a Blueprint
-hospital_api = Blueprint('hospital_api', __name__, url_prefix='/api')
+# Create a Blueprint with a unique name
+hospital_search_api = Blueprint('hospital_search_api', __name__, url_prefix='/api/hospital-search')
 
 # Get the directory of the current file
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -23,7 +23,7 @@ except FileNotFoundError:
                               'visiting_hours', 'phone', 'website', 'email', 'emergency_services',
                               'parking_accessibility', 'patient_review', 'departments'])
 
-@hospital_api.route('/hospitals', methods=['GET'])
+@hospital_search_api.route('', methods=['GET'])
 def get_hospitals():
     location = request.args.get('location', '').lower()
     specialty = request.args.get('specialty', '').lower()
@@ -72,7 +72,7 @@ def get_hospitals():
         'hospitals': results.to_dict(orient='records')
     })
 
-@hospital_api.route('/hospitals/<hospital_name>', methods=['GET'])
+@hospital_search_api.route('/<hospital_name>', methods=['GET'])
 def get_hospital_details(hospital_name):
     """Get detailed information for a specific hospital by name"""
     # Convert hospital name to lowercase for case-insensitive matching
