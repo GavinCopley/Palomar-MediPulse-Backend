@@ -10,52 +10,80 @@ api = Api(survey_api)
 
 from api.jwt_authorize import token_required  # Your existing custom JWT auth wrapper
 
+from flask import request, g
+from api.jwt_authorize import token_required
+from model.survey import Survey
+
 class SurveyResource(Resource):
-    @token_required  # ✅ Use your existing decorator to inject `g.user` or `g.uid`
+    @token_required()
     def post(self):
         try:
+            uid = g.current_user._uid  # ✅ Securely extracted from verified JWT
+            print(">>> Authenticated UID:", uid)
+
             survey_data = request.get_json()
             print("Received Survey Data:", survey_data)
 
-            # ✅ Get UID from the verified token (via g.uid if your token_required sets it)
-            uid = g.uid  # Or adjust to g.user.id or however you store UID
-
-            # Check required fields
+            # Validate required fields
             required_fields = ['name', 'username', 'email', 'age', 'weight', 'height', 'ethnicity']
             for field in required_fields:
-                if field not in survey_data:
+                if field not in survey_data or survey_data[field] is None:
                     return {"error": f"Missing required field: {field}"}, 400
 
-            # Check for duplicate
+            # Check if survey already exists and is marked as completed
             existing_survey = Survey.query.filter_by(uid=uid).first()
             if existing_survey and existing_survey.survey_completed:
                 return {"error": "Survey already completed by this user"}, 400
 
-            # Create the survey
-            survey = Survey(
-                uid=uid,
-                name=survey_data['name'],
-                username=survey_data['username'],
-                email=survey_data['email'],
-                number=survey_data.get('number'),
-                age=survey_data['age'],
-                weight=survey_data['weight'],
-                height=survey_data['height'],
-                allergies=survey_data.get('allergies'),
-                conditions=survey_data.get('conditions'),
-                ethnicity=survey_data['ethnicity'],
-                survey_completed=survey_data.get('survey_completed', False)
-            )
-
-            survey.create()
-            if survey:
-                return {"message": "Survey submitted successfully!", "survey": survey.read()}, 201
+            # Create or update survey
+            if existing_survey:
+                # Update existing survey if not marked complete
+                updated_survey = existing_survey.update({
+                    "name": survey_data['name'],
+                    "username": survey_data['username'],
+                    "email": survey_data['email'],
+                    "number": survey_data.get('number'),
+                    "age": survey_data['age'],
+                    "weight": survey_data['weight'],
+                    "height": survey_data['height'],
+                    "allergies": survey_data.get('allergies'),
+                    "conditions": survey_data.get('conditions'),
+                    "ethnicity": survey_data['ethnicity'],
+                    "survey_completed": survey_data.get('survey_completed', False)
+                })
+                return {
+                    "message": "Survey updated successfully",
+                    "survey": updated_survey.read()
+                }, 200
             else:
-                return {"error": "Failed to create survey"}, 400
+                # Create new survey
+                new_survey = Survey(
+                    uid=uid,
+                    name=survey_data['name'],
+                    username=survey_data['username'],
+                    email=survey_data['email'],
+                    number=survey_data.get('number'),
+                    age=survey_data['age'],
+                    weight=survey_data['weight'],
+                    height=survey_data['height'],
+                    allergies=survey_data.get('allergies'),
+                    conditions=survey_data.get('conditions'),
+                    ethnicity=survey_data['ethnicity'],
+                    survey_completed=survey_data.get('survey_completed', False)
+                )
+
+                result = new_survey.create()
+                if result:
+                    return {
+                        "message": "Survey submitted successfully!",
+                        "survey": result.read()
+                    }, 201
+                else:
+                    return {"error": "Failed to create survey (possibly duplicate username/email)."}, 400
 
         except Exception as e:
-            print("Error:", str(e))
-            return {"error": str(e)}, 400
+            print("Survey POST Error:", str(e))
+            return {"error": "Internal server error", "details": str(e)}, 500
 
     def get(self, username=None):
         if username:
