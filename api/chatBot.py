@@ -10,8 +10,12 @@ load_dotenv()
 chatbot_api = Blueprint('chatbot_api', __name__, url_prefix='/api')
 api = Api(chatbot_api)
 
-# Configure the API key
-genai.configure(api_key=os.getenv('CHATBOT_API_KEY'))
+# Check for API key first
+api_key = os.getenv('CHATBOT_API_KEY')
+assert api_key, "CHATBOT_API_KEY not found in .env file"
+
+# Configure Gemini API
+genai.configure(api_key=api_key)
 
 # Model configuration
 generation_config = {
