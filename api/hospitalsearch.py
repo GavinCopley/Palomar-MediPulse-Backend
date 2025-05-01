@@ -2,6 +2,7 @@ from flask import Blueprint, request, jsonify
 import pandas as pd
 import math
 import os
+import numpy as np
 
 # Create a Blueprint with a unique name
 hospital_search_api = Blueprint('hospital_search_api', __name__, url_prefix='/api/hospital-search')
@@ -14,6 +15,8 @@ csv_path = os.path.join(current_dir, 'hospitals.csv')
 # Load hospital data from CSV
 try:
     df = pd.read_csv(csv_path)
+    # Replace NaN values with None, which will be converted to null in JSON
+    df = df.replace({np.nan: None})
     print(f"Successfully loaded hospitals.csv from {csv_path}")
     print(f"Found {len(df)} hospital records")
 except FileNotFoundError:
@@ -36,15 +39,21 @@ def get_hospitals():
     per_page = 4
 
     def matches(row):
-        loc = str(row['location']).lower()
-        specs = str(row['specialties']).lower()
-        ins = str(row['insurance']).lower()
-        treat = str(row['treatments']).lower()
-        rate = float(row['rating'])
+        # Handle None/NaN values safely
+        loc = str(row['location']).lower() if row['location'] is not None else ''
+        specs = str(row['specialties']).lower() if row['specialties'] is not None else ''
+        ins = str(row['insurance']).lower() if row['insurance'] is not None else ''
+        treat = str(row['treatments']).lower() if row['treatments'] is not None else ''
         
-        # Handle new fields carefully with fallback to empty string if they don't exist
-        emerg = str(row.get('emergency_services', '')).lower()
-        dept = str(row.get('departments', '')).lower()
+        # Use get for fields that might not exist in all records
+        emerg = str(row.get('emergency_services', '')).lower() if row.get('emergency_services') is not None else ''
+        dept = str(row.get('departments', '')).lower() if row.get('departments') is not None else ''
+        
+        # Handle rating separately since it's numeric
+        try:
+            rate = float(row['rating'])
+        except (ValueError, TypeError):
+            rate = 0.0
 
         return (
             (location in loc or 'california' in loc or 'ca' in loc) if location else True
@@ -65,11 +74,14 @@ def get_hospitals():
     end = start + per_page
     results = filtered_df.iloc[start:end]
 
+    # Convert DataFrame to dict with proper handling of NaN values
+    hospitals_list = results.replace({np.nan: None}).to_dict(orient='records')
+
     return jsonify({
         'page': page,
         'total_pages': total_pages,
         'total_results': total_results,
-        'hospitals': results.to_dict(orient='records')
+        'hospitals': hospitals_list
     })
 
 @hospital_search_api.route('/<hospital_name>', methods=['GET'])
@@ -83,7 +95,8 @@ def get_hospital_details(hospital_name):
     
     if not matching_hospitals.empty:
         # Return the first matching hospital's details
-        hospital_data = matching_hospitals.iloc[0].to_dict()
+        # Replace NaN with None before converting to dict
+        hospital_data = matching_hospitals.iloc[0].replace({np.nan: None}).to_dict()
         return jsonify({
             'status': 'success',
             'hospital': hospital_data
