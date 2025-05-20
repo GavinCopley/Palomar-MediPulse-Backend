@@ -390,9 +390,9 @@ Alvarado Hospital Medical Center,IMI,Chronic Migraines,,,,,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Shoulder Impingement,0.0,54.0,0.0,As Expected,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Insomnia,2.0,6.0,100.0,As Expected,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Bulimia,2.0,61.0,7.1,As Expected,32.77664,-117.057
-Alvarado Hospital Medical Center,IMI,AAA Repair Open Unrupture,,,,,32.77664,-117.057
-Alvarado Hospital Medical Center,IMI,AAA Repair Endo Unrupture,,,,,32.77664,-117.057
-Alvarado Hospital Medical Center,PSI,Postoperative Sepsis,1.0,512.0,0.16,As Expected,32.77664,-117.057
+Alvarado Hospital Medical Center,IMI,Concussion,,,,,32.77664,-117.057
+Alvarado Hospital Medical Center,IMI,Broken Bone,,,,,32.77664,-117.057
+Alvarado Hospital Medical Center,PSI,Cataracts,1.0,512.0,0.16,As Expected,32.77664,-117.057
 Alvarado Hospital Medical Center,CABG,Early Stage Skin Cancer,0.0,17.0,0.0,As Expected,32.78,-117.06
 Sharp Coronado Hospital and Healthcare Center,IMI,Mild Asthma,1.0,32.0,5.1,As Expected,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Hypertension,,,,,32.69427,-117.168
@@ -406,9 +406,9 @@ Sharp Coronado Hospital and Healthcare Center,IMI,Chronic Migraines,,,,,32.69427
 Sharp Coronado Hospital and Healthcare Center,IMI,Shoulder Impingement,1.0,19.0,4.9,As Expected,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Insomnia,,,,,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Bulimia,1.0,20.0,7.8,As Expected,32.69427,-117.168
-Sharp Coronado Hospital and Healthcare Center,IMI,AAA Repair Open Unrupture,,,,,32.69427,-117.168
-Sharp Coronado Hospital and Healthcare Center,IMI,AAA Repair Endo Unrupture,,,,,32.69427,-117.168
-Sharp Coronado Hospital and Healthcare Center,PSI,Postoperative Sepsis,0.0,762.0,0.0,As Expected,32.69427,-117.168
+Sharp Coronado Hospital and Healthcare Center,IMI,Concussion,,,,,32.69427,-117.168
+Sharp Coronado Hospital and Healthcare Center,IMI,Broken Bone,,,,,32.69427,-117.168
+Sharp Coronado Hospital and Healthcare Center,PSI,Cataracts,0.0,762.0,0.0,As Expected,32.69427,-117.168
 Sharp Memorial Hospital,IMI,Mild Asthma,8.0,418.0,2.1,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Hypertension,15.0,346.0,5.5,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Scoliosis,0.0,20.0,0.0,As Expected,32.80016,-117.155
@@ -421,9 +421,9 @@ Sharp Memorial Hospital,IMI,Chronic Migraines,3.0,19.0,19.3,As Expected,32.80016
 Sharp Memorial Hospital,IMI,Shoulder Impingement,25.0,413.0,6.9,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Insomnia,15.0,78.0,19.9,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Bulimia,43.0,510.0,10.3,As Expected,32.80016,-117.155
-Sharp Memorial Hospital,IMI,AAA Repair Open Unrupture,,,,,32.80016,-117.155
-Sharp Memorial Hospital,IMI,AAA Repair Endo Unrupture,0.0,25.0,0.0,As Expected,32.80016,-117.155
-Sharp Memorial Hospital,PSI,Postoperative Sepsis,15.0,3409.0,0.34,As Expected,32.80016,-117.155
+Sharp Memorial Hospital,IMI,Concussion,,,,,32.80016,-117.155
+Sharp Memorial Hospital,IMI,Broken Bone,0.0,25.0,0.0,As Expected,32.80016,-117.155
+Sharp Memorial Hospital,PSI,Cataracts,15.0,3409.0,0.34,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,CABG,Early Stage Skin Cancer,1.0,83.0,1.416458,As Expected,32.8,-117.16
 Grossmont Hospital,IMI,Mild Asthma,17.0,506.0,4.2,As Expected,32.77963,-117.009
 Grossmont Hospital,IMI,Hypertension,19.0,459.0,3.7,As Expected,32.77963,-117.009
@@ -437,9 +437,9 @@ Grossmont Hospital,IMI,Chronic Migraines,13.0,49.0,28.6,As Expected,32.77963,-11
 Grossmont Hospital,IMI,Shoulder Impingement,41.0,568.0,6.6,Worse,32.77963,-117.009
 Grossmont Hospital,IMI,Insomnia,34.0,117.0,23.4,As Expected,32.77963,-117.009
 Grossmont Hospital,IMI,Bulimia,88.0,734.0,11.0,Worse,32.77963,-117.009
-Grossmont Hospital,IMI,AAA Repair Open Unrupture,,,,,32.77963,-117.009
-Grossmont Hospital,IMI,AAA Repair Endo Unrupture,0.0,15.0,0.0,As Expected,32.77963,-117.009
-Grossmont Hospital,PSI,Postoperative Sepsis,6.0,1692.0,0.48,As Expected,32.77963,-117.009
+Grossmont Hospital,IMI,Concussion,,,,,32.77963,-117.009
+Grossmont Hospital,IMI,Broken Bone,0.0,15.0,0.0,As Expected,32.77963,-117.009
+Grossmont Hospital,PSI,Cataracts,6.0,1692.0,0.48,As Expected,32.77963,-117.009
 Grossmont Hospital,CABG,Early Stage Skin Cancer,6.0,76.0,6.330886,Worse,32.78,-117.01
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Mild Asthma,8.0,227.0,3.0,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Hypertension,,,,,32.79287,-117.094
@@ -453,9 +453,9 @@ Kaiser Foundation Hospital – San Diego – Zion,IMI,Chronic Migraines,5.0,22.0
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Shoulder Impingement,23.0,340.0,5.6,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Insomnia,12.0,126.0,14.0,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Bulimia,40.0,488.0,8.6,As Expected,32.79287,-117.094
-Kaiser Foundation Hospital – San Diego – Zion,IMI,AAA Repair Open Unrupture,0.0,4.0,0.0,As Expected,32.79287,-117.094
-Kaiser Foundation Hospital – San Diego – Zion,IMI,AAA Repair Endo Unrupture,0.0,36.0,0.0,As Expected,32.79287,-117.094
-Kaiser Foundation Hospital – San Diego – Zion,PSI,Postoperative Sepsis,23.0,2502.0,0.67,As Expected,32.79287,-117.094
+Kaiser Foundation Hospital – San Diego – Zion,IMI,Concussion,0.0,4.0,0.0,As Expected,32.79287,-117.094
+Kaiser Foundation Hospital – San Diego – Zion,IMI,Broken Bone,0.0,36.0,0.0,As Expected,32.79287,-117.094
+Kaiser Foundation Hospital – San Diego – Zion,PSI,Cataracts,23.0,2502.0,0.67,As Expected,32.79287,-117.094
 Scripps Mercy Hospital,IMI,Mild Asthma,7.0,533.0,1.2,Better,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Hypertension,9.0,293.0,4.1,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Scoliosis,0.0,5.0,0.0,As Expected,32.75128,-117.16
@@ -468,9 +468,9 @@ Scripps Mercy Hospital,IMI,Chronic Migraines,9.0,19.0,30.3,As Expected,32.75128,
 Scripps Mercy Hospital,IMI,Shoulder Impingement,22.0,474.0,5.7,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Insomnia,29.0,134.0,19.5,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Bulimia,60.0,627.0,9.4,As Expected,32.75128,-117.16
-Scripps Mercy Hospital,IMI,AAA Repair Open Unrupture,,,,,32.75128,-117.16
-Scripps Mercy Hospital,IMI,AAA Repair Endo Unrupture,0.0,14.0,0.0,As Expected,32.75128,-117.16
-Scripps Mercy Hospital,PSI,Postoperative Sepsis,13.0,3077.0,0.65,As Expected,32.75128,-117.16
+Scripps Mercy Hospital,IMI,Concussion,,,,,32.75128,-117.16
+Scripps Mercy Hospital,IMI,Broken Bone,0.0,14.0,0.0,As Expected,32.75128,-117.16
+Scripps Mercy Hospital,PSI,Cataracts,13.0,3077.0,0.65,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,CABG,Early Stage Skin Cancer,2.0,85.0,3.375196,As Expected,32.75,-117.16
 Palomar Health Downtown Campus,IMI,Mild Asthma,8.0,439.0,2.0,As Expected,33.12586,-117.076
 Palomar Health Downtown Campus,IMI,Hypertension,20.0,371.0,5.3,As Expected,33.12586,-117.076
@@ -484,9 +484,9 @@ Palomar Health Downtown Campus,IMI,Chronic Migraines,7.0,21.0,26.0,As Expected,3
 Palomar Health Downtown Campus,IMI,Shoulder Impingement,43.0,484.0,5.2,As Expected,33.12586,-117.076
 Palomar Health Downtown Campus,IMI,Insomnia,29.0,113.0,21.6,As Expected,33.12586,-117.076
 Palomar Health Downtown Campus,IMI,Bulimia,79.0,618.0,9.4,As Expected,33.12586,-117.076
-Palomar Health Downtown Campus,IMI,AAA Repair Open Unrupture,,,,,33.12586,-117.076
-Palomar Health Downtown Campus,IMI,AAA Repair Endo Unrupture,0.0,21.0,0.0,As Expected,33.12586,-117.076
-Palomar Health Downtown Campus,PSI,Postoperative Sepsis,3.0,2305.0,0.2,As Expected,33.12586,-117.076
+Palomar Health Downtown Campus,IMI,Concussion,,,,,33.12586,-117.076
+Palomar Health Downtown Campus,IMI,Broken Bone,0.0,21.0,0.0,As Expected,33.12586,-117.076
+Palomar Health Downtown Campus,PSI,Cataracts,3.0,2305.0,0.2,As Expected,33.12586,-117.076
 Palomar Health Downtown Campus,CABG,Early Stage Skin Cancer,6.0,85.0,4.876596,As Expected,33.13,-117.08
 Paradise Valley Hospital,IMI,Mild Asthma,2.0,77.0,4.5,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Hypertension,1.0,45.0,4.6,As Expected,32.68632,-117.083
@@ -500,9 +500,9 @@ Paradise Valley Hospital,IMI,Chronic Migraines,,,,,32.68632,-117.083
 Paradise Valley Hospital,IMI,Shoulder Impingement,0.0,73.0,0.0,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Insomnia,3.0,16.0,30.9,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Bulimia,4.0,90.0,8.0,As Expected,32.68632,-117.083
-Paradise Valley Hospital,IMI,AAA Repair Open Unrupture,,,,,32.68632,-117.083
-Paradise Valley Hospital,IMI,AAA Repair Endo Unrupture,,,,,32.68632,-117.083
-Paradise Valley Hospital,PSI,Postoperative Sepsis,0.0,168.0,0.0,As Expected,32.68632,-117.083
+Paradise Valley Hospital,IMI,Concussion,,,,,32.68632,-117.083
+Paradise Valley Hospital,IMI,Broken Bone,,,,,32.68632,-117.083
+Paradise Valley Hospital,PSI,Cataracts,0.0,168.0,0.0,As Expected,32.68632,-117.083
 Scripps Memorial Hospital – La Jolla,IMI,Mild Asthma,3.0,255.0,0.8,Better,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Hypertension,31.0,923.0,4.1,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Scoliosis,,,,,32.88506,-117.222
@@ -515,9 +515,9 @@ Scripps Memorial Hospital – La Jolla,IMI,Chronic Migraines,10.0,67.0,17.8,As E
 Scripps Memorial Hospital – La Jolla,IMI,Shoulder Impingement,26.0,338.0,6.2,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Insomnia,22.0,93.0,23.4,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Bulimia,58.0,498.0,9.6,As Expected,32.88506,-117.222
-Scripps Memorial Hospital – La Jolla,IMI,AAA Repair Open Unrupture,0.0,5.0,0.0,As Expected,32.88506,-117.222
-Scripps Memorial Hospital – La Jolla,IMI,AAA Repair Endo Unrupture,0.0,4.0,0.0,As Expected,32.88506,-117.222
-Scripps Memorial Hospital – La Jolla,PSI,Postoperative Sepsis,15.0,3358.0,0.44,As Expected,32.88506,-117.222
+Scripps Memorial Hospital – La Jolla,IMI,Concussion,0.0,5.0,0.0,As Expected,32.88506,-117.222
+Scripps Memorial Hospital – La Jolla,IMI,Broken Bone,0.0,4.0,0.0,As Expected,32.88506,-117.222
+Scripps Memorial Hospital – La Jolla,PSI,Cataracts,15.0,3358.0,0.44,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,CABG,Early Stage Skin Cancer,2.0,387.0,0.6906768,As Expected,32.89,-117.22
 Tri-City Medical Center,IMI,Mild Asthma,6.0,237.0,2.6,As Expected,33.18394,-117.29
 Tri-City Medical Center,IMI,Hypertension,4.0,202.0,2.6,As Expected,33.18394,-117.29
@@ -531,9 +531,9 @@ Tri-City Medical Center,IMI,Chronic Migraines,5.0,16.0,27.1,As Expected,33.18394
 Tri-City Medical Center,IMI,Shoulder Impingement,23.0,291.0,7.8,Worse,33.18394,-117.29
 Tri-City Medical Center,IMI,Insomnia,23.0,63.0,33.5,Worse,33.18394,-117.29
 Tri-City Medical Center,IMI,Bulimia,51.0,370.0,13.7,Worse,33.18394,-117.29
-Tri-City Medical Center,IMI,AAA Repair Open Unrupture,,,,,33.18394,-117.29
-Tri-City Medical Center,IMI,AAA Repair Endo Unrupture,0.0,10.0,0.0,As Expected,33.18394,-117.29
-Tri-City Medical Center,PSI,Postoperative Sepsis,4.0,881.0,0.56,As Expected,33.18394,-117.29
+Tri-City Medical Center,IMI,Concussion,,,,,33.18394,-117.29
+Tri-City Medical Center,IMI,Broken Bone,0.0,10.0,0.0,As Expected,33.18394,-117.29
+Tri-City Medical Center,PSI,Cataracts,4.0,881.0,0.56,As Expected,33.18394,-117.29
 Tri-City Medical Center,CABG,Early Stage Skin Cancer,1.0,52.0,2.724138,As Expected,33.18,-117.29
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Mild Asthma,4.0,268.0,1.7,As Expected,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Hypertension,13.0,384.0,3.5,As Expected,32.75387,-117.164
@@ -547,9 +547,9 @@ UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Chronic Migraines
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Shoulder Impingement,16.0,348.0,3.2,As Expected,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Insomnia,18.0,136.0,11.9,Better,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Bulimia,42.0,536.0,5.6,Better,32.75387,-117.164
-UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,AAA Repair Open Unrupture,1.0,6.0,10.2,As Expected,32.75387,-117.164
-UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,AAA Repair Endo Unrupture,0.0,49.0,0.0,As Expected,32.75387,-117.164
-UC San Diego Health Hillcrest – Hillcrest Medical Center,PSI,Postoperative Sepsis,35.0,5605.0,0.43,As Expected,32.75387,-117.164
+UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Concussion,1.0,6.0,10.2,As Expected,32.75387,-117.164
+UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Broken Bone,0.0,49.0,0.0,As Expected,32.75387,-117.164
+UC San Diego Health Hillcrest – Hillcrest Medical Center,PSI,Cataracts,35.0,5605.0,0.43,As Expected,32.75387,-117.164
 Sharp Chula Vista Medical Center,IMI,Mild Asthma,8.0,316.0,3.3,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Hypertension,4.0,266.0,1.3,Better,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Scoliosis,0.0,5.0,0.0,As Expected,32.61909,-117.024
@@ -562,9 +562,9 @@ Sharp Chula Vista Medical Center,IMI,Chronic Migraines,2.0,8.0,12.9,As Expected,
 Sharp Chula Vista Medical Center,IMI,Shoulder Impingement,13.0,299.0,4.8,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Insomnia,17.0,61.0,23.3,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Bulimia,32.0,368.0,8.8,As Expected,32.61909,-117.024
-Sharp Chula Vista Medical Center,IMI,AAA Repair Open Unrupture,,,,,32.61909,-117.024
-Sharp Chula Vista Medical Center,IMI,AAA Repair Endo Unrupture,1.0,4.0,30.3,As Expected,32.61909,-117.024
-Sharp Chula Vista Medical Center,PSI,Postoperative Sepsis,5.0,588.0,0.76,As Expected,32.61909,-117.024
+Sharp Chula Vista Medical Center,IMI,Concussion,,,,,32.61909,-117.024
+Sharp Chula Vista Medical Center,IMI,Broken Bone,1.0,4.0,30.3,As Expected,32.61909,-117.024
+Sharp Chula Vista Medical Center,PSI,Cataracts,5.0,588.0,0.76,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,CABG,Early Stage Skin Cancer,2.0,79.0,3.126609,As Expected,32.62,-117.02
 Palomar Medical Center Poway,IMI,Mild Asthma,2.0,112.0,2.2,As Expected,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Hypertension,,,,,32.99563,-117.057
@@ -578,9 +578,9 @@ Palomar Medical Center Poway,IMI,Chronic Migraines,,,,,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Shoulder Impingement,4.0,81.0,3.0,As Expected,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Insomnia,10.0,12.0,33.3,Worse,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Bulimia,15.0,94.0,9.7,As Expected,32.99563,-117.057
-Palomar Medical Center Poway,IMI,AAA Repair Open Unrupture,,,,,32.99563,-117.057
-Palomar Medical Center Poway,IMI,AAA Repair Endo Unrupture,,,,,32.99563,-117.057
-Palomar Medical Center Poway,PSI,Postoperative Sepsis,1.0,424.0,0.32,As Expected,32.99563,-117.057
+Palomar Medical Center Poway,IMI,Concussion,,,,,32.99563,-117.057
+Palomar Medical Center Poway,IMI,Broken Bone,,,,,32.99563,-117.057
+Palomar Medical Center Poway,PSI,Cataracts,1.0,424.0,0.32,As Expected,32.99563,-117.057
 Scripps Green Hospital,IMI,Mild Asthma,7.0,189.0,3.1,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Hypertension,,,,,32.89654,-117.241
 Scripps Green Hospital,IMI,Scoliosis,0.0,16.0,0.0,As Expected,32.89654,-117.241
@@ -593,9 +593,9 @@ Scripps Green Hospital,IMI,Chronic Migraines,0.0,3.0,0.0,As Expected,32.89654,-1
 Scripps Green Hospital,IMI,Shoulder Impingement,3.0,62.0,8.0,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Insomnia,1.0,18.0,13.3,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Bulimia,4.0,83.0,8.2,As Expected,32.89654,-117.241
-Scripps Green Hospital,IMI,AAA Repair Open Unrupture,,,,,32.89654,-117.241
-Scripps Green Hospital,IMI,AAA Repair Endo Unrupture,1.0,11.0,2.1,As Expected,32.89654,-117.241
-Scripps Green Hospital,PSI,Postoperative Sepsis,4.0,3546.0,0.17,Better,32.89654,-117.241
+Scripps Green Hospital,IMI,Concussion,,,,,32.89654,-117.241
+Scripps Green Hospital,IMI,Broken Bone,1.0,11.0,2.1,As Expected,32.89654,-117.241
+Scripps Green Hospital,PSI,Cataracts,4.0,3546.0,0.17,Better,32.89654,-117.241
 Scripps Memorial Hospital – Encinitas,IMI,Mild Asthma,4.0,301.0,1.0,Better,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Hypertension,5.0,197.0,3.7,As Expected,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Scoliosis,,,,,33.0363,-117.284
@@ -608,9 +608,9 @@ Scripps Memorial Hospital – Encinitas,IMI,Chronic Migraines,0.0,6.0,0.0,As Exp
 Scripps Memorial Hospital – Encinitas,IMI,Shoulder Impingement,2.0,165.0,1.6,As Expected,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Insomnia,4.0,40.0,11.9,As Expected,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Bulimia,6.0,211.0,4.0,Better,33.0363,-117.284
-Scripps Memorial Hospital – Encinitas,IMI,AAA Repair Open Unrupture,,,,,33.0363,-117.284
-Scripps Memorial Hospital – Encinitas,IMI,AAA Repair Endo Unrupture,0.0,10.0,0.0,As Expected,33.0363,-117.284
-Scripps Memorial Hospital – Encinitas,PSI,Postoperative Sepsis,0.0,969.0,0.0,As Expected,33.0363,-117.284
+Scripps Memorial Hospital – Encinitas,IMI,Concussion,,,,,33.0363,-117.284
+Scripps Memorial Hospital – Encinitas,IMI,Broken Bone,0.0,10.0,0.0,As Expected,33.0363,-117.284
+Scripps Memorial Hospital – Encinitas,PSI,Cataracts,0.0,969.0,0.0,As Expected,33.0363,-117.284
 UC San Diego Health La Jolla – Jacobs Medical Center & Sulpizio Cardiovascular Center,CABG,Early Stage Skin Cancer,2.0,156.0,1.741353,As Expected,32.88,-117.23
 Alvarado Hospital Medical Center,IMI,Chronic Knee Pain,1.0,23.0,3.1,As Expected,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Mild Asthma,11.0,283.0,3.5,Better,32.77664,-117.057
@@ -624,8 +624,8 @@ Alvarado Hospital Medical Center,IMI,Shoulder Impingement,2.0,50.0,5.4,As Expect
 Alvarado Hospital Medical Center,IMI,Insomnia,1.0,7.0,20.2,As Expected,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Bulimia,3.0,58.0,7.7,As Expected,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Low Back Pain,5.0,124.0,5.0,As Expected,32.77664,-117.057
-Alvarado Hospital Medical Center,IMI,AAA Repair Open Unrupture,,,,,32.77664,-117.057
-Alvarado Hospital Medical Center,IMI,AAA Repair Endo Unrupture,,,,,32.77664,-117.057
+Alvarado Hospital Medical Center,IMI,Concussion,,,,,32.77664,-117.057
+Alvarado Hospital Medical Center,IMI,Broken Bone,,,,,32.77664,-117.057
 Sharp Coronado Hospital and Healthcare Center,IMI,ACL Tear,3.0,54.0,7.5,As Expected,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Scoliosis,,,,,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Insomnia,,,,,32.69427,-117.168
@@ -638,8 +638,8 @@ Sharp Coronado Hospital and Healthcare Center,IMI,Chronic Migraines,,,,,32.69427
 Sharp Coronado Hospital and Healthcare Center,IMI,Shoulder Impingement,1.0,23.0,5.1,As Expected,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Bulimia,2.0,24.0,15.0,As Expected,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Low Back Pain,0.0,3.0,0.0,As Expected,32.69427,-117.168
-Sharp Coronado Hospital and Healthcare Center,IMI,AAA Repair Open Unrupture,,,,,32.69427,-117.168
-Sharp Coronado Hospital and Healthcare Center,IMI,AAA Repair Endo Unrupture,,,,,32.69427,-117.168
+Sharp Coronado Hospital and Healthcare Center,IMI,Concussion,,,,,32.69427,-117.168
+Sharp Coronado Hospital and Healthcare Center,IMI,Broken Bone,,,,,32.69427,-117.168
 Sharp Memorial Hospital,IMI,Chronic Knee Pain,6.0,280.0,1.6,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Chronic Migraines,3.0,6.0,36.6,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Mild Asthma,33.0,676.0,5.4,As Expected,32.80016,-117.155
@@ -652,8 +652,8 @@ Sharp Memorial Hospital,IMI,Shoulder Impingement,26.0,435.0,6.8,As Expected,32.8
 Sharp Memorial Hospital,IMI,Insomnia,17.0,84.0,23.2,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Bulimia,46.0,525.0,11.3,Worse,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Low Back Pain,17.0,357.0,6.1,As Expected,32.80016,-117.155
-Sharp Memorial Hospital,IMI,AAA Repair Open Unrupture,,,,,32.80016,-117.155
-Sharp Memorial Hospital,IMI,AAA Repair Endo Unrupture,0.0,14.0,0.0,As Expected,32.80016,-117.155
+Sharp Memorial Hospital,IMI,Concussion,,,,,32.80016,-117.155
+Sharp Memorial Hospital,IMI,Broken Bone,0.0,14.0,0.0,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,CABG,Early Stage Skin Cancer,2.0,56.0,4.476694,As Expected,32.8,-117.16
 Grossmont Hospital,IMI,Insomnia,35.0,110.0,24.9,As Expected,32.77963,-117.009
 Grossmont Hospital,IMI,Scoliosis,0.0,17.0,0.0,As Expected,32.77963,-117.009
@@ -667,8 +667,8 @@ Grossmont Hospital,IMI,Chronic Migraines,14.0,38.0,32.0,As Expected,32.77963,-11
 Grossmont Hospital,IMI,Shoulder Impingement,36.0,539.0,6.8,Worse,32.77963,-117.009
 Grossmont Hospital,IMI,Bulimia,85.0,687.0,11.5,Worse,32.77963,-117.009
 Grossmont Hospital,IMI,Low Back Pain,19.0,324.0,6.9,As Expected,32.77963,-117.009
-Grossmont Hospital,IMI,AAA Repair Open Unrupture,,,,,32.77963,-117.009
-Grossmont Hospital,IMI,AAA Repair Endo Unrupture,0.0,13.0,0.0,As Expected,32.77963,-117.009
+Grossmont Hospital,IMI,Concussion,,,,,32.77963,-117.009
+Grossmont Hospital,IMI,Broken Bone,0.0,13.0,0.0,As Expected,32.77963,-117.009
 Grossmont Hospital,CABG,Early Stage Skin Cancer,2.0,59.0,3.332307,As Expected,32.78,-117.01
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Chronic Knee Pain,11.0,448.0,2.8,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Chronic Migraines,5.0,24.0,46.5,As Expected,32.79287,-117.094
@@ -682,8 +682,8 @@ Kaiser Foundation Hospital – San Diego – Zion,IMI,Shoulder Impingement,24.0,
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Insomnia,14.0,105.0,17.6,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Bulimia,43.0,455.0,11.2,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Low Back Pain,9.0,104.0,8.6,As Expected,32.79287,-117.094
-Kaiser Foundation Hospital – San Diego – Zion,IMI,AAA Repair Open Unrupture,0.0,4.0,0.0,As Expected,32.79287,-117.094
-Kaiser Foundation Hospital – San Diego – Zion,IMI,AAA Repair Endo Unrupture,0.0,37.0,0.0,As Expected,32.79287,-117.094
+Kaiser Foundation Hospital – San Diego – Zion,IMI,Concussion,0.0,4.0,0.0,As Expected,32.79287,-117.094
+Kaiser Foundation Hospital – San Diego – Zion,IMI,Broken Bone,0.0,37.0,0.0,As Expected,32.79287,-117.094
 Scripps Mercy Hospital,IMI,Scoliosis,1.0,16.0,,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,ACL Tear,15.0,516.0,2.2,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Mild Asthma,51.0,843.0,6.1,As Expected,32.75128,-117.16
@@ -696,8 +696,8 @@ Scripps Mercy Hospital,IMI,Shoulder Impingement,10.0,413.0,2.5,Better,32.75128,-
 Scripps Mercy Hospital,IMI,Insomnia,32.0,135.0,21.9,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Bulimia,47.0,557.0,7.7,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Low Back Pain,17.0,336.0,4.3,As Expected,32.75128,-117.16
-Scripps Mercy Hospital,IMI,AAA Repair Open Unrupture,,,,,32.75128,-117.16
-Scripps Mercy Hospital,IMI,AAA Repair Endo Unrupture,0.0,8.0,0.0,As Expected,32.75128,-117.16
+Scripps Mercy Hospital,IMI,Concussion,,,,,32.75128,-117.16
+Scripps Mercy Hospital,IMI,Broken Bone,0.0,8.0,0.0,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,CABG,Early Stage Skin Cancer,2.0,51.0,5.306616,As Expected,32.75,-117.16
 Palomar Health Downtown Campus,IMI,Chronic Migraines,6.0,15.0,34.4,As Expected,33.12586,-117.076
 Palomar Health Downtown Campus,IMI,Chronic Knee Pain,5.0,244.0,2.1,As Expected,33.12586,-117.076
@@ -711,8 +711,8 @@ Palomar Health Downtown Campus,IMI,Shoulder Impingement,43.0,404.0,10.4,Worse,33
 Palomar Health Downtown Campus,IMI,Insomnia,32.0,124.0,27.4,Worse,33.12586,-117.076
 Palomar Health Downtown Campus,IMI,Bulimia,81.0,543.0,14.8,Worse,33.12586,-117.076
 Palomar Health Downtown Campus,IMI,Low Back Pain,28.0,408.0,6.7,As Expected,33.12586,-117.076
-Palomar Health Downtown Campus,IMI,AAA Repair Open Unrupture,,,,,33.12586,-117.076
-Palomar Health Downtown Campus,IMI,AAA Repair Endo Unrupture,0.0,13.0,0.0,As Expected,33.12586,-117.076
+Palomar Health Downtown Campus,IMI,Concussion,,,,,33.12586,-117.076
+Palomar Health Downtown Campus,IMI,Broken Bone,0.0,13.0,0.0,As Expected,33.12586,-117.076
 Palomar Health Downtown Campus,CABG,Early Stage Skin Cancer,4.0,66.0,7.182851,As Expected,33.13,-117.08
 Paradise Valley Hospital,IMI,ACL Tear,0.0,79.0,0.0,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Scoliosis,,,,,32.68632,-117.083
@@ -726,8 +726,8 @@ Paradise Valley Hospital,IMI,Shoulder Impingement,1.0,45.0,4.0,As Expected,32.68
 Paradise Valley Hospital,IMI,Insomnia,3.0,14.0,25.6,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Bulimia,4.0,59.0,9.7,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Low Back Pain,1.0,41.0,3.0,As Expected,32.68632,-117.083
-Paradise Valley Hospital,IMI,AAA Repair Open Unrupture,,,,,32.68632,-117.083
-Paradise Valley Hospital,IMI,AAA Repair Endo Unrupture,,,,,32.68632,-117.083
+Paradise Valley Hospital,IMI,Concussion,,,,,32.68632,-117.083
+Paradise Valley Hospital,IMI,Broken Bone,,,,,32.68632,-117.083
 Scripps Memorial Hospital – La Jolla,IMI,Chronic Migraines,19.0,57.0,34.1,Worse,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Chronic Knee Pain,5.0,215.0,2.5,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Mild Asthma,25.0,360.0,7.6,As Expected,32.88506,-117.222
@@ -740,8 +740,8 @@ Scripps Memorial Hospital – La Jolla,IMI,Shoulder Impingement,30.0,357.0,6.1,A
 Scripps Memorial Hospital – La Jolla,IMI,Insomnia,25.0,112.0,21.0,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Bulimia,74.0,526.0,10.6,Worse,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Low Back Pain,33.0,749.0,4.5,As Expected,32.88506,-117.222
-Scripps Memorial Hospital – La Jolla,IMI,AAA Repair Open Unrupture,,,,,32.88506,-117.222
-Scripps Memorial Hospital – La Jolla,IMI,AAA Repair Endo Unrupture,0.0,7.0,0.0,As Expected,32.88506,-117.222
+Scripps Memorial Hospital – La Jolla,IMI,Concussion,,,,,32.88506,-117.222
+Scripps Memorial Hospital – La Jolla,IMI,Broken Bone,0.0,7.0,0.0,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,CABG,Early Stage Skin Cancer,1.0,298.0,0.3590226,Better,32.89,-117.22
 Tri-City Medical Center,IMI,ACL Tear,8.0,185.0,3.6,As Expected,33.18394,-117.29
 Tri-City Medical Center,IMI,Scoliosis,,,,,33.18394,-117.29
@@ -755,8 +755,8 @@ Tri-City Medical Center,IMI,Shoulder Impingement,13.0,222.0,5.9,As Expected,33.1
 Tri-City Medical Center,IMI,Insomnia,22.0,55.0,33.7,Worse,33.18394,-117.29
 Tri-City Medical Center,IMI,Bulimia,41.0,283.0,13.4,Worse,33.18394,-117.29
 Tri-City Medical Center,IMI,Low Back Pain,17.0,208.0,7.9,As Expected,33.18394,-117.29
-Tri-City Medical Center,IMI,AAA Repair Open Unrupture,,,,,33.18394,-117.29
-Tri-City Medical Center,IMI,AAA Repair Endo Unrupture,0.0,7.0,0.0,As Expected,33.18394,-117.29
+Tri-City Medical Center,IMI,Concussion,,,,,33.18394,-117.29
+Tri-City Medical Center,IMI,Broken Bone,0.0,7.0,0.0,As Expected,33.18394,-117.29
 Tri-City Medical Center,CABG,Early Stage Skin Cancer,3.0,34.0,9.074919,As Expected,33.18,-117.29
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Chronic Migraines,5.0,50.0,11.5,Better,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Chronic Knee Pain,2.0,174.0,1.2,As Expected,32.75387,-117.164
@@ -770,8 +770,8 @@ UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Shoulder Impingem
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Insomnia,16.0,113.0,14.3,As Expected,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Bulimia,31.0,518.0,4.8,Better,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Low Back Pain,13.0,320.0,3.9,As Expected,32.75387,-117.164
-UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,AAA Repair Open Unrupture,0.0,3.0,0.0,As Expected,32.75387,-117.164
-UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,AAA Repair Endo Unrupture,1.0,36.0,1.6,As Expected,32.75387,-117.164
+UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Concussion,0.0,3.0,0.0,As Expected,32.75387,-117.164
+UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Broken Bone,1.0,36.0,1.6,As Expected,32.75387,-117.164
 Sharp Chula Vista Medical Center,IMI,Insomnia,14.0,52.0,25.3,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Scoliosis,1.0,3.0,3.7,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,ACL Tear,8.0,294.0,2.7,As Expected,32.61909,-117.024
@@ -784,8 +784,8 @@ Sharp Chula Vista Medical Center,IMI,Chronic Migraines,3.0,8.0,25.7,As Expected,
 Sharp Chula Vista Medical Center,IMI,Shoulder Impingement,8.0,244.0,5.4,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Bulimia,25.0,304.0,10.3,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Low Back Pain,22.0,265.0,8.1,As Expected,32.61909,-117.024
-Sharp Chula Vista Medical Center,IMI,AAA Repair Open Unrupture,,,,,32.61909,-117.024
-Sharp Chula Vista Medical Center,IMI,AAA Repair Endo Unrupture,0.0,4.0,0.0,As Expected,32.61909,-117.024
+Sharp Chula Vista Medical Center,IMI,Concussion,,,,,32.61909,-117.024
+Sharp Chula Vista Medical Center,IMI,Broken Bone,0.0,4.0,0.0,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,CABG,Early Stage Skin Cancer,2.0,56.0,3.305199,As Expected,32.62,-117.02
 Palomar Medical Center Poway,IMI,Chronic Migraines,,,,,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Chronic Knee Pain,3.0,65.0,4.7,As Expected,32.99563,-117.057
@@ -799,8 +799,8 @@ Palomar Medical Center Poway,IMI,Shoulder Impingement,7.0,51.0,20.1,Worse,32.995
 Palomar Medical Center Poway,IMI,Insomnia,1.0,4.0,74.1,As Expected,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Bulimia,9.0,56.0,36.8,Worse,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Low Back Pain,2.0,8.0,7.6,As Expected,32.99563,-117.057
-Palomar Medical Center Poway,IMI,AAA Repair Open Unrupture,,,,,32.99563,-117.057
-Palomar Medical Center Poway,IMI,AAA Repair Endo Unrupture,,,,,32.99563,-117.057
+Palomar Medical Center Poway,IMI,Concussion,,,,,32.99563,-117.057
+Palomar Medical Center Poway,IMI,Broken Bone,,,,,32.99563,-117.057
 Scripps Green Hospital,IMI,Scoliosis,0.0,28.0,0.0,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Insomnia,1.0,16.0,10.7,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,ACL Tear,2.0,155.0,1.3,As Expected,32.89654,-117.241
@@ -813,8 +813,8 @@ Scripps Green Hospital,IMI,Chronic Migraines,,,,,32.89654,-117.241
 Scripps Green Hospital,IMI,Shoulder Impingement,2.0,68.0,3.5,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Bulimia,4.0,86.0,7.1,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Low Back Pain,2.0,6.0,12.0,As Expected,32.89654,-117.241
-Scripps Green Hospital,IMI,AAA Repair Open Unrupture,,,,,32.89654,-117.241
-Scripps Green Hospital,IMI,AAA Repair Endo Unrupture,0.0,17.0,0.0,As Expected,32.89654,-117.241
+Scripps Green Hospital,IMI,Concussion,,,,,32.89654,-117.241
+Scripps Green Hospital,IMI,Broken Bone,0.0,17.0,0.0,As Expected,32.89654,-117.241
 Scripps Memorial Hospital – Encinitas,IMI,Chronic Knee Pain,1.0,195.0,0.5,As Expected,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Chronic Migraines,2.0,3.0,42.1,As Expected,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Mild Asthma,14.0,381.0,3.8,Better,33.0363,-117.284
@@ -827,8 +827,8 @@ Scripps Memorial Hospital – Encinitas,IMI,Shoulder Impingement,2.0,206.0,1.0,B
 Scripps Memorial Hospital – Encinitas,IMI,Insomnia,2.0,34.0,8.8,As Expected,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Bulimia,6.0,243.0,3.5,Better,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Low Back Pain,4.0,190.0,2.5,As Expected,33.0363,-117.284
-Scripps Memorial Hospital – Encinitas,IMI,AAA Repair Open Unrupture,,,,,33.0363,-117.284
-Scripps Memorial Hospital – Encinitas,IMI,AAA Repair Endo Unrupture,0.0,6.0,0.0,As Expected,33.0363,-117.284
+Scripps Memorial Hospital – Encinitas,IMI,Concussion,,,,,33.0363,-117.284
+Scripps Memorial Hospital – Encinitas,IMI,Broken Bone,0.0,6.0,0.0,As Expected,33.0363,-117.284
 UC San Diego Health La Jolla – Jacobs Medical Center & Sulpizio Cardiovascular Center,CABG,Early Stage Skin Cancer,2.0,125.0,2.03493,As Expected,32.88,-117.23
 Alvarado Hospital Medical Center,IMI,Mild Asthma,17.0,248.0,5.2,Better,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Scoliosis,,,,,32.77664,-117.057
@@ -842,9 +842,9 @@ Alvarado Hospital Medical Center,IMI,Shoulder Impingement,1.0,46.0,2.7,As Expect
 Alvarado Hospital Medical Center,IMI,Insomnia,3.0,12.0,39.0,As Expected,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Bulimia,4.0,59.0,10.1,As Expected,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Low Back Pain,4.0,123.0,3.3,As Expected,32.77664,-117.057
-Alvarado Hospital Medical Center,IMI,AAA Repair Open Unrupture,,,,,32.77664,-117.057
-Alvarado Hospital Medical Center,IMI,AAA Repair Endo Unrupture,,,,,32.77664,-117.057
-Alvarado Hospital Medical Center,PSI,Postoperative Sepsis,0.0,317.0,0.0,As Expected,32.77664,-117.057
+Alvarado Hospital Medical Center,IMI,Concussion,,,,,32.77664,-117.057
+Alvarado Hospital Medical Center,IMI,Broken Bone,,,,,32.77664,-117.057
+Alvarado Hospital Medical Center,PSI,Cataracts,0.0,317.0,0.0,As Expected,32.77664,-117.057
 Sharp Coronado Hospital and Healthcare Center,IMI,Mild Asthma,3.0,70.0,6.8,As Expected,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Scoliosis,,,,,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Hypertension,,,,,32.69427,-117.168
@@ -857,10 +857,10 @@ Sharp Coronado Hospital and Healthcare Center,IMI,Shoulder Impingement,0.0,38.0,
 Sharp Coronado Hospital and Healthcare Center,IMI,Insomnia,,,,,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Bulimia,1.0,40.0,6.0,As Expected,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Low Back Pain,0.0,7.0,0.0,As Expected,32.69427,-117.168
-Sharp Coronado Hospital and Healthcare Center,IMI,AAA Repair Open Unrupture,,,,,32.69427,-117.168
-Sharp Coronado Hospital and Healthcare Center,IMI,AAA Repair Endo Unrupture,,,,,32.69427,-117.168
-Sharp Coronado Hospital and Healthcare Center,PSI,Postoperative Sepsis,0.0,214.0,0.0,As Expected,32.69427,-117.168
-Sharp Memorial Hospital,PSI,Postoperative Sepsis,11.0,2615.0,0.38,As Expected,32.80016,-117.155
+Sharp Coronado Hospital and Healthcare Center,IMI,Concussion,,,,,32.69427,-117.168
+Sharp Coronado Hospital and Healthcare Center,IMI,Broken Bone,,,,,32.69427,-117.168
+Sharp Coronado Hospital and Healthcare Center,PSI,Cataracts,0.0,214.0,0.0,As Expected,32.69427,-117.168
+Sharp Memorial Hospital,PSI,Cataracts,11.0,2615.0,0.38,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Mild Asthma,39.0,505.0,8.1,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Scoliosis,0.0,18.0,0.0,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Hypertension,17.0,381.0,5.4,As Expected,32.80016,-117.155
@@ -873,8 +873,8 @@ Sharp Memorial Hospital,IMI,Shoulder Impingement,13.0,407.0,4.1,As Expected,32.8
 Sharp Memorial Hospital,IMI,Insomnia,22.0,85.0,23.2,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Bulimia,40.0,499.0,9.2,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Low Back Pain,28.0,398.0,8.6,Worse,32.80016,-117.155
-Sharp Memorial Hospital,IMI,AAA Repair Open Unrupture,,,,,32.80016,-117.155
-Sharp Memorial Hospital,IMI,AAA Repair Endo Unrupture,0.0,12.0,0.0,As Expected,32.80016,-117.155
+Sharp Memorial Hospital,IMI,Concussion,,,,,32.80016,-117.155
+Sharp Memorial Hospital,IMI,Broken Bone,0.0,12.0,0.0,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,CABG,Early Stage Skin Cancer,,74.0,,As Expected,32.8,-117.16
 Grossmont Hospital,IMI,Mild Asthma,55.0,618.0,10.4,Worse,32.77963,-117.009
 Grossmont Hospital,IMI,Scoliosis,0.0,7.0,0.0,As Expected,32.77963,-117.009
@@ -888,9 +888,9 @@ Grossmont Hospital,IMI,Shoulder Impingement,32.0,569.0,7.1,Worse,32.77963,-117.0
 Grossmont Hospital,IMI,Insomnia,31.0,115.0,24.6,As Expected,32.77963,-117.009
 Grossmont Hospital,IMI,Bulimia,76.0,731.0,11.8,Worse,32.77963,-117.009
 Grossmont Hospital,IMI,Low Back Pain,28.0,397.0,7.8,As Expected,32.77963,-117.009
-Grossmont Hospital,IMI,AAA Repair Open Unrupture,,,,,32.77963,-117.009
-Grossmont Hospital,IMI,AAA Repair Endo Unrupture,0.0,11.0,0.0,As Expected,32.77963,-117.009
-Grossmont Hospital,PSI,Postoperative Sepsis,4.0,1125.0,0.51,As Expected,32.77963,-117.009
+Grossmont Hospital,IMI,Concussion,,,,,32.77963,-117.009
+Grossmont Hospital,IMI,Broken Bone,0.0,11.0,0.0,As Expected,32.77963,-117.009
+Grossmont Hospital,PSI,Cataracts,4.0,1125.0,0.51,As Expected,32.77963,-117.009
 Grossmont Hospital,CABG,Early Stage Skin Cancer,,97.0,,As Expected,32.78,-117.01
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Mild Asthma,26.0,445.0,6.8,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Scoliosis,0.0,26.0,0.0,As Expected,32.79287,-117.094
@@ -904,9 +904,9 @@ Kaiser Foundation Hospital – San Diego – Zion,IMI,Shoulder Impingement,10.0,
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Insomnia,11.0,109.0,15.0,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Bulimia,23.0,436.0,6.3,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Low Back Pain,4.0,118.0,2.4,Better,32.79287,-117.094
-Kaiser Foundation Hospital – San Diego – Zion,IMI,AAA Repair Open Unrupture,0.0,6.0,0.0,As Expected,32.79287,-117.094
-Kaiser Foundation Hospital – San Diego – Zion,IMI,AAA Repair Endo Unrupture,0.0,30.0,0.0,As Expected,32.79287,-117.094
-Kaiser Foundation Hospital – San Diego – Zion,PSI,Postoperative Sepsis,10.0,1961.0,0.44,As Expected,32.79287,-117.094
+Kaiser Foundation Hospital – San Diego – Zion,IMI,Concussion,0.0,6.0,0.0,As Expected,32.79287,-117.094
+Kaiser Foundation Hospital – San Diego – Zion,IMI,Broken Bone,0.0,30.0,0.0,As Expected,32.79287,-117.094
+Kaiser Foundation Hospital – San Diego – Zion,PSI,Cataracts,10.0,1961.0,0.44,As Expected,32.79287,-117.094
 Scripps Mercy Hospital,IMI,Mild Asthma,35.0,630.0,5.4,Better,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Scoliosis,0.0,11.0,0.0,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Hypertension,10.0,259.0,4.2,As Expected,32.75128,-117.16
@@ -919,10 +919,10 @@ Scripps Mercy Hospital,IMI,Shoulder Impingement,17.0,459.0,3.4,As Expected,32.75
 Scripps Mercy Hospital,IMI,Insomnia,16.0,103.0,16.4,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Bulimia,38.0,582.0,6.6,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Low Back Pain,25.0,358.0,6.7,As Expected,32.75128,-117.16
-Scripps Mercy Hospital,IMI,AAA Repair Open Unrupture,,,,,32.75128,-117.16
-Scripps Mercy Hospital,IMI,AAA Repair Endo Unrupture,0.0,15.0,0.0,As Expected,32.75128,-117.16
+Scripps Mercy Hospital,IMI,Concussion,,,,,32.75128,-117.16
+Scripps Mercy Hospital,IMI,Broken Bone,0.0,15.0,0.0,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,CABG,Early Stage Skin Cancer,,75.0,,As Expected,32.75,-117.16
-Scripps Mercy Hospital,PSI,Postoperative Sepsis,9.0,2306.0,0.66,As Expected,32.75128,-117.16
+Scripps Mercy Hospital,PSI,Cataracts,9.0,2306.0,0.66,As Expected,32.75128,-117.16
 Palomar Health Downtown Campus,IMI,Mild Asthma,25.0,241.0,11.5,Worse,33.12586,-117.076
 Palomar Health Downtown Campus,IMI,Scoliosis,,,,,33.12586,-117.076
 Palomar Health Downtown Campus,IMI,Hypertension,9.0,145.0,9.4,Worse,33.12586,-117.076
@@ -935,9 +935,9 @@ Palomar Health Downtown Campus,IMI,Shoulder Impingement,18.0,206.0,8.2,Worse,33.
 Palomar Health Downtown Campus,IMI,Insomnia,14.0,59.0,26.6,As Expected,33.12586,-117.076
 Palomar Health Downtown Campus,IMI,Bulimia,34.0,277.0,12.8,Worse,33.12586,-117.076
 Palomar Health Downtown Campus,IMI,Low Back Pain,10.0,174.0,8.7,As Expected,33.12586,-117.076
-Palomar Health Downtown Campus,IMI,AAA Repair Open Unrupture,,,,,33.12586,-117.076
-Palomar Health Downtown Campus,IMI,AAA Repair Endo Unrupture,1.0,9.0,16.4,As Expected,33.12586,-117.076
-Palomar Health Downtown Campus,PSI,Postoperative Sepsis,3.0,421.0,0.96,As Expected,33.12586,-117.076
+Palomar Health Downtown Campus,IMI,Concussion,,,,,33.12586,-117.076
+Palomar Health Downtown Campus,IMI,Broken Bone,1.0,9.0,16.4,As Expected,33.12586,-117.076
+Palomar Health Downtown Campus,PSI,Cataracts,3.0,421.0,0.96,As Expected,33.12586,-117.076
 Palomar Health Downtown Campus,CABG,Early Stage Skin Cancer,,61.0,,As Expected,33.13,-117.08
 Paradise Valley Hospital,IMI,Mild Asthma,17.0,156.0,8.1,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Scoliosis,,,,,32.68632,-117.083
@@ -951,9 +951,9 @@ Paradise Valley Hospital,IMI,Shoulder Impingement,3.0,54.0,6.6,As Expected,32.68
 Paradise Valley Hospital,IMI,Insomnia,7.0,25.0,26.8,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Bulimia,11.0,82.0,11.5,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Low Back Pain,1.0,65.0,2.8,As Expected,32.68632,-117.083
-Paradise Valley Hospital,IMI,AAA Repair Open Unrupture,,,,,32.68632,-117.083
-Paradise Valley Hospital,IMI,AAA Repair Endo Unrupture,,,,,32.68632,-117.083
-Paradise Valley Hospital,PSI,Postoperative Sepsis,0.0,92.0,0.0,As Expected,32.68632,-117.083
+Paradise Valley Hospital,IMI,Concussion,,,,,32.68632,-117.083
+Paradise Valley Hospital,IMI,Broken Bone,,,,,32.68632,-117.083
+Paradise Valley Hospital,PSI,Cataracts,0.0,92.0,0.0,As Expected,32.68632,-117.083
 Scripps Memorial Hospital – La Jolla,IMI,Mild Asthma,27.0,349.0,6.1,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Scoliosis,0.0,4.0,0.0,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Hypertension,18.0,880.0,2.6,Better,32.88506,-117.222
@@ -966,9 +966,9 @@ Scripps Memorial Hospital – La Jolla,IMI,Shoulder Impingement,22.0,412.0,4.2,A
 Scripps Memorial Hospital – La Jolla,IMI,Insomnia,18.0,97.0,18.6,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Bulimia,48.0,556.0,7.5,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Low Back Pain,24.0,772.0,3.7,Better,32.88506,-117.222
-Scripps Memorial Hospital – La Jolla,IMI,AAA Repair Open Unrupture,,,,,32.88506,-117.222
-Scripps Memorial Hospital – La Jolla,IMI,AAA Repair Endo Unrupture,0.0,13.0,0.0,As Expected,32.88506,-117.222
-Scripps Memorial Hospital – La Jolla,PSI,Postoperative Sepsis,9.0,2582.0,0.39,As Expected,32.88506,-117.222
+Scripps Memorial Hospital – La Jolla,IMI,Concussion,,,,,32.88506,-117.222
+Scripps Memorial Hospital – La Jolla,IMI,Broken Bone,0.0,13.0,0.0,As Expected,32.88506,-117.222
+Scripps Memorial Hospital – La Jolla,PSI,Cataracts,9.0,2582.0,0.39,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,CABG,Early Stage Skin Cancer,,297.0,,As Expected,32.89,-117.22
 Tri-City Medical Center,IMI,Mild Asthma,32.0,333.0,9.3,As Expected,33.18394,-117.29
 Tri-City Medical Center,IMI,Scoliosis,,,,,33.18394,-117.29
@@ -982,9 +982,9 @@ Tri-City Medical Center,IMI,Shoulder Impingement,16.0,248.0,6.2,As Expected,33.1
 Tri-City Medical Center,IMI,Insomnia,17.0,45.0,26.2,As Expected,33.18394,-117.29
 Tri-City Medical Center,IMI,Bulimia,33.0,296.0,11.1,As Expected,33.18394,-117.29
 Tri-City Medical Center,IMI,Low Back Pain,13.0,238.0,5.7,As Expected,33.18394,-117.29
-Tri-City Medical Center,IMI,AAA Repair Open Unrupture,,,,,33.18394,-117.29
-Tri-City Medical Center,IMI,AAA Repair Endo Unrupture,0.0,12.0,0.0,As Expected,33.18394,-117.29
-Tri-City Medical Center,PSI,Postoperative Sepsis,2.0,564.0,0.36,As Expected,33.18394,-117.29
+Tri-City Medical Center,IMI,Concussion,,,,,33.18394,-117.29
+Tri-City Medical Center,IMI,Broken Bone,0.0,12.0,0.0,As Expected,33.18394,-117.29
+Tri-City Medical Center,PSI,Cataracts,2.0,564.0,0.36,As Expected,33.18394,-117.29
 Tri-City Medical Center,CABG,Early Stage Skin Cancer,,39.0,,As Expected,33.18,-117.29
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Mild Asthma,27.0,700.0,3.9,Better,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Scoliosis,1.0,93.0,0.9,As Expected,32.75387,-117.164
@@ -998,9 +998,9 @@ UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Shoulder Impingem
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Insomnia,7.0,143.0,5.2,Better,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Bulimia,24.0,588.0,3.4,Better,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Low Back Pain,28.0,407.0,4.9,As Expected,32.75387,-117.164
-UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,AAA Repair Open Unrupture,1.0,7.0,17.1,As Expected,32.75387,-117.164
-UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,AAA Repair Endo Unrupture,0.0,26.0,0.0,As Expected,32.75387,-117.164
-UC San Diego Health Hillcrest – Hillcrest Medical Center,PSI,Postoperative Sepsis,32.0,4945.0,0.5,As Expected,32.75387,-117.164
+UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Concussion,1.0,7.0,17.1,As Expected,32.75387,-117.164
+UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Broken Bone,0.0,26.0,0.0,As Expected,32.75387,-117.164
+UC San Diego Health Hillcrest – Hillcrest Medical Center,PSI,Cataracts,32.0,4945.0,0.5,As Expected,32.75387,-117.164
 Sharp Chula Vista Medical Center,IMI,Mild Asthma,31.0,474.0,6.7,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Scoliosis,,,,,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Hypertension,12.0,322.0,3.3,As Expected,32.61909,-117.024
@@ -1013,9 +1013,9 @@ Sharp Chula Vista Medical Center,IMI,Shoulder Impingement,23.0,326.0,8.7,Worse,3
 Sharp Chula Vista Medical Center,IMI,Insomnia,20.0,72.0,22.6,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Bulimia,48.0,406.0,12.2,Worse,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Low Back Pain,23.0,350.0,7.4,As Expected,32.61909,-117.024
-Sharp Chula Vista Medical Center,IMI,AAA Repair Open Unrupture,,,,,32.61909,-117.024
-Sharp Chula Vista Medical Center,IMI,AAA Repair Endo Unrupture,0.0,11.0,0.0,As Expected,32.61909,-117.024
-Sharp Chula Vista Medical Center,PSI,Postoperative Sepsis,3.0,460.0,0.62,As Expected,32.61909,-117.024
+Sharp Chula Vista Medical Center,IMI,Concussion,,,,,32.61909,-117.024
+Sharp Chula Vista Medical Center,IMI,Broken Bone,0.0,11.0,0.0,As Expected,32.61909,-117.024
+Sharp Chula Vista Medical Center,PSI,Cataracts,3.0,460.0,0.62,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,CABG,Early Stage Skin Cancer,,82.0,,As Expected,32.62,-117.02
 Palomar Medical Center Poway,IMI,Mild Asthma,18.0,173.0,8.9,As Expected,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Scoliosis,,,,,32.99563,-117.057
@@ -1029,9 +1029,9 @@ Palomar Medical Center Poway,IMI,Shoulder Impingement,2.0,59.0,4.2,As Expected,3
 Palomar Medical Center Poway,IMI,Insomnia,3.0,4.0,20.2,As Expected,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Bulimia,5.0,64.0,7.6,As Expected,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Low Back Pain,3.0,6.0,25.2,Worse,32.99563,-117.057
-Palomar Medical Center Poway,IMI,AAA Repair Open Unrupture,,,,,32.99563,-117.057
-Palomar Medical Center Poway,IMI,AAA Repair Endo Unrupture,,,,,32.99563,-117.057
-Palomar Medical Center Poway,PSI,Postoperative Sepsis,1.0,184.0,0.86,As Expected,32.99563,-117.057
+Palomar Medical Center Poway,IMI,Concussion,,,,,32.99563,-117.057
+Palomar Medical Center Poway,IMI,Broken Bone,,,,,32.99563,-117.057
+Palomar Medical Center Poway,PSI,Cataracts,1.0,184.0,0.86,As Expected,32.99563,-117.057
 Scripps Green Hospital,IMI,Mild Asthma,8.0,135.0,5.8,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Scoliosis,0.0,16.0,0.0,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Hypertension,,,,,32.89654,-117.241
@@ -1044,9 +1044,9 @@ Scripps Green Hospital,IMI,Shoulder Impingement,3.0,54.0,4.5,As Expected,32.8965
 Scripps Green Hospital,IMI,Insomnia,4.0,16.0,36.9,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Bulimia,7.0,73.0,10.6,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Low Back Pain,,,,,32.89654,-117.241
-Scripps Green Hospital,IMI,AAA Repair Open Unrupture,,,,,32.89654,-117.241
-Scripps Green Hospital,IMI,AAA Repair Endo Unrupture,0.0,19.0,0.0,As Expected,32.89654,-117.241
-Scripps Green Hospital,PSI,Postoperative Sepsis,9.0,2276.0,0.62,As Expected,32.89654,-117.241
+Scripps Green Hospital,IMI,Concussion,,,,,32.89654,-117.241
+Scripps Green Hospital,IMI,Broken Bone,0.0,19.0,0.0,As Expected,32.89654,-117.241
+Scripps Green Hospital,PSI,Cataracts,9.0,2276.0,0.62,As Expected,32.89654,-117.241
 Scripps Memorial Hospital – Encinitas,IMI,Mild Asthma,18.0,365.0,4.3,Better,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Scoliosis,,,,,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Hypertension,3.0,183.0,2.4,As Expected,33.0363,-117.284
@@ -1059,9 +1059,9 @@ Scripps Memorial Hospital – Encinitas,IMI,Shoulder Impingement,5.0,213.0,2.0,B
 Scripps Memorial Hospital – Encinitas,IMI,Insomnia,10.0,42.0,26.6,As Expected,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Bulimia,16.0,259.0,6.6,As Expected,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Low Back Pain,6.0,208.0,3.0,Better,33.0363,-117.284
-Scripps Memorial Hospital – Encinitas,IMI,AAA Repair Open Unrupture,,,,,33.0363,-117.284
-Scripps Memorial Hospital – Encinitas,IMI,AAA Repair Endo Unrupture,0.0,12.0,0.0,As Expected,33.0363,-117.284
-Scripps Memorial Hospital – Encinitas,PSI,Postoperative Sepsis,2.0,729.0,0.46,As Expected,33.0363,-117.284
+Scripps Memorial Hospital – Encinitas,IMI,Concussion,,,,,33.0363,-117.284
+Scripps Memorial Hospital – Encinitas,IMI,Broken Bone,0.0,12.0,0.0,As Expected,33.0363,-117.284
+Scripps Memorial Hospital – Encinitas,PSI,Cataracts,2.0,729.0,0.46,As Expected,33.0363,-117.284
 UC San Diego Health La Jolla – Jacobs Medical Center & Sulpizio Cardiovascular Center,CABG,Early Stage Skin Cancer,,130.0,,As Expected,32.88,-117.22
 Palomar Medical Center,IMI,Mild Asthma,28.0,270.0,10.4,As Expected,33.12158,-117.119
 Palomar Medical Center,IMI,Scoliosis,,,,,33.12158,-117.119
@@ -1075,9 +1075,9 @@ Palomar Medical Center,IMI,Shoulder Impingement,12.0,190.0,6.5,As Expected,33.12
 Palomar Medical Center,IMI,Insomnia,16.0,55.0,33.4,Worse,33.12158,-117.119
 Palomar Medical Center,IMI,Bulimia,30.0,250.0,12.9,Worse,33.12158,-117.119
 Palomar Medical Center,IMI,Low Back Pain,15.0,178.0,9.6,As Expected,33.12158,-117.119
-Palomar Medical Center,IMI,AAA Repair Open Unrupture,,,,,33.12158,-117.119
-Palomar Medical Center,IMI,AAA Repair Endo Unrupture,0.0,8.0,0.0,As Expected,33.12158,-117.119
-Palomar Medical Center,PSI,Postoperative Sepsis,2.0,294.0,0.67,As Expected,33.12158,-117.119
+Palomar Medical Center,IMI,Concussion,,,,,33.12158,-117.119
+Palomar Medical Center,IMI,Broken Bone,0.0,8.0,0.0,As Expected,33.12158,-117.119
+Palomar Medical Center,PSI,Cataracts,2.0,294.0,0.67,As Expected,33.12158,-117.119
 Alvarado Hospital Medical Center,IMI,Mild Asthma,35.0,366.0,9.5,As Expected,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Scoliosis,,,,,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Hypertension,0.0,65.0,0.0,As Expected,32.77664,-117.057
@@ -1090,9 +1090,9 @@ Alvarado Hospital Medical Center,IMI,Shoulder Impingement,4.0,85.0,9.0,As Expect
 Alvarado Hospital Medical Center,IMI,Insomnia,4.0,18.0,24.2,As Expected,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Bulimia,8.0,103.0,12.5,As Expected,32.77664,-117.057
 Alvarado Hospital Medical Center,IMI,Low Back Pain,0.0,121.0,0.0,Better,32.77664,-117.057
-Alvarado Hospital Medical Center,IMI,AAA Repair Open Unrupture,,,,,32.77664,-117.057
-Alvarado Hospital Medical Center,IMI,AAA Repair Endo Unrupture,,,,,32.77664,-117.057
-Alvarado Hospital Medical Center,PSI,Postoperative Sepsis,0.0,268.0,0.0,As Expected,32.776641,-117.0573
+Alvarado Hospital Medical Center,IMI,Concussion,,,,,32.77664,-117.057
+Alvarado Hospital Medical Center,IMI,Broken Bone,,,,,32.77664,-117.057
+Alvarado Hospital Medical Center,PSI,Cataracts,0.0,268.0,0.0,As Expected,32.776641,-117.0573
 Sharp Coronado Hospital and Healthcare Center,IMI,Mild Asthma,5.0,140.0,7.0,As Expected,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Scoliosis,,,,,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Hypertension,,,,,32.69427,-117.168
@@ -1105,9 +1105,9 @@ Sharp Coronado Hospital and Healthcare Center,IMI,Shoulder Impingement,1.0,48.0,
 Sharp Coronado Hospital and Healthcare Center,IMI,Insomnia,,,,,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Bulimia,1.0,50.0,4.3,As Expected,32.69427,-117.168
 Sharp Coronado Hospital and Healthcare Center,IMI,Low Back Pain,,,,,32.69427,-117.168
-Sharp Coronado Hospital and Healthcare Center,IMI,AAA Repair Open Unrupture,,,,,32.69427,-117.168
-Sharp Coronado Hospital and Healthcare Center,IMI,AAA Repair Endo Unrupture,,,,,32.69427,-117.168
-Sharp Coronado Hospital and Healthcare Center,PSI,Postoperative Sepsis,0.0,228.0,0.0,As Expected,32.69427,-117.168
+Sharp Coronado Hospital and Healthcare Center,IMI,Concussion,,,,,32.69427,-117.168
+Sharp Coronado Hospital and Healthcare Center,IMI,Broken Bone,,,,,32.69427,-117.168
+Sharp Coronado Hospital and Healthcare Center,PSI,Cataracts,0.0,228.0,0.0,As Expected,32.69427,-117.168
 Sharp Memorial Hospital,IMI,Mild Asthma,48.0,759.0,8.0,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Scoliosis,0.0,26.0,0.0,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Hypertension,21.0,327.0,6.3,As Expected,32.80016,-117.155
@@ -1120,9 +1120,9 @@ Sharp Memorial Hospital,IMI,Shoulder Impingement,22.0,436.0,5.8,As Expected,32.8
 Sharp Memorial Hospital,IMI,Insomnia,14.0,90.0,19.0,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Bulimia,37.0,531.0,9.0,As Expected,32.80016,-117.155
 Sharp Memorial Hospital,IMI,Low Back Pain,32.0,378.0,8.8,Worse,32.80016,-117.155
-Sharp Memorial Hospital,IMI,AAA Repair Open Unrupture,,,,,32.80016,-117.155
-Sharp Memorial Hospital,IMI,AAA Repair Endo Unrupture,1.0,14.0,1.9,As Expected,32.80016,-117.155
-Sharp Memorial Hospital,PSI,Postoperative Sepsis,14.0,2518.0,0.54,As Expected,32.80016,-117.1553
+Sharp Memorial Hospital,IMI,Concussion,,,,,32.80016,-117.155
+Sharp Memorial Hospital,IMI,Broken Bone,1.0,14.0,1.9,As Expected,32.80016,-117.155
+Sharp Memorial Hospital,PSI,Cataracts,14.0,2518.0,0.54,As Expected,32.80016,-117.1553
 Sharp Memorial Hospital,CABG,Early Stage Skin Cancer,2.0,94.0,2.405052,As Expected,32.80016,-117.15531
 Grossmont Hospital,IMI,Mild Asthma,63.0,830.0,9.4,As Expected,32.77963,-117.009
 Grossmont Hospital,IMI,Scoliosis,1.0,5.0,14.6,As Expected,32.77963,-117.009
@@ -1136,9 +1136,9 @@ Grossmont Hospital,IMI,Shoulder Impingement,37.0,648.0,6.8,As Expected,32.77963,
 Grossmont Hospital,IMI,Insomnia,34.0,125.0,23.5,As Expected,32.77963,-117.009
 Grossmont Hospital,IMI,Bulimia,83.0,828.0,10.4,Worse,32.77963,-117.009
 Grossmont Hospital,IMI,Low Back Pain,25.0,372.0,8.0,As Expected,32.77963,-117.009
-Grossmont Hospital,IMI,AAA Repair Open Unrupture,,,,,32.77963,-117.009
-Grossmont Hospital,IMI,AAA Repair Endo Unrupture,0.0,13.0,0.0,As Expected,32.77963,-117.009
-Grossmont Hospital,PSI,Postoperative Sepsis,9.0,1134.0,0.84,As Expected,32.77963,-117.0092
+Grossmont Hospital,IMI,Concussion,,,,,32.77963,-117.009
+Grossmont Hospital,IMI,Broken Bone,0.0,13.0,0.0,As Expected,32.77963,-117.009
+Grossmont Hospital,PSI,Cataracts,9.0,1134.0,0.84,As Expected,32.77963,-117.0092
 Grossmont Hospital,CABG,Early Stage Skin Cancer,9.0,83.0,8.968905,Worse,32.77963,-117.00924
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Mild Asthma,42.0,611.0,7.0,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Scoliosis,0.0,20.0,0.0,As Expected,32.79287,-117.094
@@ -1152,9 +1152,9 @@ Kaiser Foundation Hospital – San Diego – Zion,IMI,Shoulder Impingement,20.0,
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Insomnia,6.0,95.0,10.8,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Bulimia,30.0,439.0,8.1,As Expected,32.79287,-117.094
 Kaiser Foundation Hospital – San Diego – Zion,IMI,Low Back Pain,7.0,123.0,3.9,As Expected,32.79287,-117.094
-Kaiser Foundation Hospital – San Diego – Zion,IMI,AAA Repair Open Unrupture,,,,,32.79287,-117.094
-Kaiser Foundation Hospital – San Diego – Zion,IMI,AAA Repair Endo Unrupture,0.0,36.0,0.0,As Expected,32.79287,-117.094
-Kaiser Foundation Hospital – San Diego – Zion,PSI,Postoperative Sepsis,13.0,2143.0,0.55,As Expected,32.79287,-117.0944
+Kaiser Foundation Hospital – San Diego – Zion,IMI,Concussion,,,,,32.79287,-117.094
+Kaiser Foundation Hospital – San Diego – Zion,IMI,Broken Bone,0.0,36.0,0.0,As Expected,32.79287,-117.094
+Kaiser Foundation Hospital – San Diego – Zion,PSI,Cataracts,13.0,2143.0,0.55,As Expected,32.79287,-117.0944
 Scripps Mercy Hospital,IMI,Mild Asthma,78.0,922.0,7.1,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Scoliosis,0.0,11.0,0.0,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Hypertension,9.0,235.0,2.8,As Expected,32.75128,-117.16
@@ -1167,9 +1167,9 @@ Scripps Mercy Hospital,IMI,Shoulder Impingement,28.0,501.0,4.3,As Expected,32.75
 Scripps Mercy Hospital,IMI,Insomnia,26.0,114.0,21.0,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Bulimia,64.0,650.0,8.2,As Expected,32.75128,-117.16
 Scripps Mercy Hospital,IMI,Low Back Pain,13.0,360.0,3.2,Better,32.75128,-117.16
-Scripps Mercy Hospital,IMI,AAA Repair Open Unrupture,,,,,32.75128,-117.16
-Scripps Mercy Hospital,IMI,AAA Repair Endo Unrupture,0.0,10.0,0.0,As Expected,32.75128,-117.16
-Scripps Mercy Hospital,PSI,Postoperative Sepsis,18.0,2505.0,1.22,Worse,32.75128,-117.1609
+Scripps Mercy Hospital,IMI,Concussion,,,,,32.75128,-117.16
+Scripps Mercy Hospital,IMI,Broken Bone,0.0,10.0,0.0,As Expected,32.75128,-117.16
+Scripps Mercy Hospital,PSI,Cataracts,18.0,2505.0,1.22,Worse,32.75128,-117.1609
 Scripps Mercy Hospital,CABG,Early Stage Skin Cancer,1.0,79.0,1.794347,As Expected,32.75128,-117.1609
 Paradise Valley Hospital,IMI,Mild Asthma,19.0,186.0,8.6,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Scoliosis,,,,,32.68632,-117.083
@@ -1183,9 +1183,9 @@ Paradise Valley Hospital,IMI,Shoulder Impingement,2.0,71.0,4.0,As Expected,32.68
 Paradise Valley Hospital,IMI,Insomnia,5.0,24.0,26.6,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Bulimia,7.0,95.0,9.7,As Expected,32.68632,-117.083
 Paradise Valley Hospital,IMI,Low Back Pain,4.0,85.0,5.8,As Expected,32.68632,-117.083
-Paradise Valley Hospital,IMI,AAA Repair Open Unrupture,,,,,32.68632,-117.083
-Paradise Valley Hospital,IMI,AAA Repair Endo Unrupture,,,,,32.68632,-117.083
-Paradise Valley Hospital,PSI,Postoperative Sepsis,0.0,85.0,0.0,As Expected,32.686329,-117.083
+Paradise Valley Hospital,IMI,Concussion,,,,,32.68632,-117.083
+Paradise Valley Hospital,IMI,Broken Bone,,,,,32.68632,-117.083
+Paradise Valley Hospital,PSI,Cataracts,0.0,85.0,0.0,As Expected,32.686329,-117.083
 Scripps Memorial Hospital – La Jolla,IMI,Mild Asthma,54.0,553.0,8.3,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Scoliosis,1.0,3.0,3.0,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Hypertension,32.0,871.0,4.3,As Expected,32.88506,-117.222
@@ -1198,9 +1198,9 @@ Scripps Memorial Hospital – La Jolla,IMI,Shoulder Impingement,42.0,435.0,5.8,A
 Scripps Memorial Hospital – La Jolla,IMI,Insomnia,23.0,102.0,20.0,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Bulimia,70.0,587.0,9.1,As Expected,32.88506,-117.222
 Scripps Memorial Hospital – La Jolla,IMI,Low Back Pain,33.0,771.0,4.4,Better,32.88506,-117.222
-Scripps Memorial Hospital – La Jolla,IMI,AAA Repair Open Unrupture,,,,,32.88506,-117.222
-Scripps Memorial Hospital – La Jolla,IMI,AAA Repair Endo Unrupture,0.0,12.0,0.0,As Expected,32.88506,-117.222
-Scripps Memorial Hospital – La Jolla,PSI,Postoperative Sepsis,7.0,2400.0,0.36,As Expected,32.88506,-117.2227
+Scripps Memorial Hospital – La Jolla,IMI,Concussion,,,,,32.88506,-117.222
+Scripps Memorial Hospital – La Jolla,IMI,Broken Bone,0.0,12.0,0.0,As Expected,32.88506,-117.222
+Scripps Memorial Hospital – La Jolla,PSI,Cataracts,7.0,2400.0,0.36,As Expected,32.88506,-117.2227
 Scripps Memorial Hospital – La Jolla,CABG,Early Stage Skin Cancer,3.0,349.0,0.9721947,As Expected,32.88506,-117.22279
 Tri-City Medical Center,IMI,Mild Asthma,46.0,508.0,10.4,As Expected,33.18394,-117.29
 Tri-City Medical Center,IMI,Scoliosis,,,,,33.18394,-117.29
@@ -1214,9 +1214,9 @@ Tri-City Medical Center,IMI,Shoulder Impingement,20.0,287.0,8.1,Worse,33.18394,-
 Tri-City Medical Center,IMI,Insomnia,12.0,45.0,25.4,As Expected,33.18394,-117.29
 Tri-City Medical Center,IMI,Bulimia,35.0,341.0,12.6,Worse,33.18394,-117.29
 Tri-City Medical Center,IMI,Low Back Pain,15.0,273.0,6.1,As Expected,33.18394,-117.29
-Tri-City Medical Center,IMI,AAA Repair Open Unrupture,,,,,33.18394,-117.29
-Tri-City Medical Center,IMI,AAA Repair Endo Unrupture,0.0,4.0,0.0,As Expected,33.18394,-117.29
-Tri-City Medical Center,PSI,Postoperative Sepsis,5.0,603.0,0.95,As Expected,33.18394,-117.2902
+Tri-City Medical Center,IMI,Concussion,,,,,33.18394,-117.29
+Tri-City Medical Center,IMI,Broken Bone,0.0,4.0,0.0,As Expected,33.18394,-117.29
+Tri-City Medical Center,PSI,Cataracts,5.0,603.0,0.95,As Expected,33.18394,-117.2902
 Tri-City Medical Center,CABG,Early Stage Skin Cancer,2.0,33.0,4.957829,As Expected,33.18394,-117.29027
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Mild Asthma,38.0,882.0,4.3,Better,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Scoliosis,2.0,92.0,2.4,As Expected,32.75387,-117.164
@@ -1230,9 +1230,9 @@ UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Shoulder Impingem
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Insomnia,10.0,118.0,7.3,Better,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Bulimia,23.0,564.0,3.3,Better,32.75387,-117.164
 UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Low Back Pain,16.0,401.0,4.3,As Expected,32.75387,-117.164
-UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,AAA Repair Open Unrupture,0.0,6.0,0.0,As Expected,32.75387,-117.164
-UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,AAA Repair Endo Unrupture,0.0,44.0,0.0,As Expected,32.75387,-117.164
-UC San Diego Health Hillcrest – Hillcrest Medical Center,PSI,Postoperative Sepsis,27.0,5108.0,0.39,As Expected,32.75387,-117.1649
+UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Concussion,0.0,6.0,0.0,As Expected,32.75387,-117.164
+UC San Diego Health Hillcrest – Hillcrest Medical Center,IMI,Broken Bone,0.0,44.0,0.0,As Expected,32.75387,-117.164
+UC San Diego Health Hillcrest – Hillcrest Medical Center,PSI,Cataracts,27.0,5108.0,0.39,As Expected,32.75387,-117.1649
 Sharp Chula Vista Medical Center,IMI,Mild Asthma,43.0,587.0,8.9,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Scoliosis,0.0,4.0,0.0,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Hypertension,8.0,281.0,3.1,As Expected,32.61909,-117.024
@@ -1245,9 +1245,9 @@ Sharp Chula Vista Medical Center,IMI,Shoulder Impingement,20.0,343.0,6.5,As Expe
 Sharp Chula Vista Medical Center,IMI,Insomnia,20.0,87.0,21.4,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Bulimia,40.0,431.0,10.1,As Expected,32.61909,-117.024
 Sharp Chula Vista Medical Center,IMI,Low Back Pain,12.0,319.0,5.5,As Expected,32.61909,-117.024
-Sharp Chula Vista Medical Center,IMI,AAA Repair Open Unrupture,,,,,32.61909,-117.024
-Sharp Chula Vista Medical Center,IMI,AAA Repair Endo Unrupture,,,,,32.61909,-117.024
-Sharp Chula Vista Medical Center,PSI,Postoperative Sepsis,5.0,515.0,0.98,As Expected,32.61909,-117.0248
+Sharp Chula Vista Medical Center,IMI,Concussion,,,,,32.61909,-117.024
+Sharp Chula Vista Medical Center,IMI,Broken Bone,,,,,32.61909,-117.024
+Sharp Chula Vista Medical Center,PSI,Cataracts,5.0,515.0,0.98,As Expected,32.61909,-117.0248
 Sharp Chula Vista Medical Center,CABG,Early Stage Skin Cancer,4.0,149.0,2.477743,As Expected,32.61909,-117.02488
 Palomar Medical Center Poway,IMI,Mild Asthma,32.0,304.0,10.2,As Expected,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Scoliosis,,,,,32.99563,-117.057
@@ -1261,9 +1261,9 @@ Palomar Medical Center Poway,IMI,Shoulder Impingement,10.0,81.0,11.1,Worse,32.99
 Palomar Medical Center Poway,IMI,Insomnia,5.0,5.0,68.6,Worse,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Bulimia,16.0,87.0,21.0,Worse,32.99563,-117.057
 Palomar Medical Center Poway,IMI,Low Back Pain,2.0,12.0,8.9,As Expected,32.99563,-117.057
-Palomar Medical Center Poway,IMI,AAA Repair Open Unrupture,,,,,32.99563,-117.057
-Palomar Medical Center Poway,IMI,AAA Repair Endo Unrupture,,,,,32.99563,-117.057
-Palomar Medical Center Poway,PSI,Postoperative Sepsis,0.0,188.0,0.0,As Expected,32.99563,-117.0578
+Palomar Medical Center Poway,IMI,Concussion,,,,,32.99563,-117.057
+Palomar Medical Center Poway,IMI,Broken Bone,,,,,32.99563,-117.057
+Palomar Medical Center Poway,PSI,Cataracts,0.0,188.0,0.0,As Expected,32.99563,-117.0578
 Scripps Green Hospital,IMI,Mild Asthma,4.0,192.0,2.0,Better,32.89654,-117.241
 Scripps Green Hospital,IMI,Scoliosis,0.0,27.0,0.0,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Hypertension,,,,,32.89654,-117.241
@@ -1276,9 +1276,9 @@ Scripps Green Hospital,IMI,Shoulder Impingement,0.0,74.0,0.0,As Expected,32.8965
 Scripps Green Hospital,IMI,Insomnia,1.0,14.0,8.1,As Expected,32.89654,-117.241
 Scripps Green Hospital,IMI,Bulimia,1.0,88.0,1.6,Better,32.89654,-117.241
 Scripps Green Hospital,IMI,Low Back Pain,,,,,32.89654,-117.241
-Scripps Green Hospital,IMI,AAA Repair Open Unrupture,,,,,32.89654,-117.241
-Scripps Green Hospital,IMI,AAA Repair Endo Unrupture,0.0,19.0,0.0,As Expected,32.89654,-117.241
-Scripps Green Hospital,PSI,Postoperative Sepsis,9.0,2253.0,0.53,As Expected,32.89654,-117.2419
+Scripps Green Hospital,IMI,Concussion,,,,,32.89654,-117.241
+Scripps Green Hospital,IMI,Broken Bone,0.0,19.0,0.0,As Expected,32.89654,-117.241
+Scripps Green Hospital,PSI,Cataracts,9.0,2253.0,0.53,As Expected,32.89654,-117.2419
 Scripps Memorial Hospital – Encinitas,IMI,Mild Asthma,25.0,566.0,3.9,Better,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Scoliosis,,,,,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Hypertension,5.0,224.0,3.6,As Expected,33.0363,-117.284
@@ -1291,9 +1291,9 @@ Scripps Memorial Hospital – Encinitas,IMI,Shoulder Impingement,4.0,206.0,2.0,B
 Scripps Memorial Hospital – Encinitas,IMI,Insomnia,8.0,51.0,15.6,As Expected,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Bulimia,12.0,262.0,4.9,Better,33.0363,-117.284
 Scripps Memorial Hospital – Encinitas,IMI,Low Back Pain,8.0,187.0,5.6,As Expected,33.0363,-117.284
-Scripps Memorial Hospital – Encinitas,IMI,AAA Repair Open Unrupture,,,,,33.0363,-117.284
-Scripps Memorial Hospital – Encinitas,IMI,AAA Repair Endo Unrupture,0.0,9.0,0.0,As Expected,33.0363,-117.284
-Scripps Memorial Hospital – Encinitas,PSI,Postoperative Sepsis,7.0,720.0,1.59,Worse,33.0363,-117.2849
+Scripps Memorial Hospital – Encinitas,IMI,Concussion,,,,,33.0363,-117.284
+Scripps Memorial Hospital – Encinitas,IMI,Broken Bone,0.0,9.0,0.0,As Expected,33.0363,-117.284
+Scripps Memorial Hospital – Encinitas,PSI,Cataracts,7.0,720.0,1.59,Worse,33.0363,-117.2849
 UC San Diego Health La Jolla – Jacobs Medical Center & Sulpizio Cardiovascular Center,CABG,Early Stage Skin Cancer,2.0,153.0,1.307225,As Expected,32.87799,-117.22331
 Palomar Medical Center,IMI,Mild Asthma,68.0,778.0,10.2,As Expected,33.12158,-117.119
 Palomar Medical Center,IMI,Scoliosis,,,,,33.12158,-117.119
@@ -1307,7 +1307,7 @@ Palomar Medical Center,IMI,Shoulder Impingement,28.0,394.0,7.5,Worse,33.12158,-1
 Palomar Medical Center,IMI,Insomnia,34.0,116.0,27.2,Worse,33.12158,-117.119
 Palomar Medical Center,IMI,Bulimia,68.0,528.0,12.5,Worse,33.12158,-117.119
 Palomar Medical Center,IMI,Low Back Pain,26.0,439.0,8.3,As Expected,33.12158,-117.119
-Palomar Medical Center,IMI,AAA Repair Open Unrupture,,,,,33.12158,-117.119
-Palomar Medical Center,IMI,AAA Repair Endo Unrupture,0.0,10.0,0.0,As Expected,33.12158,-117.119
+Palomar Medical Center,IMI,Concussion,,,,,33.12158,-117.119
+Palomar Medical Center,IMI,Broken Bone,0.0,10.0,0.0,As Expected,33.12158,-117.119
 Palomar Medical Center,CABG,Early Stage Skin Cancer,2.0,56.0,2.785073,As Expected,33.12158,-117.11961
-Palomar Medical Center,PSI,Postoperative Sepsis,2.0,673.0,0.34,As Expected,33.12158,-117.1196
+Palomar Medical Center,PSI,Cataracts,2.0,673.0,0.34,As Expected,33.12158,-117.1196
