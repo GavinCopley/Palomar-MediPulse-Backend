@@ -24,6 +24,7 @@ from api.nestImg import nestImg_api # Justin added this, custom format for his w
 from api.post import post_api
 from api.channel import channel_api
 from api.group import group_api
+from api.video import bp as video_opt_bp             
 from api.section import section_api
 from api.nestPost import nestPost_api # Justin added this, custom format for his website
 from api.survey import survey_api
@@ -48,6 +49,8 @@ from model.post import Post, initPosts
 from model.nestPost import NestPost, initNestPosts # Justin added this, custom format for his website
 from model.vote import Vote, initVotes
 from model.carPost import CarPost
+# api/video.py  (very top)
+from model.optimize import VideoOptimiser       
 from model.carComments import CarComments
 from model.vehicle import Vehicle, initVehicles
 from model.survey import Survey, initSurvey 
@@ -58,6 +61,7 @@ app.register_blueprint(user_api)
 app.register_blueprint(pfp_api) 
 app.register_blueprint(post_api)
 app.register_blueprint(channel_api)
+app.register_blueprint(video_opt_bp)
 app.register_blueprint(group_api)
 app.register_blueprint(section_api)
 #app.register_blueprint(carChat_api)
