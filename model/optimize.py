@@ -127,8 +127,14 @@ class VideoOptimiser:
         # predict
         X = self.scaler.transform(self.imputer.transform(self._dict_df(vd)[NUMERICAL_FEATS]))
         pred = float(self.model.predict(X)[0])
+        
+        # Cap the prediction at 100
+        pred = min(pred, 100.0)
+        
         # simulate improved score
         improved = round(pred * (1 + IMPROVEMENT_FACTOR), 2)
+        # Also cap the improved score
+        improved = min(improved, 100.0)
 
         # nearest refs and tips
         refs = self._nearest(X, top_n)
