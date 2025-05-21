@@ -115,11 +115,17 @@ def _prep_dataframe(df:pd.DataFrame)->pd.DataFrame:
 class VideoOptimiser:
     def __init__(self, data_dir:Path=DATA_DIR):
         self.df_raw=_prep_dataframe(_load_all_csvs(data_dir))
+        
+        # Calculate engagement score
         self.df_raw["engagement_score"] = (
             0.6*self.df_raw["view_rate"] +
             0.3*self.df_raw["like_rate"] +
             0.1*self.df_raw["comment_rate"]
         )
+        
+        # Cap engagement score between 0 and 100
+        self.df_raw["engagement_score"] = self.df_raw["engagement_score"].clip(lower=0.0, upper=100.0)
+        
         self._ensure_trained()
         self._cache = self._load_cache()
 
@@ -128,13 +134,13 @@ class VideoOptimiser:
         X = self.scaler.transform(self.imputer.transform(self._dict_df(vd)[NUMERICAL_FEATS]))
         pred = float(self.model.predict(X)[0])
         
-        # Cap the prediction at 100
-        pred = min(pred, 100.0)
+        # Cap the prediction between 0 and 100
+        pred = max(0.0, min(pred, 100.0))
         
         # simulate improved score
         improved = round(pred * (1 + IMPROVEMENT_FACTOR), 2)
-        # Also cap the improved score
-        improved = min(improved, 100.0)
+        # Also cap the improved score between 0 and 100
+        improved = max(0.0, min(improved, 100.0))
 
         # nearest refs and tips
         refs = self._nearest(X, top_n)
