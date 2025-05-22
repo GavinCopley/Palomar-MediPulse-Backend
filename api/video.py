@@ -1,8 +1,14 @@
+"""
+Flask blueprint exposing:
+  POST /api/optimize   → run optimiser on JSON payload
+  GET  /api/health     → simple liveness probe
+"""
+
 from flask import Blueprint, request, jsonify
 from model.optimize import VideoOptimiser
 
 bp = Blueprint("video_opt_api", __name__)
-optim = VideoOptimiser()            # load model once at import
+optim = VideoOptimiser()                 # load once at import
 
 @bp.route("/api/optimize", methods=["POST"])
 def optimize():
