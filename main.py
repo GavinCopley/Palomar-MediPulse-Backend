@@ -36,11 +36,13 @@ from api.chatBot import chatbot_api
 from api.carComments import carComments_api
 from api.vinStore import vinStore_api
 from api.dataAnalytics import analytics_api
+from api.rate import hospital_rating_api
 
 from api.vote import vote_api
 # database Initialization functions
 #from model.carChat import carChat
 from model.user import User, initUsers
+from model.rate import HospitalRating
 from model.section import Section, initSections
 from model.group import Group, initGroups
 from model.channel import Channel, initChannels
@@ -58,6 +60,7 @@ from model.survey import Survey, initSurvey
 
 # register URIs for api endpoints
 app.register_blueprint(user_api)
+app.register_blueprint(hospital_rating_api)
 app.register_blueprint(pfp_api) 
 app.register_blueprint(post_api)
 app.register_blueprint(channel_api)
