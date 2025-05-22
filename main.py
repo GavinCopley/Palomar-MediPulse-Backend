@@ -36,7 +36,8 @@ from api.chatBot import chatbot_api
 from api.carComments import carComments_api
 from api.vinStore import vinStore_api
 from api.dataAnalytics import analytics_api
-
+from api.rate import hospital_rating_api
+from api.videoStoreAI import videoStore_api
 
 from api.vote import vote_api
 # database Initialization functions
@@ -78,6 +79,7 @@ app.register_blueprint(vinStore_api)
 app.register_blueprint(analytics_api)
 app.register_blueprint(survey_api)
 app.register_blueprint(hospital_search_api)
+app.register_blueprint(videoStore_api)
 # Add this to your imports section
 
 @app.route('/carPosts')
