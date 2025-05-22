@@ -36,7 +36,6 @@ from api.chatBot import chatbot_api
 from api.carComments import carComments_api
 from api.vinStore import vinStore_api
 from api.dataAnalytics import analytics_api
-from api.rate import hospital_rating_api
 from api.videoStoreAI import videoStore_api
 
 from api.vote import vote_api
