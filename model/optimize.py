@@ -15,6 +15,13 @@ from __future__ import annotations
 import os, json, glob, warnings, time
 from pathlib import Path
 
+# ─── load .env so GEMINI vars become visible ─────────────────────────────
+try:
+    from dotenv import load_dotenv          # pip install python-dotenv
+    load_dotenv("Gemini_optimize.env")      # contains GEMINI_API_KEY, USE_GEMINI
+except ModuleNotFoundError:
+    pass
+
 # ╭──────────────────────────────────────────────────────────────────────╮
 # │ Config & constants                                                  │
 # ╰──────────────────────────────────────────────────────────────────────╯
