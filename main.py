@@ -82,6 +82,7 @@ app.register_blueprint(analytics_api)
 app.register_blueprint(survey_api)
 app.register_blueprint(hospital_search_api)
 app.register_blueprint(videoStore_api)
+app.register_blueprint(comparison_api)
 # Add this to your imports section
 
 @app.route('/carPosts')
