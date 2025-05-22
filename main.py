@@ -8,6 +8,7 @@ from flask_login import current_user, login_user, logout_user
 from flask.cli import AppGroup
 from flask_login import current_user, login_required
 from flask import current_app
+from flask import send_from_directory
 from werkzeug.security import generate_password_hash
 import shutil
 import datetime
@@ -35,8 +36,9 @@ from api.carPost import carPost_api
 from api.chatBot import chatbot_api
 from api.carComments import carComments_api
 from api.vinStore import vinStore_api
-from api.dataAnalytics import analytics_api
+from api.hospitalDataAnalytics import analytics_api
 from api.videoStoreAI import videoStore_api
+from api.comparisonData import comparison_api
 
 from api.vote import vote_api
 # database Initialization functions
@@ -55,6 +57,7 @@ from model.optimize import VideoOptimiser
 from model.carComments import CarComments
 from model.vehicle import Vehicle, initVehicles
 from model.survey import Survey, initSurvey 
+
 # server only Views
 
 # register URIs for api endpoints
@@ -203,6 +206,10 @@ def get_data():
     return jsonify(InfoDb)
 
 
+@app.route('/data/hospitaldatamodified.csv')
+def serve_hospital_csv():
+    csv_dir = os.path.join(current_app.root_path, 'data')
+    return send_from_directory(csv_dir, 'hospitaldatamodified.csv')
 
 # Tell Flask-Login the view function name of your login route
 login_manager.login_view = "login"
