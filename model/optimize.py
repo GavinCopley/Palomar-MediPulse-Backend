@@ -15,6 +15,13 @@ from __future__ import annotations
 import os, json, glob, warnings, time
 from pathlib import Path
 
+# ─── tip category helpers ─────────────────────────────
+TIP_CATEGORIES = ["title", "description", "tags", "length", "thumbnail"]
+
+def _empty_tip_block():
+    """Return {examples:[], suggestions:[]} for every category."""
+    return {c: {"examples": [], "suggestions": []} for c in TIP_CATEGORIES}
+
 # ─── load .env so GEMINI vars become visible ─────────────────────────────
 try:
     from dotenv import load_dotenv          # pip install python-dotenv
@@ -60,7 +67,10 @@ if not USE_EMBEDDINGS:
 # ╭──────────────────────────────────────────────────────────────────────╮
 # │ Optional Gemini setup                                              │
 # ╰──────────────────────────────────────────────────────────────────────╯
-USE_GEMINI   = os.getenv("USE_GEMINI", "0") == "1"
+# default = “1” whenever GEMINI_API_KEY exists
+USE_GEMINI = (
+    os.getenv("USE_GEMINI", "1" if os.getenv("GEMINI_API_KEY") else "0") == "1"
+)
 GEMINI_MODEL = None
 if USE_GEMINI and (key := os.getenv("GEMINI_API_KEY", "").strip()):
     try:
@@ -258,24 +268,88 @@ class VideoOptimiser:
             "length_sec","tags","video id"]].to_dict(orient="records")
 
     # ── gemini + cache --------------------------------------------------
-    def _gemini(self,user,refs):
-        prompt=(f"Candidate video:\n"
-                f"• Title: {user.get('title')}\n"
-                f"• Desc : {user.get('description')}\n"
-                f"• Tags : {user.get('tags')}\n\n"
-                f"High-performing refs:\n{json.dumps(refs,indent=2)}\n\n"
-                "Give bullet-point tips on:\n"
-                "1. Title  2. Description  3. Tags  4. Ideal length  5. Thumbnail")
-        if prompt in self._cache:
-            return {"tips":self._cache[prompt]}
+    def _gemini(self, user: dict, refs: list[dict]) -> dict:
+        """
+        Calls Gemini and returns a dict:
+          {
+            "title":      { "examples": [...3], "suggestions":[...2] },
+            "description":{ "examples": [...3], "suggestions":[...2] },
+            …
+          }
+        If Gemini is unavailable, falls back to _empty_tip_block().
+        """
+        # 1) if already cached
+        cache_key = json.dumps({"u": user, "r": refs}, sort_keys=True)
+        if cache_key in self._cache:
+            return self._cache[cache_key]
+
+        # 2) bail out if Gemini not active
         if not GEMINI_MODEL:
-            return {"error":"Gemini not available"}
-        try:
-            tips=GEMINI_MODEL.generate_content(prompt).text.strip()
-            self._cache[prompt]=tips; self._save_cache()
-            return {"tips":tips}
-        except Exception as e:
-            return {"error":str(e)}
+            return _empty_tip_block()
+
+        # 3) prompt – tell Gemini to answer in strict JSON
+        prompt = f"""
+You are an expert YouTube content strategist.
+
+For the candidate video below **only** answer with valid JSON (no markdown)
+following exactly this schema:
+
+{{
+  "title":       {{"examples": ["…", "…", "…"], "suggestions": ["…", "…"]}},
+  "description": {{…}},
+  "tags":        {{…}},
+  "length":      {{…}},
+  "thumbnail":   {{…}}
+}}
+
+Each category = 6 concrete EXAMPLES your client could copy-paste 
+                + 3 short SUGGESTIONS / explanations. be specific with the explanations to the prompt. Do not make them generic, make thewm unique to the prompt. also include if it doesnt adhere to hospital guidelines/topic.
+
+Candidate video:
+- Title: {user.get('title')}
+- Description: {user.get('description')}
+- Tags: {user.get('tags')}
+- Duration: {user.get('duration_sec')} s 
+
+High-performing reference videos (trimmed):
+{json.dumps([{k:v for k,v in r.items() if k in ("video title","tags","length_sec")} for r in refs][:3], indent=2)}
+"""
+
+        # 4) call Gemini (retry up to 3× on quota)
+        delay, err = 1, None
+        for _ in range(3):
+            try:
+                out = GEMINI_MODEL.generate_content(prompt)
+                import re, textwrap
+
+                raw = out.text.strip()
+
+                # ── 1) remove ``` fences if Gemini wrapped the JSON in markdown
+                if raw.startswith("```"):
+                    raw = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw, flags=re.S).strip()
+
+                # ── 2) keep only the first {...} block (guards against pre-ambles / epilogues)
+                first, last = raw.find("{"), raw.rfind("}")
+                if first != -1 and last != -1:
+                    raw = raw[first : last + 1]
+
+                # ── 3) now load
+                tips = json.loads(raw)
+                # minimal validation
+                for cat in TIP_CATEGORIES:
+                    tips.setdefault(cat, {"examples": [], "suggestions": []})
+                self._cache[cache_key] = tips
+                self._save_cache()
+                return tips
+            except Exception as e:
+                err = str(e)
+                if "quota" not in err.lower() and "rate" not in err.lower():
+                    break
+                time.sleep(delay); delay *= 2
+
+        # 5) failure → return empty structure
+        print("Gemini error:", err)
+        return _empty_tip_block()
 
     # ── cache helpers ---------------------------------------------------
     def _load_cache(self):
