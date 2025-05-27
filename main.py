@@ -92,12 +92,7 @@ def carPosts():
     print("Car Post Data:", carPost_data)  # Debugging line to check if data is fetched
     return render_template("carPosts.html", carPost_data=carPost_data)
 
-@app.route('/carChat')
-@login_required  # Ensure that only logged-in users can access this page
-def carChatPage():
-    carChat_data = carChat.query.all()  # Fetch all car chat messages from the database
-    print("Car Chat Data:", carChat_data)  # Debugging line to check if data is fetched
-    return render_template("carChat.html", carChat_data=carChat_data)
+
 
 @app.route('/carComments')
 @login_required  # Ensure that only logged-in users can access this page
@@ -106,10 +101,7 @@ def carCommentsPage():
     print("Car Comments Data:", carComments_data)  # Debugging line to check if data is fetched
     return render_template("carComments.html", carComments_data=carComments_data)
 
-@app.route('/carChat/<int:id>', methods=['PUT'])
-def edit_chat_message(id):
-    data = request.get_json()  # Get the JSON data from the request
-    message = carChat.query.get(id)  # Find the message by ID
+
     
     if message is None:
         return jsonify({"error": "Message not found"}), 404  # Return 404 if message doesn't exist
@@ -120,15 +112,7 @@ def edit_chat_message(id):
     
     return jsonify(message.read()), 200  # Return the updated message data
 
-@app.route('/carChat/<int:id>', methods=['DELETE'])
-def delete_chat_message(id):
-    message = carChat.query.get(id)
-    
-    if message:
-        message.delete()  # Call the delete method from the model
-        return jsonify({"message": "Message deleted"}), 200
-    else:
-        return jsonify({"error": "Message not found"}), 404
+
 
 @app.route('/api/carPost/allPosts/<string:car_type>', methods=['GET'])
 def allPosts(car_type):
@@ -411,7 +395,6 @@ def extract_data():
         data['sections'] = [section.read() for section in Section.query.all()]
         data['groups'] = [group.read() for group in Group.query.all()]
         data['channels'] = [channel.read() for channel in Channel.query.all()]
-        data['hosps'] = [hosp.read() for hosp in Hosp.query.all()]
         data['posts'] = [post.read() for post in Post.query.all()]
         data['carPosts'] = [post.read() for post in CarPost.query.all()]
         data['vehicles'] = [vehicle.read() for vehicle in Vehicle.query.all()]
@@ -448,7 +431,6 @@ def restore_data(data):
         _ = Section.restore(data['sections'])
         _ = Group.restore(data['groups'], users)
         _ = Channel.restore(data['channels'])
-        _ = Hosp.restore(data['hosps'])
         _ = Post.restore(data['posts'])
         _ = CarPost.restore(data['carPosts'])
         _ = CarComments.restore(data['carComments'])
