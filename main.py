@@ -82,9 +82,15 @@ app.register_blueprint(vinStore_api)
 app.register_blueprint(analytics_api)
 app.register_blueprint(survey_api)
 app.register_blueprint(hospital_search_api)
+<<<<<<< Updated upstream
 app.register_blueprint(videoStore_api)
 app.register_blueprint(comparison_api)
 app.register_blueprint(youtube_api)
+=======
+from api.stats import stats_api
+app.register_blueprint(stats_api)
+
+>>>>>>> Stashed changes
 # Add this to your imports section
 
 @app.route('/carPosts')
