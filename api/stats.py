@@ -3,7 +3,7 @@ from flask_restful import Api, Resource
 from api.jwt_authorize import token_required
 import random
 
-stats_api = Blueprint('stats_api', __name__, url_prefix='/api/stats')
+stats_api = Blueprint('stats_api', __name__)  # Remove the prefix
 api = Api(stats_api)
 
 class UserStats(Resource):
@@ -19,4 +19,4 @@ class UserStats(Resource):
             "postsThisWeek": post_count
         })
 
-api.add_resource(UserStats, '/user')
+api.add_resource(UserStats, '/users/activity')  # Changed endpoint to '/users/activity'
