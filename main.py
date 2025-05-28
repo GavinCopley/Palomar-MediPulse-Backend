@@ -39,6 +39,7 @@ from api.vinStore import vinStore_api
 from api.hospitalDataAnalytics import analytics_api
 from api.videoStoreAI import videoStore_api
 from api.comparisonData import comparison_api
+from api.youtubeAnalytics import youtube_api
 
 from api.vote import vote_api
 # database Initialization functions
@@ -83,6 +84,7 @@ app.register_blueprint(survey_api)
 app.register_blueprint(hospital_search_api)
 app.register_blueprint(videoStore_api)
 app.register_blueprint(comparison_api)
+app.register_blueprint(youtube_api)
 # Add this to your imports section
 
 @app.route('/carPosts')
