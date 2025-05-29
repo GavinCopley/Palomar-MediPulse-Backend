@@ -95,27 +95,65 @@ class HospitalInfoEnricher:
             logger.error(f"Error saving cache: {e}")
     
     def _format_response(self, data):
-        """Format the response to ensure consistent structure"""
-        # Ensure each field is an array of strings for frontend consistency
+        """Format the response to ensure consistent structure, sort by importance, and add formatting hints"""
         result = {}
         
-        for key in ['achievements', 'technology', 'programs', 'community_initiatives']:
+        # Priority order for sections
+        keys_in_priority = ['achievements', 'technology', 'programs', 'community_initiatives']
+        
+        for key in keys_in_priority:
             if key in data:
                 value = data[key]
-                # If it's a string, convert to a list with one element
-                if isinstance(value, str):
-                    result[key] = [value]
-                # If it's already a list, keep it
-                elif isinstance(value, list):
-                    # Convert any objects to strings
-                    result[key] = [str(item) if not isinstance(item, str) else item for item in value]
-                else:
-                    # Convert anything else to a string in a list
-                    result[key] = [str(value)]
-            else:
-                # Provide default empty list if key is missing
-                result[key] = []
+                formatted_items = []
                 
+                # Process the items
+                items = value if isinstance(value, list) else [value]
+                
+                for item in items:
+                    if isinstance(item, str):
+                        # Clean up the text - remove extra spaces, quotes
+                        clean_text = item.strip().strip('"\'')
+                        formatted_items.append(clean_text)
+                    else:
+                        # Handle objects by extracting text or converting to string
+                        text = str(item).replace("{", "").replace("}", "").strip()
+                        if ":" in text:  # Handle key-value pairs
+                            parts = text.split(":", 1)
+                            text = parts[1].strip()
+                        formatted_items.append(text)
+                
+                # Sort items - shorter items first for better display
+                formatted_items.sort(key=len)
+                
+                # Add to result
+                result[key] = formatted_items
+            else:
+                result[key] = []
+        
+        # Add display suggestions for frontend
+        result['display_suggestions'] = {
+            'achievements': {
+                'icon': 'trophy',
+                'color': 'gold',
+                'title': 'Notable Achievements'
+            },
+            'technology': {
+                'icon': 'microscope', 
+                'color': 'blue',
+                'title': 'Technology & Facilities'
+            },
+            'programs': {
+                'icon': 'clipboard-list',
+                'color': 'green', 
+                'title': 'Special Programs'
+            },
+            'community_initiatives': {
+                'icon': 'users',
+                'color': 'purple',
+                'title': 'Community Initiatives'
+            }
+        }
+        
         return result
     
     def get_hospital_info(self, hospital_name, basic_info=None, refresh=False):
