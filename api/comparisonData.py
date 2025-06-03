@@ -1,5 +1,3 @@
-
-
 from flask import Blueprint, jsonify, current_app
 from flask_restful import Api, Resource
 import pandas as pd

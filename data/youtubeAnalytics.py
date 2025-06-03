@@ -74,17 +74,4 @@ class YouTubeData(Resource):
 api.add_resource(YouTubeFiles, '/files')
 api.add_resource(YouTubeData, '/data/<string:filename>')
 
-# Add to your frontend fetch calls:
-# const fetchOptions = {
-#     method: 'GET',
-#     mode: 'cors',
-#     cache: 'default',
-#     credentials: 'include',
-#     headers: {
-#         'Content-Type': 'application/json',
-#         'X-Origin': 'client'
-#     }
-# };
 
-# Example fetch call:
-# const response = await fetch(`${pythonURI}/api/youtube/files`, fetchOptions);
