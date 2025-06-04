@@ -39,7 +39,7 @@ from api.vinStore import vinStore_api
 from api.hospitalDataAnalytics import analytics_api
 from api.videoStoreAI import videoStore_api
 from api.comparisonData import comparison_api
-from data.youtubeAnalytics import youtube_api
+#from data.youtubeAnalytics import youtube_api
 
 from api.vote import vote_api
 # database Initialization functions
@@ -84,7 +84,7 @@ app.register_blueprint(survey_api)
 app.register_blueprint(hospital_search_api)
 app.register_blueprint(videoStore_api)
 app.register_blueprint(comparison_api)
-app.register_blueprint(youtube_api)
+#app.register_blueprint(youtube_api)
 from api.stats import stats_api
 app.register_blueprint(stats_api)
 
@@ -374,13 +374,31 @@ custom_cli = AppGroup('custom', help='Custom commands')
 
 # Define a command to run the data generation functions
 @custom_cli.command('generate_data')
+def generate_data_cli():
+    """CLI command version of generate_data"""
+    generate_data()
+
+# Regular function version that can be imported and called from other scripts
 def generate_data():
-    initUsers()
-    initSections()
-   # initHosps()
-    initVehicles()
-    initSurvey()  # Add survey initialization
+    """Generate initial data for the database"""
+    # Ensure we're in an application context
+    if not current_app:
+        raise RuntimeError("This function must be called within a Flask application context")
     
+    print("Initializing users...")
+    initUsers()
+    
+    print("Initializing sections...")
+    initSections()
+    
+    print("Initializing vehicles...")
+    initVehicles()
+    
+    print("Initializing surveys...")
+    initSurvey()
+    
+    print("Data generation completed!")
+
 # Backup the old database
 def backup_database(db_uri, backup_uri):
     """Backup the current database."""
