@@ -1,5 +1,13 @@
 # README
 
+## Overview
+
+The backend of MediPulse serves as the analytical engine that powers the intelligence behind the frontend dashboard. Built primarily with Python, it is responsible for fetching, cleaning, and analyzing YouTube performance data using the YouTube Data API. Through structured endpoints and modular scripts, the backend transforms raw JSON analytics into digestible insights, supporting features like audience behavior modeling, posting time optimization, and content performance prediction.
+
+By leveraging virtual environments and requirements-managed installations, the backend ensures a clean, reproducible setup for developers. Machine learning models integrated into the backend analyze patterns in video titles, engagement metrics, and publication timing to assign each video a performance score. This enables the marketing team at Palomar Health to make data-informed content decisions that drive outreach and community engagement. Combined with a scalable architecture and API-ready design, the backend enables smooth collaboration between AI systems, frontend visualizations, and external data services.
+
+## Intro
+
 > This is a project to support AP Computer Science Principles (CSP) as well as a UC articulated Data Structures course. It was crafted iteratively starting in 2020 to the present time.  The primary purposes are ...
 
 - Used as starter code for student projects for `AP CSP 1 and 2` and `Data Structures 1` curriculum.
