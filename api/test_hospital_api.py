@@ -3,7 +3,7 @@ import requests
 def test_hospital_api():
     """Test the hospital API endpoints"""
     # Base URL - change this if your server runs on a different port/host
-    base_url = "http://localhost:8135/api/hospitals"
+    base_url = "http://localhost:8115/api/hospitals"
     
     # Test 1: Basic endpoint with no parameters
     response = requests.get(base_url)

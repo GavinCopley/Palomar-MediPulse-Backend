@@ -4,7 +4,7 @@ server {
         server_name medipulse.opencodingsociety.com;
 
         location / {
-            proxy_pass http://localhost:8135;
+            proxy_pass http://localhost:8115;
 
             # Preflighted requests
             if ($request_method = OPTIONS) {

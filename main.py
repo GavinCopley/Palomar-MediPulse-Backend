@@ -486,7 +486,7 @@ if __name__ == "__main__":
         app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
     # change name for testing
     app.config['TIMEZONE'] = 'America/Los_Angeles'
-    app.run(host="0.0.0.0", port="8135")
+    app.run(host="0.0.0.0", port="8115")
 
 
     #@app.route('/api/mechanicsTips', methods=['GET'])

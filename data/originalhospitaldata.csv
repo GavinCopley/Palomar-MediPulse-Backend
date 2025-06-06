@@ -3113,19 +3113,19 @@
 3112,2017,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,Acute Stroke,18,102,13.2,Worse,37.77408,-122.454
 3113,2017,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,AMI,8,114,5.7,As Expected,37.77408,-122.454
 3114,2017,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,CABG,Isolated CABG Operative Mor,1,8,6.62,As Expected,37.77,-122.45
-3115,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Subarachnoid,17,87,19.7,As Expected,37.76351,-122.457
-3116,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Hip Fracture,2,71,2.9,As Expected,37.76351,-122.457
-3117,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pneumonia,6,253,2.3,As Expected,37.76351,-122.457
-3118,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pancreatic Resection,0,132,0,As Expected,37.76351,-122.457
-3119,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,PCI,5,151,3.5,As Expected,37.76351,-122.457
-3120,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Heart Failure,21,610,2.9,As Expected,37.76351,-122.457
-3121,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,GI Hemorrhage,8,329,1.6,As Expected,37.76351,-122.457
-3122,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Carotid Endarterectomy,1,55,0.9,As Expected,37.76351,-122.457
-3123,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Ischemic,16,223,5.2,As Expected,37.76351,-122.457
-3124,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Hemorrhagic,11,130,9.2,Better,37.76351,-122.457
-3125,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke,44,440,6.6,Better,37.76351,-122.457
-3126,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AMI,15,170,7.7,As Expected,37.76351,-122.457
-3127,2017,San Francisco,UC San Francisco Medical Center,106381354,University of California,CABG,Isolated CABG Operative Mor,1,90,1.79,As Expected,37.76,-122.46
+3115,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Subarachnoid,17,87,19.7,As Expected,37.76351,-122.457
+3116,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Hip Fracture,2,71,2.9,As Expected,37.76351,-122.457
+3117,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pneumonia,6,253,2.3,As Expected,37.76351,-122.457
+3118,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pancreatic Resection,0,132,0,As Expected,37.76351,-122.457
+3119,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,PCI,5,151,3.5,As Expected,37.76351,-122.457
+3120,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Heart Failure,21,610,2.9,As Expected,37.76351,-122.457
+3121,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,GI Hemorrhage,8,329,1.6,As Expected,37.76351,-122.457
+3122,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Carotid Endarterectomy,1,55,0.9,As Expected,37.76351,-122.457
+3123,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Ischemic,16,223,5.2,As Expected,37.76351,-122.457
+3124,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Hemorrhagic,11,130,9.2,Better,37.76351,-122.457
+3125,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke,44,440,6.6,Better,37.76351,-122.457
+3126,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AMI,15,170,7.7,As Expected,37.76351,-122.457
+3127,2017,San Francisco,UC San Francisco Medical Center,106381154,University of California,CABG,Isolated CABG Operative Mor,1,90,1.79,As Expected,37.76,-122.46
 3128,2017,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Hip Fracture,1,23,4.9,As Expected,37.79565,-122.409
 3129,2017,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Pneumonia,1,55,1.2,As Expected,37.79565,-122.409
 3130,2017,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Pancreatic Resection,,,,"",37.79565,-122.409
@@ -3639,19 +3639,19 @@
 3638,2017,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,Acute Stroke Hemorrhagic,,,,"",38.13109,-122.238
 3639,2017,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,Acute Stroke,1,70,1.9,As Expected,38.13109,-122.238
 3640,2017,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AMI,1,21,2.8,As Expected,38.13109,-122.238
-3641,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Hip Fracture,2,92,2.4,As Expected,38.26097,-122.05
-3642,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pneumonia,5,157,2.5,As Expected,38.26097,-122.05
-3643,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
-3644,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,PCI,4,182,2,As Expected,38.26097,-122.05
-3645,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Heart Failure,10,371,2.2,As Expected,38.26097,-122.05
-3646,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,GI Hemorrhage,5,190,2.2,As Expected,38.26097,-122.05
-3647,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Carotid Endarterectomy,0,7,0,As Expected,38.26097,-122.05
-3648,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Subarachnoid,4,5,31.9,As Expected,38.26097,-122.05
-3649,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Ischemic,10,146,5.8,As Expected,38.26097,-122.05
-3650,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Hemorrhagic,12,36,24.6,As Expected,38.26097,-122.05
-3651,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke,26,187,10.8,As Expected,38.26097,-122.05
-3652,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AMI,13,233,4.9,As Expected,38.26097,-122.05
-3653,2017,Solano,NorthBay Medical Center,106481357,Independent/Other,CABG,Isolated CABG Operative Mor,0,42,0,As Expected,38.26,-122.05
+3641,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Hip Fracture,2,92,2.4,As Expected,38.26097,-122.05
+3642,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pneumonia,5,157,2.5,As Expected,38.26097,-122.05
+3643,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
+3644,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,PCI,4,182,2,As Expected,38.26097,-122.05
+3645,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Heart Failure,10,371,2.2,As Expected,38.26097,-122.05
+3646,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,GI Hemorrhage,5,190,2.2,As Expected,38.26097,-122.05
+3647,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Carotid Endarterectomy,0,7,0,As Expected,38.26097,-122.05
+3648,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Subarachnoid,4,5,31.9,As Expected,38.26097,-122.05
+3649,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Ischemic,10,146,5.8,As Expected,38.26097,-122.05
+3650,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Hemorrhagic,12,36,24.6,As Expected,38.26097,-122.05
+3651,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke,26,187,10.8,As Expected,38.26097,-122.05
+3652,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AMI,13,233,4.9,As Expected,38.26097,-122.05
+3653,2017,Solano,NorthBay Medical Center,106481157,Independent/Other,CABG,Isolated CABG Operative Mor,0,42,0,As Expected,38.26,-122.05
 3654,2017,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Hip Fracture,4,89,4.4,As Expected,38.38949,-121.937
 3655,2017,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Pneumonia,7,107,5.2,As Expected,38.38949,-121.937
 3656,2017,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Pancreatic Resection,,,,"",38.38949,-121.937
@@ -7101,19 +7101,19 @@
 7100,2018,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,Acute Stroke,10,100,8.1,As Expected,37.77408,-122.454
 7101,2018,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,AMI,6,100,4.1,As Expected,37.77408,-122.454
 7102,2018,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,CABG,Isolated CABG Operative Mor,1,9,20.82,As Expected,37.77,-122.45
-7103,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Subarachnoid,20,108,19,As Expected,37.76351,-122.457
-7104,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Hip Fracture,1,94,0.4,As Expected,37.76351,-122.457
-7105,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pneumonia,8,236,3,As Expected,37.76351,-122.457
-7106,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pancreatic Resection,0,122,0,As Expected,37.76351,-122.457
-7107,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,PCI,9,186,3.5,As Expected,37.76351,-122.457
-7108,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Heart Failure,31,639,4.6,Worse,37.76351,-122.457
-7109,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,GI Hemorrhage,6,335,1,Better,37.76351,-122.457
-7110,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Carotid Endarterectomy,0,49,0,As Expected,37.76351,-122.457
-7111,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Ischemic,15,241,3.8,As Expected,37.76351,-122.457
-7112,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Hemorrhagic,29,173,17.9,As Expected,37.76351,-122.457
-7113,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke,64,522,7.4,As Expected,37.76351,-122.457
-7114,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AMI,26,212,8.2,As Expected,37.76351,-122.457
-7115,2018,San Francisco,UC San Francisco Medical Center,106381354,University of California,CABG,Isolated CABG Operative Mor,1,86,1.7,As Expected,37.76,-122.46
+7103,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Subarachnoid,20,108,19,As Expected,37.76351,-122.457
+7104,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Hip Fracture,1,94,0.4,As Expected,37.76351,-122.457
+7105,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pneumonia,8,236,3,As Expected,37.76351,-122.457
+7106,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pancreatic Resection,0,122,0,As Expected,37.76351,-122.457
+7107,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,PCI,9,186,3.5,As Expected,37.76351,-122.457
+7108,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Heart Failure,31,639,4.6,Worse,37.76351,-122.457
+7109,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,GI Hemorrhage,6,335,1,Better,37.76351,-122.457
+7110,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Carotid Endarterectomy,0,49,0,As Expected,37.76351,-122.457
+7111,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Ischemic,15,241,3.8,As Expected,37.76351,-122.457
+7112,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Hemorrhagic,29,173,17.9,As Expected,37.76351,-122.457
+7113,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke,64,522,7.4,As Expected,37.76351,-122.457
+7114,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AMI,26,212,8.2,As Expected,37.76351,-122.457
+7115,2018,San Francisco,UC San Francisco Medical Center,106381154,University of California,CABG,Isolated CABG Operative Mor,1,86,1.7,As Expected,37.76,-122.46
 7116,2018,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,"",37.79565,-122.409
 7117,2018,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Hip Fracture,0,20,0,As Expected,37.79565,-122.409
 7118,2018,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Pneumonia,1,52,1.7,As Expected,37.79565,-122.409
@@ -7642,19 +7642,19 @@
 7641,2018,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,Acute Stroke Hemorrhagic,0,4,0,As Expected,38.13109,-122.238
 7642,2018,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,Acute Stroke,3,63,6.9,As Expected,38.13109,-122.238
 7643,2018,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AMI,2,18,8.3,As Expected,38.13109,-122.238
-7644,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Hip Fracture,2,66,2,As Expected,38.26097,-122.05
-7645,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pneumonia,17,270,5.4,Worse,38.26097,-122.05
-7646,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
-7647,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,PCI,15,190,6.1,As Expected,38.26097,-122.05
-7648,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Heart Failure,14,470,2.5,As Expected,38.26097,-122.05
-7649,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,GI Hemorrhage,9,190,3.1,As Expected,38.26097,-122.05
-7650,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Carotid Endarterectomy,0,7,0,As Expected,38.26097,-122.05
-7651,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,"",38.26097,-122.05
-7652,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Ischemic,11,163,5,As Expected,38.26097,-122.05
-7653,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Hemorrhagic,7,44,16.8,As Expected,38.26097,-122.05
-7654,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke,18,208,8.3,As Expected,38.26097,-122.05
-7655,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AMI,23,254,7.5,As Expected,38.26097,-122.05
-7656,2018,Solano,NorthBay Medical Center,106481357,Independent/Other,CABG,Isolated CABG Operative Mor,1,47,1.77,As Expected,38.26,-122.05
+7644,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Hip Fracture,2,66,2,As Expected,38.26097,-122.05
+7645,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pneumonia,17,270,5.4,Worse,38.26097,-122.05
+7646,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
+7647,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,PCI,15,190,6.1,As Expected,38.26097,-122.05
+7648,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Heart Failure,14,470,2.5,As Expected,38.26097,-122.05
+7649,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,GI Hemorrhage,9,190,3.1,As Expected,38.26097,-122.05
+7650,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Carotid Endarterectomy,0,7,0,As Expected,38.26097,-122.05
+7651,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,"",38.26097,-122.05
+7652,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Ischemic,11,163,5,As Expected,38.26097,-122.05
+7653,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Hemorrhagic,7,44,16.8,As Expected,38.26097,-122.05
+7654,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke,18,208,8.3,As Expected,38.26097,-122.05
+7655,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AMI,23,254,7.5,As Expected,38.26097,-122.05
+7656,2018,Solano,NorthBay Medical Center,106481157,Independent/Other,CABG,Isolated CABG Operative Mor,1,47,1.77,As Expected,38.26,-122.05
 7657,2018,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Hip Fracture,2,106,2.1,As Expected,38.38949,-121.937
 7658,2018,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Pneumonia,6,103,5.7,As Expected,38.38949,-121.937
 7659,2018,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Pancreatic Resection,,,,"",38.38949,-121.937
@@ -8113,7 +8113,7 @@
 8112,2019,Alameda,San Leandro Hospital,106013619,Alameda Health System,PSI,Postoperative Sepsis,1,72,0.88,As Expected,37.71364,-122.14
 8113,2019,Alameda,San Leandro Hospital,106013619,Alameda Health System,IMI,Acute Stroke Subarachnoid,,,,"",37.71364,-122.14
 8114,2019,Alameda,San Leandro Hospital,106013619,Alameda Health System,IMI,AMI,1,7,24.3,As Expected,37.71364,-122.14
-8135,2019,Alameda,San Leandro Hospital,106013619,Alameda Health System,IMI,Acute Stroke,0,22,0,As Expected,37.71364,-122.14
+8115,2019,Alameda,San Leandro Hospital,106013619,Alameda Health System,IMI,Acute Stroke,0,22,0,As Expected,37.71364,-122.14
 8116,2019,Alameda,San Leandro Hospital,106013619,Alameda Health System,IMI,AAA Repair Endo Unrupture,0,10,0,As Expected,37.71364,-122.14
 8117,2019,Alameda,San Leandro Hospital,106013619,Alameda Health System,IMI,Pancreatic Resection,,,,"",37.71364,-122.14
 8118,2019,Alameda,Stanford Health Care Tri-Valley,106014050,Independent/Other,IMI,Hip Fracture,0,72,0,As Expected,37.69206,-121.88
@@ -8133,7 +8133,7 @@
 8132,2019,Alameda,Stanford Health Care Tri-Valley,106014050,Independent/Other,IMI,Carotid Endarterectomy,0,14,0,As Expected,37.69206,-121.88
 8133,2019,Alameda,Stanford Health Care Tri-Valley,106014050,Independent/Other,IMI,PCI,4,96,3.4,As Expected,37.69206,-121.88
 8134,2019,Alameda,Kaiser Foundation Hospital – Fremont,106014132,Kaiser Foundation Hospitals,IMI,PCI,1,32,4.7,As Expected,37.55055,-121.974
-8135,2019,Alameda,Kaiser Foundation Hospital – Fremont,106014132,Kaiser Foundation Hospitals,IMI,AAA Repair Open Unrupture,,,,"",37.55055,-121.974
+8115,2019,Alameda,Kaiser Foundation Hospital – Fremont,106014132,Kaiser Foundation Hospitals,IMI,AAA Repair Open Unrupture,,,,"",37.55055,-121.974
 8136,2019,Alameda,Kaiser Foundation Hospital – Fremont,106014132,Kaiser Foundation Hospitals,IMI,GI Hemorrhage,3,103,3.8,As Expected,37.55055,-121.974
 8137,2019,Alameda,Kaiser Foundation Hospital – Fremont,106014132,Kaiser Foundation Hospitals,IMI,Hip Fracture,1,84,0.9,As Expected,37.55055,-121.974
 8138,2019,Alameda,Kaiser Foundation Hospital – Fremont,106014132,Kaiser Foundation Hospitals,IMI,Acute Stroke Ischemic,4,87,6,As Expected,37.55055,-121.974
@@ -11840,22 +11840,22 @@
 11839,2019,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,AAA Repair Endo Unrupture,,,,"",37.77408,-122.454
 11840,2019,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,PSI,Postoperative Sepsis,8,897,1.03,Worse,37.77408,-122.454
 11841,2019,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,CABG,Isolated CABG Operative Mor,3,90,4.676055,As Expected,37.77,-122.45
-11842,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pneumonia,4,214,1.8,As Expected,37.76351,-122.457
-11843,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,PCI,11,165,3.1,As Expected,37.76351,-122.457
-11844,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pancreatic Resection,0,150,0,As Expected,37.76351,-122.457
-11845,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Hip Fracture,0,94,0,As Expected,37.76351,-122.457
-11846,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Heart Failure,31,657,4,Worse,37.76351,-122.457
-11847,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,GI Hemorrhage,6,363,1.3,As Expected,37.76351,-122.457
-11848,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Carotid Endarterectomy,0,32,0,As Expected,37.76351,-122.457
-11849,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AMI,29,227,7.3,As Expected,37.76351,-122.457
-11850,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Subarachnoid,30,89,28.4,As Expected,37.76351,-122.457
-11851,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Ischemic,26,253,7.5,Worse,37.76351,-122.457
-11852,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Hemorrhagic,21,129,17.5,As Expected,37.76351,-122.457
-11853,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke,77,471,10.2,As Expected,37.76351,-122.457
-11854,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AAA Repair Open Unrupture,0,11,0,As Expected,37.76351,-122.457
-11855,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AAA Repair Endo Unrupture,0,18,0,As Expected,37.76351,-122.457
-11856,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,CABG,Isolated CABG Operative Mor,1,68,2.197143,As Expected,37.76,-122.46
-11857,2019,San Francisco,UC San Francisco Medical Center,106381354,University of California,PSI,Postoperative Sepsis,52,7277,0.6,Worse,37.76351,-122.457
+11842,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pneumonia,4,214,1.8,As Expected,37.76351,-122.457
+11843,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,PCI,11,165,3.1,As Expected,37.76351,-122.457
+11844,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pancreatic Resection,0,150,0,As Expected,37.76351,-122.457
+11845,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Hip Fracture,0,94,0,As Expected,37.76351,-122.457
+11846,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Heart Failure,31,657,4,Worse,37.76351,-122.457
+11847,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,GI Hemorrhage,6,363,1.3,As Expected,37.76351,-122.457
+11848,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Carotid Endarterectomy,0,32,0,As Expected,37.76351,-122.457
+11849,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AMI,29,227,7.3,As Expected,37.76351,-122.457
+11850,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Subarachnoid,30,89,28.4,As Expected,37.76351,-122.457
+11851,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Ischemic,26,253,7.5,Worse,37.76351,-122.457
+11852,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Hemorrhagic,21,129,17.5,As Expected,37.76351,-122.457
+11853,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke,77,471,10.2,As Expected,37.76351,-122.457
+11854,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AAA Repair Open Unrupture,0,11,0,As Expected,37.76351,-122.457
+11855,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AAA Repair Endo Unrupture,0,18,0,As Expected,37.76351,-122.457
+11856,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,CABG,Isolated CABG Operative Mor,1,68,2.197143,As Expected,37.76,-122.46
+11857,2019,San Francisco,UC San Francisco Medical Center,106381154,University of California,PSI,Postoperative Sepsis,52,7277,0.6,Worse,37.76351,-122.457
 11858,2019,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Pneumonia,0,65,0,As Expected,37.79565,-122.409
 11859,2019,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,PCI,,,,"",37.79565,-122.409
 11860,2019,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Pancreatic Resection,,,,"",37.79565,-122.409
@@ -12526,22 +12526,22 @@
 12525,2019,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,Acute Stroke,6,62,12.5,As Expected,38.13109,-122.238
 12526,2019,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AAA Repair Open Unrupture,,,,"",38.13109,-122.238
 12527,2019,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AAA Repair Endo Unrupture,,,,"",38.13109,-122.238
-12528,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,CABG,Isolated CABG Operative Mor,2,52,3.378753,As Expected,38.26,-122.05
-12529,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,PSI,Postoperative Sepsis,2,459,0.53,As Expected,38.26097,-122.05
-12530,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pneumonia,7,307,1.9,As Expected,38.26097,-122.05
-12531,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,PCI,9,216,3.3,As Expected,38.26097,-122.05
-12532,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
-12533,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Hip Fracture,3,95,1.8,As Expected,38.26097,-122.05
-12534,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Heart Failure,15,468,3,As Expected,38.26097,-122.05
-12535,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,GI Hemorrhage,3,238,1.4,As Expected,38.26097,-122.05
-12536,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Carotid Endarterectomy,0,7,0,As Expected,38.26097,-122.05
-12537,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AMI,18,270,6.2,As Expected,38.26097,-122.05
-12538,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Subarachnoid,3,7,24.9,As Expected,38.26097,-122.05
-12539,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Ischemic,5,215,2.2,Better,38.26097,-122.05
-12540,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Hemorrhagic,7,39,18.2,As Expected,38.26097,-122.05
-12541,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke,15,261,6.1,As Expected,38.26097,-122.05
-12542,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AAA Repair Open Unrupture,,,,"",38.26097,-122.05
-12543,2019,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AAA Repair Endo Unrupture,,,,"",38.26097,-122.05
+12528,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,CABG,Isolated CABG Operative Mor,2,52,3.378753,As Expected,38.26,-122.05
+12529,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,PSI,Postoperative Sepsis,2,459,0.53,As Expected,38.26097,-122.05
+12530,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pneumonia,7,307,1.9,As Expected,38.26097,-122.05
+12531,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,PCI,9,216,3.3,As Expected,38.26097,-122.05
+12532,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
+12533,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Hip Fracture,3,95,1.8,As Expected,38.26097,-122.05
+12534,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Heart Failure,15,468,3,As Expected,38.26097,-122.05
+12535,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,GI Hemorrhage,3,238,1.4,As Expected,38.26097,-122.05
+12536,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Carotid Endarterectomy,0,7,0,As Expected,38.26097,-122.05
+12537,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AMI,18,270,6.2,As Expected,38.26097,-122.05
+12538,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Subarachnoid,3,7,24.9,As Expected,38.26097,-122.05
+12539,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Ischemic,5,215,2.2,Better,38.26097,-122.05
+12540,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Hemorrhagic,7,39,18.2,As Expected,38.26097,-122.05
+12541,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke,15,261,6.1,As Expected,38.26097,-122.05
+12542,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AAA Repair Open Unrupture,,,,"",38.26097,-122.05
+12543,2019,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AAA Repair Endo Unrupture,,,,"",38.26097,-122.05
 12544,2019,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,PSI,Postoperative Sepsis,1,507,0.18,As Expected,38.38949,-121.937
 12545,2019,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Pneumonia,4,74,5.5,As Expected,38.38949,-121.937
 12546,2019,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,PCI,,,,"",38.38949,-121.937
@@ -16521,21 +16521,21 @@
 16520,2020,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,AMI,9,68,6.6,As Expected,37.77408,-122.454
 16521,2020,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,AAA Repair Open Unrupture,,,,"",37.77408,-122.454
 16522,2020,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,AAA Repair Endo Unrupture,,,,"",37.77408,-122.454
-16523,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,GI Hemorrhage,7,299,1.5,As Expected,37.76351,-122.457
-16524,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pancreatic Resection,0,138,0,As Expected,37.76351,-122.457
-16525,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pneumonia,38,528,5.2,As Expected,37.76351,-122.457
-16526,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,PCI,8,176,4.2,As Expected,37.76351,-122.457
-16527,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Hip Fracture,0,76,0,As Expected,37.76351,-122.457
-16528,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Heart Failure,17,542,2.3,As Expected,37.76351,-122.457
-16529,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Carotid Endarterectomy,0,20,0,As Expected,37.76351,-122.457
-16530,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Subarachnoid,11,56,17.7,As Expected,37.76351,-122.457
-16531,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Ischemic,18,264,4.1,As Expected,37.76351,-122.457
-16532,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Hemorrhagic,23,133,14.2,Better,37.76351,-122.457
-16533,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke,52,453,6.6,Better,37.76351,-122.457
-16534,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AMI,14,165,6.1,As Expected,37.76351,-122.457
-16535,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AAA Repair Open Unrupture,3,18,20.9,As Expected,37.76351,-122.457
-16536,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AAA Repair Endo Unrupture,0,22,0,As Expected,37.76351,-122.457
-16537,2020,San Francisco,UC San Francisco Medical Center,106381354,University of California,CABG,Isolated CABG Operative Mor,1,68,1.843098,As Expected,37.76,-122.46
+16523,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,GI Hemorrhage,7,299,1.5,As Expected,37.76351,-122.457
+16524,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pancreatic Resection,0,138,0,As Expected,37.76351,-122.457
+16525,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pneumonia,38,528,5.2,As Expected,37.76351,-122.457
+16526,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,PCI,8,176,4.2,As Expected,37.76351,-122.457
+16527,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Hip Fracture,0,76,0,As Expected,37.76351,-122.457
+16528,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Heart Failure,17,542,2.3,As Expected,37.76351,-122.457
+16529,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Carotid Endarterectomy,0,20,0,As Expected,37.76351,-122.457
+16530,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Subarachnoid,11,56,17.7,As Expected,37.76351,-122.457
+16531,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Ischemic,18,264,4.1,As Expected,37.76351,-122.457
+16532,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Hemorrhagic,23,133,14.2,Better,37.76351,-122.457
+16533,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke,52,453,6.6,Better,37.76351,-122.457
+16534,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AMI,14,165,6.1,As Expected,37.76351,-122.457
+16535,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AAA Repair Open Unrupture,3,18,20.9,As Expected,37.76351,-122.457
+16536,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AAA Repair Endo Unrupture,0,22,0,As Expected,37.76351,-122.457
+16537,2020,San Francisco,UC San Francisco Medical Center,106381154,University of California,CABG,Isolated CABG Operative Mor,1,68,1.843098,As Expected,37.76,-122.46
 16538,2020,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Hip Fracture,1,25,3.9,As Expected,37.79565,-122.409
 16539,2020,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,"",37.79565,-122.409
 16540,2020,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Pneumonia,10,94,9.6,As Expected,37.79565,-122.409
@@ -17163,21 +17163,21 @@
 17162,2020,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AMI,3,15,15.8,As Expected,38.13109,-122.238
 17163,2020,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AAA Repair Open Unrupture,,,,"",38.13109,-122.238
 17164,2020,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AAA Repair Endo Unrupture,,,,"",38.13109,-122.238
-17165,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
-17166,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,CABG,Isolated CABG Operative Mor,4,76,6.676118,As Expected,38.26,-122.05
-17167,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,GI Hemorrhage,12,214,5.7,Worse,38.26097,-122.05
-17168,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pneumonia,36,556,7.2,As Expected,38.26097,-122.05
-17169,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,PCI,15,185,8,Worse,38.26097,-122.05
-17170,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Hip Fracture,2,93,1.7,As Expected,38.26097,-122.05
-17171,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Heart Failure,14,398,3.9,As Expected,38.26097,-122.05
-17172,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Carotid Endarterectomy,0,10,0,As Expected,38.26097,-122.05
-17173,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Subarachnoid,0,3,0,As Expected,38.26097,-122.05
-17174,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Ischemic,10,203,5.1,As Expected,38.26097,-122.05
-17175,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Hemorrhagic,14,42,28.8,As Expected,38.26097,-122.05
-17176,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke,24,248,10.4,As Expected,38.26097,-122.05
-17177,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AMI,19,252,7.5,As Expected,38.26097,-122.05
-17178,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AAA Repair Open Unrupture,,,,"",38.26097,-122.05
-17179,2020,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AAA Repair Endo Unrupture,0,8,0,As Expected,38.26097,-122.05
+17165,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
+17166,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,CABG,Isolated CABG Operative Mor,4,76,6.676118,As Expected,38.26,-122.05
+17167,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,GI Hemorrhage,12,214,5.7,Worse,38.26097,-122.05
+17168,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pneumonia,36,556,7.2,As Expected,38.26097,-122.05
+17169,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,PCI,15,185,8,Worse,38.26097,-122.05
+17170,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Hip Fracture,2,93,1.7,As Expected,38.26097,-122.05
+17171,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Heart Failure,14,398,3.9,As Expected,38.26097,-122.05
+17172,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Carotid Endarterectomy,0,10,0,As Expected,38.26097,-122.05
+17173,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Subarachnoid,0,3,0,As Expected,38.26097,-122.05
+17174,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Ischemic,10,203,5.1,As Expected,38.26097,-122.05
+17175,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Hemorrhagic,14,42,28.8,As Expected,38.26097,-122.05
+17176,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke,24,248,10.4,As Expected,38.26097,-122.05
+17177,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AMI,19,252,7.5,As Expected,38.26097,-122.05
+17178,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AAA Repair Open Unrupture,,,,"",38.26097,-122.05
+17179,2020,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AAA Repair Endo Unrupture,0,8,0,As Expected,38.26097,-122.05
 17180,2020,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Acute Stroke Subarachnoid,,,,"",38.38949,-121.937
 17181,2020,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Hip Fracture,2,86,2.2,As Expected,38.38949,-121.937
 17182,2020,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Pneumonia,13,209,8.4,As Expected,38.38949,-121.937
@@ -18113,7 +18113,7 @@
 18112,2021,Fresno,Fresno Surgical Hospital,106104047,Independent/Other,IMI,Acute Stroke Hemorrhagic,,,,"",36.82531,-119.781
 18113,2021,Fresno,Fresno Surgical Hospital,106104047,Independent/Other,IMI,Acute Stroke Ischemic,,,,"",36.82531,-119.781
 18114,2021,Fresno,Fresno Surgical Hospital,106104047,Independent/Other,IMI,Heart Failure,,,,"",36.82531,-119.781
-18135,2021,Fresno,Fresno Surgical Hospital,106104047,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,"",36.82531,-119.781
+18115,2021,Fresno,Fresno Surgical Hospital,106104047,Independent/Other,IMI,Acute Stroke Subarachnoid,,,,"",36.82531,-119.781
 18116,2021,Fresno,Fresno Surgical Hospital,106104047,Independent/Other,IMI,Pneumonia,,,,"",36.82531,-119.781
 18117,2021,Fresno,Fresno Surgical Hospital,106104047,Independent/Other,IMI,AAA Repair Open Unrupture,,,,"",36.82531,-119.781
 18118,2021,Fresno,Fresno Surgical Hospital,106104047,Independent/Other,IMI,Acute Stroke,,,,"",36.82531,-119.781
@@ -18133,7 +18133,7 @@
 18132,2021,Fresno,Kaiser Foundation Hospital – Fresno,106104062,Kaiser Foundation Hospitals,IMI,PCI,0,24,0,As Expected,36.84246,-119.783
 18133,2021,Fresno,Kaiser Foundation Hospital – Fresno,106104062,Kaiser Foundation Hospitals,IMI,Hip Fracture,2,147,1.4,As Expected,36.84246,-119.783
 18134,2021,Fresno,Kaiser Foundation Hospital – Fresno,106104062,Kaiser Foundation Hospitals,IMI,GI Hemorrhage,3,151,2.3,As Expected,36.84246,-119.783
-18135,2021,Fresno,Kaiser Foundation Hospital – Fresno,106104062,Kaiser Foundation Hospitals,IMI,Acute Stroke,18,223,9,As Expected,36.84246,-119.783
+18115,2021,Fresno,Kaiser Foundation Hospital – Fresno,106104062,Kaiser Foundation Hospitals,IMI,Acute Stroke,18,223,9,As Expected,36.84246,-119.783
 18136,2021,Fresno,Kaiser Foundation Hospital – Fresno,106104062,Kaiser Foundation Hospitals,PSI,Postoperative Sepsis,0,329,0,As Expected,36.84246,-119.783
 18137,2021,Fresno,Fresno Heart and Surgical Hospital,106105029,Independent/Other,CABG,Isolated CABG Operative Mor,,357,,As Expected,36.86,-119.79
 18138,2021,Glenn,Glenn Medical Center,106110889,Independent/Other,IMI,Acute Stroke Ischemic,,,,"",39.52055,-122.207
@@ -21390,22 +21390,22 @@
 21389,2021,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,AAA Repair Open Unrupture,,,,"",37.77408,-122.454
 21390,2021,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,AAA Repair Endo Unrupture,,,,"",37.77408,-122.454
 21391,2021,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,PSI,Postoperative Sepsis,2,426,0.78,As Expected,37.77408,-122.454
-21392,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pneumonia,37,466,4.9,Better,37.76351,-122.457
-21393,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pancreatic Resection,2,117,2.6,As Expected,37.76351,-122.457
-21394,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,PCI,10,210,2.7,As Expected,37.76351,-122.457
-21395,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Hip Fracture,0,82,0,As Expected,37.76351,-122.457
-21396,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Heart Failure,16,691,1.4,Better,37.76351,-122.457
-21397,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,GI Hemorrhage,8,329,1.4,Better,37.76351,-122.457
-21398,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Carotid Endarterectomy,0,31,0,As Expected,37.76351,-122.457
-21399,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Subarachnoid,10,74,12.6,As Expected,37.76351,-122.457
-21400,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Ischemic,23,292,3.7,As Expected,37.76351,-122.457
-21401,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Hemorrhagic,27,169,13,Better,37.76351,-122.457
-21402,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke,60,535,5.8,Better,37.76351,-122.457
-21403,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AMI,15,201,3.8,Better,37.76351,-122.457
-21404,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AAA Repair Open Unrupture,0,12,0,As Expected,37.76351,-122.457
-21405,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AAA Repair Endo Unrupture,0,22,0,As Expected,37.76351,-122.457
-21406,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,CABG,Isolated CABG Operative Mor,,125,,As Expected,37.76,-122.46
-21407,2021,San Francisco,UC San Francisco Medical Center,106381354,University of California,PSI,Postoperative Sepsis,34,7517,0.4,As Expected,37.76351,-122.457
+21392,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pneumonia,37,466,4.9,Better,37.76351,-122.457
+21393,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pancreatic Resection,2,117,2.6,As Expected,37.76351,-122.457
+21394,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,PCI,10,210,2.7,As Expected,37.76351,-122.457
+21395,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Hip Fracture,0,82,0,As Expected,37.76351,-122.457
+21396,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Heart Failure,16,691,1.4,Better,37.76351,-122.457
+21397,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,GI Hemorrhage,8,329,1.4,Better,37.76351,-122.457
+21398,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Carotid Endarterectomy,0,31,0,As Expected,37.76351,-122.457
+21399,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Subarachnoid,10,74,12.6,As Expected,37.76351,-122.457
+21400,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Ischemic,23,292,3.7,As Expected,37.76351,-122.457
+21401,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Hemorrhagic,27,169,13,Better,37.76351,-122.457
+21402,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke,60,535,5.8,Better,37.76351,-122.457
+21403,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AMI,15,201,3.8,Better,37.76351,-122.457
+21404,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AAA Repair Open Unrupture,0,12,0,As Expected,37.76351,-122.457
+21405,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AAA Repair Endo Unrupture,0,22,0,As Expected,37.76351,-122.457
+21406,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,CABG,Isolated CABG Operative Mor,,125,,As Expected,37.76,-122.46
+21407,2021,San Francisco,UC San Francisco Medical Center,106381154,University of California,PSI,Postoperative Sepsis,34,7517,0.4,As Expected,37.76351,-122.457
 21408,2021,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Pneumonia,5,70,5.6,As Expected,37.79565,-122.409
 21409,2021,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Pancreatic Resection,,,,"",37.79565,-122.409
 21410,2021,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,PCI,,,,"",37.79565,-122.409
@@ -22075,22 +22075,22 @@
 22074,2021,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AMI,3,17,22,As Expected,38.13109,-122.238
 22075,2021,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AAA Repair Open Unrupture,,,,"",38.13109,-122.238
 22076,2021,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AAA Repair Endo Unrupture,,,,"",38.13109,-122.238
-22077,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,CABG,Isolated CABG Operative Mor,,66,,As Expected,38.26,-122.05
-22078,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,PSI,Postoperative Sepsis,1,324,0.34,As Expected,38.26097,-122.05
-22079,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pneumonia,39,420,11.7,Worse,38.26097,-122.05
-22080,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
-22081,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,PCI,6,146,4.7,As Expected,38.26097,-122.05
-22082,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Hip Fracture,0,101,0,As Expected,38.26097,-122.05
-22083,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Heart Failure,16,506,3.6,As Expected,38.26097,-122.05
-22084,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,GI Hemorrhage,4,188,2.4,As Expected,38.26097,-122.05
-22085,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Carotid Endarterectomy,0,18,0,As Expected,38.26097,-122.05
-22086,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Subarachnoid,1,3,20.5,As Expected,38.26097,-122.05
-22087,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Ischemic,17,217,6.6,As Expected,38.26097,-122.05
-22088,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Hemorrhagic,8,34,22,As Expected,38.26097,-122.05
-22089,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke,26,254,10.6,As Expected,38.26097,-122.05
-22090,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AMI,13,226,5.9,As Expected,38.26097,-122.05
-22091,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AAA Repair Open Unrupture,,,,"",38.26097,-122.05
-22092,2021,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AAA Repair Endo Unrupture,0,9,0,As Expected,38.26097,-122.05
+22077,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,CABG,Isolated CABG Operative Mor,,66,,As Expected,38.26,-122.05
+22078,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,PSI,Postoperative Sepsis,1,324,0.34,As Expected,38.26097,-122.05
+22079,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pneumonia,39,420,11.7,Worse,38.26097,-122.05
+22080,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
+22081,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,PCI,6,146,4.7,As Expected,38.26097,-122.05
+22082,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Hip Fracture,0,101,0,As Expected,38.26097,-122.05
+22083,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Heart Failure,16,506,3.6,As Expected,38.26097,-122.05
+22084,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,GI Hemorrhage,4,188,2.4,As Expected,38.26097,-122.05
+22085,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Carotid Endarterectomy,0,18,0,As Expected,38.26097,-122.05
+22086,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Subarachnoid,1,3,20.5,As Expected,38.26097,-122.05
+22087,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Ischemic,17,217,6.6,As Expected,38.26097,-122.05
+22088,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Hemorrhagic,8,34,22,As Expected,38.26097,-122.05
+22089,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke,26,254,10.6,As Expected,38.26097,-122.05
+22090,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AMI,13,226,5.9,As Expected,38.26097,-122.05
+22091,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AAA Repair Open Unrupture,,,,"",38.26097,-122.05
+22092,2021,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AAA Repair Endo Unrupture,0,9,0,As Expected,38.26097,-122.05
 22093,2021,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,PSI,Postoperative Sepsis,5,459,1.34,As Expected,38.38949,-121.937
 22094,2021,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Pneumonia,17,173,10.4,As Expected,38.38949,-121.937
 22095,2021,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Pancreatic Resection,,,,"",38.38949,-121.937
@@ -26287,22 +26287,22 @@
 26286,2022,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,AAA Repair Open Unrupture,,,,"",37.77408,-122.454
 26287,2022,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,IMI,AAA Repair Endo Unrupture,,,,"",37.77408,-122.454
 26288,2022,San Francisco,St. Mary's Medical Center,106380965,Dignity Health,PSI,Postoperative Sepsis,2,369,0.49,As Expected,37.77408,-122.4544
-26289,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pneumonia,49,644,4.6,Better,37.76351,-122.457
-26290,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Pancreatic Resection,1,106,1.8,As Expected,37.76351,-122.457
-26291,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,PCI,14,188,3.1,As Expected,37.76351,-122.457
-26292,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Hip Fracture,1,102,0.6,As Expected,37.76351,-122.457
-26293,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Heart Failure,21,676,1.6,Better,37.76351,-122.457
-26294,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,GI Hemorrhage,3,290,0.7,Better,37.76351,-122.457
-26295,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Carotid Endarterectomy,0,32,0,As Expected,37.76351,-122.457
-26296,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Subarachnoid,13,60,16.1,As Expected,37.76351,-122.457
-26297,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Ischemic,33,304,4.8,As Expected,37.76351,-122.457
-26298,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke Hemorrhagic,17,120,11.7,Better,37.76351,-122.457
-26299,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,Acute Stroke,63,484,6.6,Better,37.76351,-122.457
-26300,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AMI,19,210,4.9,As Expected,37.76351,-122.457
-26301,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AAA Repair Open Unrupture,0,8,0,As Expected,37.76351,-122.457
-26302,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,IMI,AAA Repair Endo Unrupture,1,24,1.7,As Expected,37.76351,-122.457
-26303,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,CABG,Isolated CABG Operative Mor,5,165,3.959017,As Expected,37.7635148,-122.4576564
-26304,2022,San Francisco,UC San Francisco Medical Center,106381354,University of California,PSI,Postoperative Sepsis,36,6228,0.46,As Expected,37.763514,-122.4576
+26289,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pneumonia,49,644,4.6,Better,37.76351,-122.457
+26290,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Pancreatic Resection,1,106,1.8,As Expected,37.76351,-122.457
+26291,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,PCI,14,188,3.1,As Expected,37.76351,-122.457
+26292,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Hip Fracture,1,102,0.6,As Expected,37.76351,-122.457
+26293,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Heart Failure,21,676,1.6,Better,37.76351,-122.457
+26294,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,GI Hemorrhage,3,290,0.7,Better,37.76351,-122.457
+26295,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Carotid Endarterectomy,0,32,0,As Expected,37.76351,-122.457
+26296,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Subarachnoid,13,60,16.1,As Expected,37.76351,-122.457
+26297,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Ischemic,33,304,4.8,As Expected,37.76351,-122.457
+26298,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke Hemorrhagic,17,120,11.7,Better,37.76351,-122.457
+26299,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,Acute Stroke,63,484,6.6,Better,37.76351,-122.457
+26300,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AMI,19,210,4.9,As Expected,37.76351,-122.457
+26301,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AAA Repair Open Unrupture,0,8,0,As Expected,37.76351,-122.457
+26302,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,IMI,AAA Repair Endo Unrupture,1,24,1.7,As Expected,37.76351,-122.457
+26303,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,CABG,Isolated CABG Operative Mor,5,165,3.959017,As Expected,37.7635148,-122.4576564
+26304,2022,San Francisco,UC San Francisco Medical Center,106381154,University of California,PSI,Postoperative Sepsis,36,6228,0.46,As Expected,37.763514,-122.4576
 26305,2022,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Pneumonia,6,79,7.3,As Expected,37.79565,-122.409
 26306,2022,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,Pancreatic Resection,,,,"",37.79565,-122.409
 26307,2022,San Francisco,Chinese Hospital,106382715,Independent/Other,IMI,PCI,,,,"",37.79565,-122.409
@@ -26972,22 +26972,22 @@
 26971,2022,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AMI,0,11,0,As Expected,38.13109,-122.238
 26972,2022,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AAA Repair Open Unrupture,,,,"",38.13109,-122.238
 26973,2022,Solano,Sutter Solano Medical Center,106481094,Sutter Health,IMI,AAA Repair Endo Unrupture,,,,"",38.13109,-122.238
-26974,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,CABG,Isolated CABG Operative Mor,8,64,13.06698,Worse,38.26097,-122.05076
-26975,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,PSI,Postoperative Sepsis,2,233,0.84,As Expected,38.26097,-122.0507
-26976,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pneumonia,36,470,10.1,As Expected,38.26097,-122.05
-26977,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
-26978,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,PCI,12,187,4,As Expected,38.26097,-122.05
-26979,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Hip Fracture,2,97,2.5,As Expected,38.26097,-122.05
-26980,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Heart Failure,11,498,2,As Expected,38.26097,-122.05
-26981,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,GI Hemorrhage,4,193,2,As Expected,38.26097,-122.05
-26982,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Carotid Endarterectomy,0,18,0,As Expected,38.26097,-122.05
-26983,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Subarachnoid,1,5,69.3,As Expected,38.26097,-122.05
-26984,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Ischemic,9,218,5.1,As Expected,38.26097,-122.05
-26985,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke Hemorrhagic,18,53,23.7,As Expected,38.26097,-122.05
-26986,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,Acute Stroke,28,276,10,As Expected,38.26097,-122.05
-26987,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AMI,21,272,5.4,As Expected,38.26097,-122.05
-26988,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AAA Repair Open Unrupture,,,,"",38.26097,-122.05
-26989,2022,Solano,NorthBay Medical Center,106481357,Independent/Other,IMI,AAA Repair Endo Unrupture,0,7,0,As Expected,38.26097,-122.05
+26974,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,CABG,Isolated CABG Operative Mor,8,64,13.06698,Worse,38.26097,-122.05076
+26975,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,PSI,Postoperative Sepsis,2,233,0.84,As Expected,38.26097,-122.0507
+26976,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pneumonia,36,470,10.1,As Expected,38.26097,-122.05
+26977,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Pancreatic Resection,,,,"",38.26097,-122.05
+26978,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,PCI,12,187,4,As Expected,38.26097,-122.05
+26979,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Hip Fracture,2,97,2.5,As Expected,38.26097,-122.05
+26980,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Heart Failure,11,498,2,As Expected,38.26097,-122.05
+26981,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,GI Hemorrhage,4,193,2,As Expected,38.26097,-122.05
+26982,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Carotid Endarterectomy,0,18,0,As Expected,38.26097,-122.05
+26983,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Subarachnoid,1,5,69.3,As Expected,38.26097,-122.05
+26984,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Ischemic,9,218,5.1,As Expected,38.26097,-122.05
+26985,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke Hemorrhagic,18,53,23.7,As Expected,38.26097,-122.05
+26986,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,Acute Stroke,28,276,10,As Expected,38.26097,-122.05
+26987,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AMI,21,272,5.4,As Expected,38.26097,-122.05
+26988,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AAA Repair Open Unrupture,,,,"",38.26097,-122.05
+26989,2022,Solano,NorthBay Medical Center,106481157,Independent/Other,IMI,AAA Repair Endo Unrupture,0,7,0,As Expected,38.26097,-122.05
 26990,2022,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,PSI,Postoperative Sepsis,1,488,0.35,As Expected,38.389496,-121.9373
 26991,2022,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Pneumonia,23,223,11.5,As Expected,38.38949,-121.937
 26992,2022,Solano,Kaiser Foundation Hospital – Vacaville,106484044,Kaiser Foundation Hospitals,IMI,Pancreatic Resection,,,,"",38.38949,-121.937
