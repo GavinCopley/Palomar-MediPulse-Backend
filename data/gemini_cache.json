@@ -2486,5 +2486,82 @@
         "Consider A/B testing different thumbnails to see which performs best."
       ]
     }
+  },
+  "{\"r\": [{\"comment count\": 1001.0, \"length_sec\": 59, \"like count\": 28859.0, \"tags\": \"The Holistic Psychologist,Dr. Nicole Lepera\", \"video id\": \"-8s84iGxMx8\", \"video title\": \"CPTSD\", \"view count\": 329114.0}, {\"comment count\": 320.0, \"length_sec\": 50, \"like count\": 15957.0, \"tags\": \"The Holistic Psychologist,Dr. Nicole Lepera\", \"video id\": \"RGhzS7okk-o\", \"video title\": \"I'm not lazy\", \"view count\": 130032.0}, {\"comment count\": 111.0, \"length_sec\": 63, \"like count\": 2254.0, \"tags\": NaN, \"video id\": \"Vi_PTITg36o\", \"video title\": \"\\u201cI\\u2019m a Cool Mom\\u201d\", \"view count\": 40389.0}, {\"comment count\": 130.0, \"length_sec\": 24, \"like count\": 10932.0, \"tags\": \"The Holistic Psychologist,Dr. Nicole Lepera\", \"video id\": \"SYxNbp-pis4\", \"video title\": \"Butterfly tapping\", \"view count\": 115444.0}, {\"comment count\": 155.0, \"length_sec\": 42, \"like count\": 7488.0, \"tags\": \"The Holistic Psychologist,Dr. Nicole Lepera\", \"video id\": \"qtn7py2xpvw\", \"video title\": \"Are you mad at me?\", \"view count\": 64658.0}], \"u\": {\"category_id\": 27, \"description\": \"12\", \"duration_sec\": 123, \"has_captions\": 0, \"is_hd\": 1, \"publish_dow\": 3, \"publish_hour\": 19, \"tags\": \"12\", \"title\": \"12\"}}": {
+    "title": {
+      "examples": [
+        "Understanding CPTSD in 2 Minutes",
+        "Is It Laziness or Something Else? A Quick Look at CPTSD",
+        "The 'Cool Mom' Myth and its Impact on Mental Health",
+        "CPTSD: Recognizing the Signs",
+        "Debunking the 'Lazy' Label: A CPTSD Perspective",
+        "Beyond the 'Cool Mom' Image: Mental Health Matters"
+      ],
+      "suggestions": [
+        "Keep titles concise and benefit-driven (e.g., what viewers gain).",
+        "Use keywords relevant to CPTSD and related conditions.",
+        "Emphasize the video's brevity to attract viewers short on time."
+      ]
+    },
+    "description": {
+      "examples": [
+        "Brief overview of CPTSD, its symptoms, and potential treatments.  Learn to differentiate CPTSD from laziness.",
+        "Short explainer video about CPTSD, helping viewers understand if their challenges are due to CPTSD.",
+        "A quick look into the pressure on mothers to be 'cool' and the detrimental effects on their mental health. Includes resources.",
+        "Learn to identify potential signs of CPTSD.  This is not a substitute for professional diagnosis.",
+        "This video helps to challenge the stigma around laziness and explores potential links to CPTSD.",
+        "Examine the common societal expectation on mothers and potential links to mental health challenges such as CPTSD."
+      ],
+      "suggestions": [
+        "Include a clear summary of the video's content.",
+        "Add a call to action (e.g., subscribe, visit website).",
+        "Mention any relevant disclaimers (e.g., this is not medical advice)."
+      ]
+    },
+    "tags": {
+      "examples": [
+        "CPTSD, complex PTSD, trauma, mental health, psychology, therapy, self-help, quick guide, short video, Dr. Nicole Lepera (if applicable)",
+        "Laziness, CPTSD, mental health, fatigue, burnout, self-care, quick explainer, short video, Dr. Nicole Lepera (if applicable)",
+        "Cool Mom, motherhood, mental health, pressure, societal expectations, self-esteem, short video, quick guide",
+        "CPTSD symptoms, diagnosis, treatment, mental health awareness, quick guide, short video",
+        "Debunking myths, mental health stigma, CPTSD understanding, quick explainer, short video",
+        "Motherhood, mental well-being, societal pressure, CPTSD, quick overview, short video"
+      ],
+      "suggestions": [
+        "Use a mix of broad and specific keywords.",
+        "Include relevant names (e.g., Dr. Nicole Lepera, if applicable).",
+        "Research popular and relevant hashtags for increased visibility."
+      ]
+    },
+    "length": {
+      "examples": [
+        "60 seconds",
+        "55 seconds",
+        "65 seconds",
+        "1 minute",
+        "Under 2 minutes",
+        "Approximately 1 minute"
+      ],
+      "suggestions": [
+        "Aim for a length consistent with high-performing videos (around 1 minute).",
+        "Be realistic about the amount of information that can be conveyed in the given timeframe.",
+        "Consider breaking longer content into shorter, digestible segments for improved viewer engagement."
+      ]
+    },
+    "thumbnail": {
+      "examples": [
+        "Image of a person looking thoughtful and calm. Text overlay: 'Understanding CPTSD'",
+        "Image of a person feeling overwhelmed. Text overlay: 'Is it Laziness or CPTSD?'",
+        "Image of a mother looking stressed. Text overlay: 'The 'Cool Mom' Myth'",
+        "Close-up of a person's face showing subtle signs of distress. Text overlay: 'CPTSD Signs'",
+        "Image representing a lightbulb moment. Text overlay: 'Debunking the 'Lazy' Label'",
+        "Silhouette of a mother with text overlay: 'Mental Health & Motherhood'"
+      ],
+      "suggestions": [
+        "Use a visually appealing and relevant image.",
+        "Include clear and concise text to convey the video's topic.",
+        "Maintain consistency with other videos' thumbnails for brand recognition."
+      ]
+    }
   }
 }
