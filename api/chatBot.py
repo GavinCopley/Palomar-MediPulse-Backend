@@ -11,7 +11,6 @@ api = Api(chatbot_api)
 
 # Check for API key first
 api_key = os.getenv('CHATBOT_API_KEY')
-assert api_key, "CHATBOT_API_KEY not found in .env file"
 
 # Configure Gemini API
 genai.configure(api_key=api_key)
