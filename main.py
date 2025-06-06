@@ -12,8 +12,7 @@ from flask import send_from_directory
 from werkzeug.security import generate_password_hash
 import shutil
 import datetime
-
-
+from flask_cors import CORS
 
 # import "objects" from "this" project
 from __init__ import app, db, login_manager  # Key Flask objects 
